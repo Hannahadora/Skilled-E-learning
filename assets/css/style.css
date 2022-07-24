@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+body {
+  background-color: #f8f8ff;
+  color: #83869a;
+}
+
+.c-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+:root {
+  --main-gradient: linear-gradient(#ff6f48, #f02aa6);
+  --main-gradient-hover: linear-gradient(
+    rgba(255, 112, 72, 0.5),
+    rgba(240, 42, 167, 0.5)
+  );
+
+  --second-gradient: linear-gradient(#4851ff, #f02aa6);
+  --second-gradient-hover: linear-gradient(
+    rgba(72, 81, 255, 0.5),
+    rgba(240, 42, 167, 0.5)
+  );
+
+  --blue: #666ca3;
+  --dark-blue: #13183f;
+  --silver: #83869a;
+  --violet: #f74780;
+  --pink: #ffa7c3;
+  --white: #ffffff;
+  --bg-white: #f0f1ff;
+
+  --padding-inline: 1.6rem;
+  --max-w: 50rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 56px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+p {
+  font-size: 18px !important;
+}
