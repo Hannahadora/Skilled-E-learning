@@ -6,7 +6,7 @@
         </div>
     </div>
     <div v-for="(course, index) in courses" :key="index">
-    <card :icon="course.icon" :title="course.title">
+    <card :item="course">
       <template #content>{{ course.info }}</template>
     </card>
   </div>
@@ -17,26 +17,31 @@
 import Card from './Card..vue';
 const courses = ref([
     {
+        price: '$ 5.00',
         title: 'Animation',
         icon: "../assets/images/icon-animation.svg",
         info: "Learn the latest animation techniques to create stunning motion design and captivate your audience."
     },
     {
+        price: '$ 5.00',
         title: 'Design',
         icon: "../assets/images/icon-design.svg",
         info: "Learn the latest animation techniques to create stunning motion design and captivate your audience."
     },
     {
+        price: '$ 5.00',
         title: 'Photography',
         icon: "../assets/images/icon-photography.svg",
         info: "Create beautiful, usable interfaces to help shape the future of how the web looks."
     },
     {
+        price: '$ 5.00',
         title: 'Crypto',
         icon: "../assets/images/icon-crypto.svg",
         info: "Create beautiful, usable interfaces to help shape the future of how the web looks."
     },
     {
+        price: '$ 5.00',
         title: 'Business',
         icon: "../assets/images/icon-business.svg",
         info: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."

@@ -1,9 +1,12 @@
 <template>
-  <div class="px-[180px] py-[20px]">
+  <div>
     <div class="">
-      <d-header />
-
-      <courses />
+      <div class="">
+        <d-header />
+      </div>
+      <div class="px-[120px] py-[20px]">
+        <courses />
+      </div>
     </div>
   </div>
 </template>

@@ -1,9 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 
-body {
-  background-color: #f8f8ff;
-  color: #83869a;
+@font-face {
+  font-family: "Plus Jakarta Sans Light";
+  src: url('../font/plus-jakarta-sans/PlusJakartaDisplay-Light.otf');
 }
+
+@font-face {
+  font-family: "Plus Jakarta Sans Medium";
+  src: url('../font/plus-jakarta-sans/PlusJakartaDisplay-Medium.otf');
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans Bold";
+  src: url('../font/plus-jakarta-sans/PlusJakartaDisplay-Bold.otf');
+}
+
+body {
+  background-color: hsl(240, 100%, 99%);
+  color: #83869a;
+  font-family: "Plus Jakarta Sans Light";
+}
+
+
+/* This class centers a div */
 
 .c-centered {
   position: absolute;
@@ -12,6 +31,7 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
 
 :root {
   --main-gradient: linear-gradient(#ff6f48, #f02aa6);
@@ -46,6 +66,7 @@ h5,
 h6 {
   color: #000;
   font-weight: 700;
+  font-family: "Plus Jakarta Sans Bold";
 }
 
 h1 {

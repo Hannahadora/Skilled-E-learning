@@ -10,11 +10,13 @@
 const props = defineProps({
   btnBg: { type: String, required: false},
   textColor: { type: String, default: '#fff', required: false},
-  lg: { type: String, required: false}
+  lg: { type: String, required: false},
+  sm: { type: String, required: false},
 });
 
 const classes = {
-  ['btn-bg']: props.lg
+  ['btn-bg']: props.lg,
+  ['btn-sm']: props.sm
 };
 
 const styles = {
@@ -29,9 +31,16 @@ const styles = {
         padding: 14px 24px;
         border: none;
         font-size: 18px;
+        cursor: pointer;
     }
 
     .btn-bg {
       padding: 16px 36px;
+    }
+
+    .btn-sm {
+      padding: 7px 16px;
+      font-size: 13px;
+      border-radius: 45px;
     }
 </style>
