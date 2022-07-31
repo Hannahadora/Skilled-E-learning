@@ -114,14 +114,15 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /components/DNav.vue ($id_e01dbb6d)
 // - /components/CustomButton.vue ($id_ca906d17)
+// - /components/Cart.vue ($id_369b7c42)
 // - /components/DHeader.vue ($id_68f611df)
 // - /components/courses.vue ($id_d8b304b9)
 // - /components/Card..vue ($id_fbdbc9f5)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/index.vue ($id_cca58e97)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
@@ -232,8 +233,8 @@ import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/ufo/dist/i
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/index.mjs ($id_b067a79a)
@@ -1568,7 +1569,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxtjs/t
 
 // --------------------
 const $id_0a1402e6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.top-\\[-15px\\]{top:-15px}.left-\\[-15px\\]{left:-15px}.z-\\[99999\\]{z-index:99999}.mb-\\[16px\\]{margin-bottom:16px}.mt-\\[40px\\]{margin-top:40px}.mt-\\[24px\\]{margin-top:24px}.mb-6{margin-bottom:1.5rem}.mb-\\[30px\\]{margin-bottom:30px}.mb-\\[40px\\]{margin-bottom:40px}.mt-\\[-0px\\]{margin-top:0}.mr-\\[-300px\\]{margin-right:-300px}.mt-\\[-120px\\]{margin-top:-120px}.mr-6{margin-right:1.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.h-\\[300px\\]{height:300px}.h-screen{height:100vh}.h-\\[750px\\]{height:750px}.h-7{height:1.75rem}.w-\\[40\\%\\]{width:40%}.w-\\[50\\%\\]{width:50%}.w-7{width:1.75rem}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-\\[50px\\]{gap:50px}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.overflow-hidden{overflow:hidden}.rounded-\\[16px\\]{border-radius:16px}.rounded-full{border-radius:9999px}.border{border-width:1px}.p-8{padding:2rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-\\[150px\\]{padding-left:150px;padding-right:150px}.px-\\[120px\\]{padding-left:120px;padding-right:120px}.py-\\[20px\\]{padding-bottom:20px;padding-top:20px}.pl-\\[150px\\]{padding-left:150px}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.font-bold{font-weight:700}.italic{font-style:italic}.text-\\[\\#f74780\\]{--tw-text-opacity:1;color:rgb(247 71 128/var(--tw-text-opacity))}.text-\\[\\#fff\\]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.top-\\[-15px\\]{top:-15px}.left-\\[-15px\\]{left:-15px}.z-\\[99999\\]{z-index:99999}.mb-\\[16px\\]{margin-bottom:16px}.mt-\\[40px\\]{margin-top:40px}.mt-\\[24px\\]{margin-top:24px}.mb-6{margin-bottom:1.5rem}.mb-\\[30px\\]{margin-bottom:30px}.mb-\\[40px\\]{margin-bottom:40px}.mt-\\[-0px\\]{margin-top:0}.mr-\\[-300px\\]{margin-right:-300px}.mt-\\[-120px\\]{margin-top:-120px}.mr-6{margin-right:1.5rem}.mr-3{margin-right:.75rem}.block{display:block}.flex{display:flex}.grid{display:grid}.h-\\[300px\\]{height:300px}.h-screen{height:100vh}.h-\\[750px\\]{height:750px}.h-7{height:1.75rem}.w-\\[40\\%\\]{width:40%}.w-\\[50\\%\\]{width:50%}.w-7{width:1.75rem}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-\\[50px\\]{gap:50px}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.overflow-hidden{overflow:hidden}.rounded-\\[16px\\]{border-radius:16px}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-b{border-bottom-width:1px}.p-8{padding:2rem}.p-4{padding:1rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-\\[150px\\]{padding-left:150px;padding-right:150px}.px-\\[120px\\]{padding-left:120px;padding-right:120px}.py-\\[20px\\]{padding-bottom:20px;padding-top:20px}.pl-\\[150px\\]{padding-left:150px}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.font-bold{font-weight:700}.italic{font-style:italic}.text-\\[\\#f74780\\]{--tw-text-opacity:1;color:rgb(247 71 128/var(--tw-text-opacity))}.text-\\[\\#fff\\]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}";
 }
 
 
@@ -1582,6 +1583,7 @@ __vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://t
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_8bd22d7a)
 // --------------------
 const $id_e91d6fcf = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
@@ -1594,12 +1596,15 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/router.mjs");
 
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs");
+
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
   __vite_ssr_import_1__.default,
   __vite_ssr_import_2__.default,
   __vite_ssr_import_3__.default,
-  __vite_ssr_import_4__.default
+  __vite_ssr_import_4__.default,
+  __vite_ssr_import_5__.default
 ];
 }
 
@@ -2879,6 +2884,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /components/CustomButton.vue ($id_ca906d17)
+// - /components/Cart.vue ($id_369b7c42)
+// - /store/cart.js ($id_977898a6)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /assets/images/logo-dark.svg ($id_601aed72)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
@@ -2888,6 +2895,10 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/CustomButton.vue");
 
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Cart.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/store/cart.js");
+
 
 
 const _sfc_main = {
@@ -2895,66 +2906,80 @@ const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-const cart = __vite_ssr_import_0__.ref([])
+const cartStore = __vite_ssr_import_3__.useCartStore()
+const cartModal = __vite_ssr_import_0__.ref(false)
+const cart = cartStore.cart || []
+
+const openCart = () => {
+  cartModal.value = !cartModal.value
+}
 
 const cartLength = __vite_ssr_import_0__.computed(() => {
-  return cart?.value.length || 0
+  return cart?.length || 0
 })
 
-const __returned__ = { cart, cartLength, CustomButton: __vite_ssr_import_1__.default }
+const __returned__ = { cartStore, cartModal, cart, openCart, cartLength, CustomButton: __vite_ssr_import_1__.default, Cart: __vite_ssr_import_2__.default, useCartStore: __vite_ssr_import_3__.useCartStore }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
 
 }
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/assets/images/logo-dark.svg");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/assets/images/logo-dark.svg");
 
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${
-    __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "nav flex items-center justify-between z-[99999]" }, _attrs))
+    __vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "nav flex items-center justify-between z-[99999]" }, _attrs))
   }><div><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_4__.default)
-  } alt="logo"></div><div class="flex items-center space-x-6"><div class="relative"><img src="/_nuxt/assets/images/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer"><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
-    __vite_ssr_import_3__.ssrRenderStyle({"background":"var(--main-gradient)"})
+    __vite_ssr_import_5__.ssrRenderAttr("src", __vite_ssr_import_6__.default)
+  } alt="logo"></div><div class="flex items-center space-x-6"><div class="relative cursor-pointer"><img src="/_nuxt/assets/images/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer"><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
+    __vite_ssr_import_5__.ssrRenderStyle({"background":"var(--main-gradient)"})
   }"><span class="text-[#fff] text-center font-bold text-sm">${
-    __vite_ssr_import_3__.ssrInterpolate($setup.cartLength)
+    __vite_ssr_import_5__.ssrInterpolate($setup.cartLength)
   }</span></div></div>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent($setup["CustomButton"], {
+  _push(__vite_ssr_import_5__.ssrRenderComponent($setup["CustomButton"], {
     class: "",
     "btn-bg": '#13183f'
   }, {
-    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+    default: __vite_ssr_import_4__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`Get Started`)
       } else {
         return [
-          __vite_ssr_import_2__.createTextVNode("Get Started")
+          __vite_ssr_import_4__.createTextVNode("Get Started")
         ]
       }
     }),
     _: 1 /* STABLE */
   }, _parent))
-  _push(`</div></div>`)
+  _push(`</div>`)
+  if ($setup.cartModal) {
+    _push(`<div class="w-1/2 absolute top-0 right-[-70px] z-50">`)
+    _push(__vite_ssr_import_5__.ssrRenderComponent($setup["Cart"], null, null, _parent))
+    _push(`</div>`)
+  } else {
+    _push(`<!---->`)
+  }
+  _push(`</div>`)
 }
 
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  const ssrContext = __vite_ssr_import_7__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/DNav.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/DNav.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/DNav.vue"]]);
 }
 
 
@@ -3041,6 +3066,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // Request: /node_modules/vue/server-renderer/index.js
 // Parents: 
 // - /components/CustomButton.vue ($id_ca906d17)
+// - /components/Cart.vue ($id_369b7c42)
 // - /components/DNav.vue ($id_e01dbb6d)
 // - /components/DHeader.vue ($id_68f611df)
 // - /components/Card..vue ($id_fbdbc9f5)
@@ -3086,6 +3112,7 @@ __vite_ssr_exports__.default = ".btn[data-v-480e7b5e]{border:none;border-radius:
 // Request: /@id/plugin-vue:export-helper
 // Parents: 
 // - /components/CustomButton.vue ($id_ca906d17)
+// - /components/Cart.vue ($id_369b7c42)
 // - /components/DNav.vue ($id_e01dbb6d)
 // - /components/DHeader.vue ($id_68f611df)
 // - /components/Card..vue ($id_fbdbc9f5)
@@ -3111,6 +3138,140 @@ __vite_ssr_exports__.default = (sfc, props) => {
   return target;
 }
 ;
+}
+
+
+// --------------------
+// Request: /components/Cart.vue
+// Parents: 
+// - /components/DNav.vue ($id_e01dbb6d)
+// Dependencies: 
+// - /store/cart.js ($id_977898a6)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /components/Cart.vue?vue&type=style&index=0&lang.css ($id_27152d15)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_369b7c42 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/store/cart.js");
+
+
+const _sfc_main = {
+  __name: 'Cart',
+  setup(__props, { expose }) {
+  expose();
+
+const cartStore = __vite_ssr_import_0__.useCartStore();
+const cartItems = cartStore.cart || 0;
+
+
+const __returned__ = { cartStore, cartItems, useCartStore: __vite_ssr_import_0__.useCartStore }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "bg-[#fff] rounded-l p-6 shadow" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_2__.ssrRenderList($setup.cartItems, (item, index) => {
+    _push(`<div class="w-full flex items-center justify-between p-4 border-b"><div class="flex items-center"><img class="mr-3"${
+      __vite_ssr_import_2__.ssrRenderAttr("src", item.icon)
+    } alt=""><h4>${
+      __vite_ssr_import_2__.ssrInterpolate(item.title)
+    }</h4></div><div class="flex items-center"><div class="flex items-center border"><span class="alt-qty">-</span><input class="bg-transparent" type="number"${
+      __vite_ssr_import_2__.ssrRenderAttr("value", item.quantity)
+    }><span class="alt-qty">+</span></div><p>${
+      __vite_ssr_import_2__.ssrInterpolate(item.price)
+    }</p></div></div>`)
+  })
+  _push(`<!--]-->`)
+  if ($setup.cartItems.length === 0) {
+    _push(`<div> Empty Cart </div>`)
+  } else {
+    _push(`<!---->`)
+  }
+  _push(`</div>`)
+}
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Cart.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Cart.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/Cart.vue"]]);
+}
+
+
+// --------------------
+// Request: /store/cart.js
+// Parents: 
+// - /components/Cart.vue ($id_369b7c42)
+// - /components/DNav.vue ($id_e01dbb6d)
+// - /components/Card..vue ($id_fbdbc9f5)
+// Dependencies: 
+// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
+// --------------------
+const $id_977898a6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
+
+
+const useCartStore = __vite_ssr_import_0__.defineStore('cart', {
+    state: () => {
+        return {
+          cart: [],
+        };
+      },
+    
+  })
+Object.defineProperty(__vite_ssr_exports__, "useCartStore", { enumerable: true, configurable: true, get(){ return useCartStore }});;
+}
+
+
+// --------------------
+// Request: /node_modules/pinia/dist/pinia.mjs
+// Parents: 
+// - /store/cart.js ($id_977898a6)
+// - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_8bd22d7a)
+// - /node_modules/@pinia/nuxt/dist/runtime/composables.mjs ($id_675b6856)
+// Dependencies: 
+
+// --------------------
+const $id_b1920624 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/pinia/dist/pinia.mjs")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/pinia/dist/pinia.mjs\".")
+  })
+
+
+// --------------------
+// Request: /components/Cart.vue?vue&type=style&index=0&lang.css
+// Parents: 
+// - /components/Cart.vue ($id_369b7c42)
+// Dependencies: 
+
+// --------------------
+const $id_27152d15 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".alt-qty{align-items:center;border:1px solid #0f0e0e;display:flex;font-size:24px;justify-content:center;padding:4px}";
 }
 
 
@@ -3161,37 +3322,42 @@ const _sfc_main = {
   expose();
 
 const courses = __vite_ssr_import_0__.ref([
-    {
-        price: '$ 5.00',
-        title: 'Animation',
-        icon: "../assets/images/icon-animation.svg",
-        info: "Learn the latest animation techniques to create stunning motion design and captivate your audience."
-    },
-    {
-        price: '$ 5.00',
-        title: 'Design',
-        icon: "../assets/images/icon-design.svg",
-        info: "Learn the latest animation techniques to create stunning motion design and captivate your audience."
-    },
-    {
-        price: '$ 5.00',
-        title: 'Photography',
-        icon: "../assets/images/icon-photography.svg",
-        info: "Create beautiful, usable interfaces to help shape the future of how the web looks."
-    },
-    {
-        price: '$ 5.00',
-        title: 'Crypto',
-        icon: "../assets/images/icon-crypto.svg",
-        info: "Create beautiful, usable interfaces to help shape the future of how the web looks."
-    },
-    {
-        price: '$ 5.00',
-        title: 'Business',
-        icon: "../assets/images/icon-business.svg",
-        info: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
-    }
-])
+  {
+    price: "$ 65.00",
+    quantity: 0,
+    title: "Animation",
+    icon: "../assets/images/icon-animation.svg",
+    info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
+  },
+  {
+    price: "$ 52.00",
+    quantity: 0,
+    title: "Design",
+    icon: "../assets/images/icon-design.svg",
+    info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
+  },
+  {
+    price: "$ 76.00",
+    quantity: 0,
+    title: "Photography",
+    icon: "../assets/images/icon-photography.svg",
+    info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
+  },
+  {
+    price: "$ 84.00",
+    quantity: 0,
+    title: "Crypto",
+    icon: "../assets/images/icon-crypto.svg",
+    info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
+  },
+  {
+    price: "$ 55.00",
+    quantity: 0,
+    title: "Business",
+    icon: "../assets/images/icon-business.svg",
+    info: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.",
+  },
+]);
 
 const __returned__ = { courses, Card: __vite_ssr_import_1__.default }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
@@ -3273,15 +3439,24 @@ const _sfc_main = {
 
 const props = __props
 
-const cartStore = __vite_ssr_import_1__.useCartStore()
+const cartStore = __vite_ssr_import_1__.useCartStore();
 
 
 
 const addToCart = (item) => {
-  cartStore.cart.push(item)
+  if(!alreadyInCart(item)) {
+    item.quantity = 1
+    cartStore.cart.push(item);
+  } else {
+    alert(`${item.title} already in cart`)
+  }
 };
+ 
+const alreadyInCart = (item) => {
+  return cartStore.cart.find(el => el === item)
+}
 
-const __returned__ = { cartStore, props, addToCart, CustomButton: __vite_ssr_import_0__.default, useCartStore: __vite_ssr_import_1__.useCartStore }
+const __returned__ = { cartStore, props, addToCart, alreadyInCart, CustomButton: __vite_ssr_import_0__.default, useCartStore: __vite_ssr_import_1__.useCartStore }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -3294,37 +3469,32 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${
-    __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "card-wrapper" }, _attrs))
+    __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "main-card" }, _attrs))
   } data-v-1838585a><div class="card" data-v-1838585a><img${
     __vite_ssr_import_3__.ssrRenderAttr("src", $props.item.icon)
   } alt="" class="card-icon" data-v-1838585a><h3 class="mb-[16px] mt-[40px] font-bold" data-v-1838585a>${
     __vite_ssr_import_3__.ssrInterpolate($props.item.title)
   }</h3>`)
   __vite_ssr_import_3__.ssrRenderSlot(_ctx.$slots, "content", { class: "cursor-pointer" }, null, _push, _parent)
-  _push(`<p class="mt-[24px] text-[#f74780] cursor-pointer" data-v-1838585a>Get Started</p></div><div class="card-modal-wrapper" data-v-1838585a><div class="card-modal" data-v-1838585a><!-- <div class="relative"> --><div class="c-centered flex flex-col items-center justify-center" data-v-1838585a><span class="text-[#fff] font-bold text-xl mb-6" data-v-1838585a>${__vite_ssr_import_3__.ssrInterpolate($props.item.price)}</span>`)
+  _push(`<p class="mt-[24px] text-[#f74780] cursor-pointer" data-v-1838585a>Get Started</p></div><div class="modal-wrapper" data-v-1838585a><div class="modal-content" data-v-1838585a><div class="c-centered flex flex-col items-center justify-center" data-v-1838585a><span class="text-[#fff] font-bold text-xl mb-6" data-v-1838585a>${__vite_ssr_import_3__.ssrInterpolate($props.item.price)}</span>`)
   _push(__vite_ssr_import_3__.ssrRenderComponent($setup["CustomButton"], {
     onClick: $event => ($setup.addToCart($props.item)),
     class: "",
     sm: "",
-    "btn-bg": '#13183f'
+    "btn-bg": $setup.alreadyInCart($props.item) ? '#47f75b' : '#13183f'
   }, {
     default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`Add to cart`)
+        _push(`${__vite_ssr_import_3__.ssrInterpolate($setup.alreadyInCart($props.item) ? 'Already In Cart' : 'Add to cart')}`)
       } else {
         return [
-          __vite_ssr_import_2__.createTextVNode("Add to cart")
+          __vite_ssr_import_2__.createTextVNode(__vite_ssr_import_2__.toDisplayString($setup.alreadyInCart($props.item) ? 'Already In Cart' : 'Add to cart'), 1 /* TEXT */)
         ]
       }
     }),
     _: 1 /* STABLE */
   }, _parent))
-  _push(`</div><!-- </div> --></div></div><!-- <div className="main-card">
-      Main Card
-      <div className="modal-wrapper">
-        <div className="modal-content">price: \$300</div>
-      </div>
-    </div> --></div>`)
+  _push(`</div></div></div></div>`)
 }
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Card..vue?vue&type=style&index=0&scoped=true&lang.css");
@@ -3345,50 +3515,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 
 
 // --------------------
-// Request: /store/cart.js
-// Parents: 
-// - /components/Card..vue ($id_fbdbc9f5)
-// Dependencies: 
-// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
-// --------------------
-const $id_977898a6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
-
-
-const useStore = __vite_ssr_import_0__.defineStore('cart', {
-    state: () => {
-        return {
-          cart: [],
-        };
-      },
-    
-  })
-Object.defineProperty(__vite_ssr_exports__, "useStore", { enumerable: true, configurable: true, get(){ return useStore }});;
-}
-
-
-// --------------------
-// Request: /node_modules/pinia/dist/pinia.mjs
-// Parents: 
-// - /store/cart.js ($id_977898a6)
-// Dependencies: 
-
-// --------------------
-const $id_b1920624 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/pinia/dist/pinia.mjs")
-  .then(r => {
-    if (r.default && r.default.__esModule)
-      r = r.default
-    exports.default = r.default
-    ssrExportAll(r)
-  })
-  .catch(e => {
-    console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/pinia/dist/pinia.mjs\".")
-  })
-
-
-// --------------------
 // Request: /components/Card..vue?vue&type=style&index=0&scoped=true&lang.css
 // Parents: 
 // - /components/Card..vue ($id_fbdbc9f5)
@@ -3396,7 +3522,7 @@ import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/pinia/dist
 
 // --------------------
 const $id_d1e1cf22 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".card-wrapper[data-v-1838585a]{height:300px;position:relative}.card[data-v-1838585a]{background:#fff;border-radius:16px;height:100%;padding:24px;position:relative}.card-icon[data-v-1838585a]{position:absolute;top:-16px}.card-modal-wrapper[data-v-1838585a]{background:rgba(0,0,0,.551);border-radius:16px;display:none;height:100%;position:absolute;top:0;width:100%}.card-modal[data-v-1838585a]{background:#fff;z-index:99999999}.card:hover+.card-modal-wrapper[data-v-1838585a]{display:block}.main-card[data-v-1838585a]{background:green;height:400px;margin-bottom:50px;max-width:400px;position:relative;text-align:center}.modal-wrapper[data-v-1838585a]{align-items:center;background:rgba(0,0,0,.551);display:none!important;display:flex;height:100%;justify-content:center;left:0;position:absolute;top:0;width:100%}.modal-content[data-v-1838585a]{background:#fff;padding:20px 10px}.main-card:hover .modal-wrapper[data-v-1838585a]{display:block!important}";
+__vite_ssr_exports__.default = ".card-icon[data-v-1838585a]{position:absolute;top:-16px}.main-card[data-v-1838585a]{background:#fff;border-radius:16px;height:300px;max-width:400px;padding:24px;position:relative;text-align:center}.modal-wrapper[data-v-1838585a]{align-items:center;background:rgba(0,0,0,.551);border-radius:16px;display:none!important;display:flex;height:100%;justify-content:center;left:0;position:absolute;top:0;width:100%}.modal-content[data-v-1838585a]{background:#fff}.main-card:hover .modal-wrapper[data-v-1838585a]{display:block!important}";
 }
 
 
@@ -3498,6 +3624,262 @@ const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
 Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: true, configurable: true, get(){ return namedMiddleware }});;
+}
+
+
+// --------------------
+// Request: /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs
+// Parents: 
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/plugins/server.mjs ($id_e91d6fcf)
+// Dependencies: 
+// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// --------------------
+const $id_8bd22d7a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs");
+
+__vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin((nuxtApp) => {
+  const pinia = __vite_ssr_import_0__.createPinia();
+  nuxtApp.vueApp.use(pinia);
+  __vite_ssr_import_0__.setActivePinia(pinia);
+  if (true) {
+    nuxtApp.payload.pinia = pinia.state.value;
+  } else if (nuxtApp.payload && nuxtApp.payload.pinia) {
+    pinia.state.value = nuxtApp.payload.pinia;
+  }
+  return {
+    provide: {
+      pinia
+    }
+  };
+});
+;
+}
+
+
+// --------------------
+// Request: /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs
+// Parents: 
+// - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_8bd22d7a)
+// - /node_modules/@pinia/nuxt/dist/runtime/composables.mjs ($id_675b6856)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// Dependencies: 
+// - /node_modules/nuxt/dist/head/runtime/index.mjs ($id_b7351483)
+// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
+// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/@pinia/nuxt/dist/runtime/composables.mjs ($id_675b6856)
+// - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
+// --------------------
+const $id_cdbdc54e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@pinia/nuxt/dist/runtime/composables.mjs");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/composables.mjs");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
+
+Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_6__.useHead }});
+Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_6__.useMeta }});
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
+
+Object.defineProperty(__vite_ssr_exports__, "isVue2", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.isVue2 }});
+Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.isVue3 }});
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+Object.defineProperty(__vite_ssr_exports__, "useAsyncData", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useAsyncData }});
+Object.defineProperty(__vite_ssr_exports__, "useLazyAsyncData", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useLazyAsyncData }});
+Object.defineProperty(__vite_ssr_exports__, "refreshNuxtData", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.refreshNuxtData }});
+Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.defineNuxtComponent }});
+Object.defineProperty(__vite_ssr_exports__, "useNuxtApp", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useNuxtApp }});
+Object.defineProperty(__vite_ssr_exports__, "defineNuxtPlugin", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.defineNuxtPlugin }});
+Object.defineProperty(__vite_ssr_exports__, "useRuntimeConfig", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useRuntimeConfig }});
+Object.defineProperty(__vite_ssr_exports__, "useState", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useState }});
+Object.defineProperty(__vite_ssr_exports__, "useFetch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useFetch }});
+Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useLazyFetch }});
+Object.defineProperty(__vite_ssr_exports__, "useCookie", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useCookie }});
+Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useRequestHeaders }});
+Object.defineProperty(__vite_ssr_exports__, "useRequestEvent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useRequestEvent }});
+Object.defineProperty(__vite_ssr_exports__, "useRouter", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useRouter }});
+Object.defineProperty(__vite_ssr_exports__, "useRoute", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useRoute }});
+Object.defineProperty(__vite_ssr_exports__, "useActiveRoute", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useActiveRoute }});
+Object.defineProperty(__vite_ssr_exports__, "defineNuxtRouteMiddleware", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.defineNuxtRouteMiddleware }});
+Object.defineProperty(__vite_ssr_exports__, "navigateTo", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.navigateTo }});
+Object.defineProperty(__vite_ssr_exports__, "abortNavigation", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.abortNavigation }});
+Object.defineProperty(__vite_ssr_exports__, "addRouteMiddleware", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.addRouteMiddleware }});
+Object.defineProperty(__vite_ssr_exports__, "throwError", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.throwError }});
+Object.defineProperty(__vite_ssr_exports__, "clearError", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.clearError }});
+Object.defineProperty(__vite_ssr_exports__, "useError", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useError }});
+Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.defineNuxtLink }});
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+Object.defineProperty(__vite_ssr_exports__, "withCtx", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.withCtx }});
+Object.defineProperty(__vite_ssr_exports__, "withDirectives", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.withDirectives }});
+Object.defineProperty(__vite_ssr_exports__, "withKeys", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.withKeys }});
+Object.defineProperty(__vite_ssr_exports__, "withMemo", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.withMemo }});
+Object.defineProperty(__vite_ssr_exports__, "withModifiers", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.withModifiers }});
+Object.defineProperty(__vite_ssr_exports__, "withScopeId", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.withScopeId }});
+Object.defineProperty(__vite_ssr_exports__, "onActivated", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onActivated }});
+Object.defineProperty(__vite_ssr_exports__, "onBeforeMount", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onBeforeMount }});
+Object.defineProperty(__vite_ssr_exports__, "onBeforeUnmount", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onBeforeUnmount }});
+Object.defineProperty(__vite_ssr_exports__, "onBeforeUpdate", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onBeforeUpdate }});
+Object.defineProperty(__vite_ssr_exports__, "onDeactivated", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onDeactivated }});
+Object.defineProperty(__vite_ssr_exports__, "onErrorCaptured", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onErrorCaptured }});
+Object.defineProperty(__vite_ssr_exports__, "onMounted", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onMounted }});
+Object.defineProperty(__vite_ssr_exports__, "onRenderTracked", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onRenderTracked }});
+Object.defineProperty(__vite_ssr_exports__, "onRenderTriggered", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onRenderTriggered }});
+Object.defineProperty(__vite_ssr_exports__, "onServerPrefetch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onServerPrefetch }});
+Object.defineProperty(__vite_ssr_exports__, "onUnmounted", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onUnmounted }});
+Object.defineProperty(__vite_ssr_exports__, "onUpdated", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onUpdated }});
+Object.defineProperty(__vite_ssr_exports__, "computed", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.computed }});
+Object.defineProperty(__vite_ssr_exports__, "customRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.customRef }});
+Object.defineProperty(__vite_ssr_exports__, "isProxy", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.isProxy }});
+Object.defineProperty(__vite_ssr_exports__, "isReactive", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.isReactive }});
+Object.defineProperty(__vite_ssr_exports__, "isReadonly", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.isReadonly }});
+Object.defineProperty(__vite_ssr_exports__, "isRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.isRef }});
+Object.defineProperty(__vite_ssr_exports__, "markRaw", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.markRaw }});
+Object.defineProperty(__vite_ssr_exports__, "proxyRefs", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.proxyRefs }});
+Object.defineProperty(__vite_ssr_exports__, "reactive", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.reactive }});
+Object.defineProperty(__vite_ssr_exports__, "readonly", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.readonly }});
+Object.defineProperty(__vite_ssr_exports__, "ref", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.ref }});
+Object.defineProperty(__vite_ssr_exports__, "shallowReactive", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.shallowReactive }});
+Object.defineProperty(__vite_ssr_exports__, "shallowReadonly", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.shallowReadonly }});
+Object.defineProperty(__vite_ssr_exports__, "shallowRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.shallowRef }});
+Object.defineProperty(__vite_ssr_exports__, "toRaw", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.toRaw }});
+Object.defineProperty(__vite_ssr_exports__, "toRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.toRef }});
+Object.defineProperty(__vite_ssr_exports__, "toRefs", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.toRefs }});
+Object.defineProperty(__vite_ssr_exports__, "triggerRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.triggerRef }});
+Object.defineProperty(__vite_ssr_exports__, "unref", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.unref }});
+Object.defineProperty(__vite_ssr_exports__, "watch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.watch }});
+Object.defineProperty(__vite_ssr_exports__, "watchEffect", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.watchEffect }});
+Object.defineProperty(__vite_ssr_exports__, "isShallow", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.isShallow }});
+Object.defineProperty(__vite_ssr_exports__, "effect", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.effect }});
+Object.defineProperty(__vite_ssr_exports__, "effectScope", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.effectScope }});
+Object.defineProperty(__vite_ssr_exports__, "getCurrentScope", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.getCurrentScope }});
+Object.defineProperty(__vite_ssr_exports__, "onScopeDispose", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.onScopeDispose }});
+Object.defineProperty(__vite_ssr_exports__, "defineComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.defineComponent }});
+Object.defineProperty(__vite_ssr_exports__, "defineAsyncComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.defineAsyncComponent }});
+Object.defineProperty(__vite_ssr_exports__, "resolveComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.resolveComponent }});
+Object.defineProperty(__vite_ssr_exports__, "getCurrentInstance", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.getCurrentInstance }});
+Object.defineProperty(__vite_ssr_exports__, "h", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.h }});
+Object.defineProperty(__vite_ssr_exports__, "inject", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.inject }});
+Object.defineProperty(__vite_ssr_exports__, "nextTick", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.nextTick }});
+Object.defineProperty(__vite_ssr_exports__, "provide", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.provide }});
+Object.defineProperty(__vite_ssr_exports__, "useAttrs", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.useAttrs }});
+Object.defineProperty(__vite_ssr_exports__, "useCssModule", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.useCssModule }});
+Object.defineProperty(__vite_ssr_exports__, "useCssVars", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.useCssVars }});
+Object.defineProperty(__vite_ssr_exports__, "useSlots", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.useSlots }});
+Object.defineProperty(__vite_ssr_exports__, "useTransitionState", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.useTransitionState }});
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/node_modules/@pinia/nuxt/dist/runtime/composables.mjs");
+
+Object.defineProperty(__vite_ssr_exports__, "usePinia", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_10__.usePinia }});
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/composables.mjs");
+
+Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_11__.definePageMeta }});;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
+// Parents: 
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
+// --------------------
+const $id_a8110be7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/capi.mjs");
+__vite_ssr_exportAll__(__vite_ssr_import_0__);
+const Vue2 = void 0;
+Object.defineProperty(__vite_ssr_exports__, "Vue2", { enumerable: true, configurable: true, get(){ return Vue2 }});
+const isVue2 = false;
+Object.defineProperty(__vite_ssr_exports__, "isVue2", { enumerable: true, configurable: true, get(){ return isVue2 }});
+const isVue3 = true;
+Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, configurable: true, get(){ return isVue3 }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/compat/capi.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// --------------------
+const $id_0c5717a4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+__vite_ssr_exportAll__(__vite_ssr_import_0__);
+const install = () => {
+};
+Object.defineProperty(__vite_ssr_exports__, "install", { enumerable: true, configurable: true, get(){ return install }});
+function set(target, key, val) {
+  if (Array.isArray(target)) {
+    target.length = Math.max(target.length, key);
+    target.splice(key, 1, val);
+    return val;
+  }
+  target[key] = val;
+  return val;
+}
+Object.defineProperty(__vite_ssr_exports__, "set", { enumerable: true, configurable: true, get(){ return set }});
+function del(target, key) {
+  if (Array.isArray(target)) {
+    target.splice(key, 1);
+    return;
+  }
+  delete target[key];
+}
+Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configurable: true, get(){ return del }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/@pinia/nuxt/dist/runtime/composables.mjs
+// Parents: 
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// Dependencies: 
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
+// --------------------
+const $id_675b6856 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
+__vite_ssr_exportAll__(__vite_ssr_import_1__);
+const usePinia = () => __vite_ssr_import_0__.useNuxtApp().$pinia;
+Object.defineProperty(__vite_ssr_exports__, "usePinia", { enumerable: true, configurable: true, get(){ return usePinia }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
+// Parents: 
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// Dependencies: 
+
+// --------------------
+const $id_ff6ed455 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const warnRuntimeUsage = (method) => console.warn(`${method}() is a compiler-hint helper that is only usable inside the script block of a single file component. Its arguments should be compiled away and passing it at runtime has no effect.`);
+const definePageMeta = (meta) => {
+  if (true) {
+    warnRuntimeUsage("definePageMeta");
+  }
+};
+Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true, configurable: true, get(){ return definePageMeta }});
+;
 }
 
 
@@ -3821,203 +4203,6 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
-}
-
-
-// --------------------
-// Request: /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs
-// Parents: 
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// Dependencies: 
-// - /node_modules/nuxt/dist/head/runtime/index.mjs ($id_b7351483)
-// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
-// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
-// --------------------
-const $id_cdbdc54e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/composables.mjs");
-
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
-
-Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_5__.useHead }});
-Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_5__.useMeta }});
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
-
-Object.defineProperty(__vite_ssr_exports__, "isVue2", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_6__.isVue2 }});
-Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_6__.isVue3 }});
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
-
-Object.defineProperty(__vite_ssr_exports__, "useAsyncData", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useAsyncData }});
-Object.defineProperty(__vite_ssr_exports__, "useLazyAsyncData", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useLazyAsyncData }});
-Object.defineProperty(__vite_ssr_exports__, "refreshNuxtData", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.refreshNuxtData }});
-Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.defineNuxtComponent }});
-Object.defineProperty(__vite_ssr_exports__, "useNuxtApp", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useNuxtApp }});
-Object.defineProperty(__vite_ssr_exports__, "defineNuxtPlugin", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.defineNuxtPlugin }});
-Object.defineProperty(__vite_ssr_exports__, "useRuntimeConfig", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useRuntimeConfig }});
-Object.defineProperty(__vite_ssr_exports__, "useState", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useState }});
-Object.defineProperty(__vite_ssr_exports__, "useFetch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useFetch }});
-Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useLazyFetch }});
-Object.defineProperty(__vite_ssr_exports__, "useCookie", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useCookie }});
-Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useRequestHeaders }});
-Object.defineProperty(__vite_ssr_exports__, "useRequestEvent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useRequestEvent }});
-Object.defineProperty(__vite_ssr_exports__, "useRouter", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useRouter }});
-Object.defineProperty(__vite_ssr_exports__, "useRoute", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useRoute }});
-Object.defineProperty(__vite_ssr_exports__, "useActiveRoute", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useActiveRoute }});
-Object.defineProperty(__vite_ssr_exports__, "defineNuxtRouteMiddleware", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.defineNuxtRouteMiddleware }});
-Object.defineProperty(__vite_ssr_exports__, "navigateTo", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.navigateTo }});
-Object.defineProperty(__vite_ssr_exports__, "abortNavigation", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.abortNavigation }});
-Object.defineProperty(__vite_ssr_exports__, "addRouteMiddleware", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.addRouteMiddleware }});
-Object.defineProperty(__vite_ssr_exports__, "throwError", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.throwError }});
-Object.defineProperty(__vite_ssr_exports__, "clearError", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.clearError }});
-Object.defineProperty(__vite_ssr_exports__, "useError", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useError }});
-Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.defineNuxtLink }});
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-Object.defineProperty(__vite_ssr_exports__, "withCtx", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.withCtx }});
-Object.defineProperty(__vite_ssr_exports__, "withDirectives", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.withDirectives }});
-Object.defineProperty(__vite_ssr_exports__, "withKeys", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.withKeys }});
-Object.defineProperty(__vite_ssr_exports__, "withMemo", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.withMemo }});
-Object.defineProperty(__vite_ssr_exports__, "withModifiers", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.withModifiers }});
-Object.defineProperty(__vite_ssr_exports__, "withScopeId", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.withScopeId }});
-Object.defineProperty(__vite_ssr_exports__, "onActivated", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onActivated }});
-Object.defineProperty(__vite_ssr_exports__, "onBeforeMount", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onBeforeMount }});
-Object.defineProperty(__vite_ssr_exports__, "onBeforeUnmount", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onBeforeUnmount }});
-Object.defineProperty(__vite_ssr_exports__, "onBeforeUpdate", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onBeforeUpdate }});
-Object.defineProperty(__vite_ssr_exports__, "onDeactivated", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onDeactivated }});
-Object.defineProperty(__vite_ssr_exports__, "onErrorCaptured", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onErrorCaptured }});
-Object.defineProperty(__vite_ssr_exports__, "onMounted", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onMounted }});
-Object.defineProperty(__vite_ssr_exports__, "onRenderTracked", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onRenderTracked }});
-Object.defineProperty(__vite_ssr_exports__, "onRenderTriggered", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onRenderTriggered }});
-Object.defineProperty(__vite_ssr_exports__, "onServerPrefetch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onServerPrefetch }});
-Object.defineProperty(__vite_ssr_exports__, "onUnmounted", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onUnmounted }});
-Object.defineProperty(__vite_ssr_exports__, "onUpdated", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onUpdated }});
-Object.defineProperty(__vite_ssr_exports__, "computed", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.computed }});
-Object.defineProperty(__vite_ssr_exports__, "customRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.customRef }});
-Object.defineProperty(__vite_ssr_exports__, "isProxy", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.isProxy }});
-Object.defineProperty(__vite_ssr_exports__, "isReactive", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.isReactive }});
-Object.defineProperty(__vite_ssr_exports__, "isReadonly", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.isReadonly }});
-Object.defineProperty(__vite_ssr_exports__, "isRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.isRef }});
-Object.defineProperty(__vite_ssr_exports__, "markRaw", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.markRaw }});
-Object.defineProperty(__vite_ssr_exports__, "proxyRefs", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.proxyRefs }});
-Object.defineProperty(__vite_ssr_exports__, "reactive", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.reactive }});
-Object.defineProperty(__vite_ssr_exports__, "readonly", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.readonly }});
-Object.defineProperty(__vite_ssr_exports__, "ref", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.ref }});
-Object.defineProperty(__vite_ssr_exports__, "shallowReactive", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.shallowReactive }});
-Object.defineProperty(__vite_ssr_exports__, "shallowReadonly", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.shallowReadonly }});
-Object.defineProperty(__vite_ssr_exports__, "shallowRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.shallowRef }});
-Object.defineProperty(__vite_ssr_exports__, "toRaw", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.toRaw }});
-Object.defineProperty(__vite_ssr_exports__, "toRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.toRef }});
-Object.defineProperty(__vite_ssr_exports__, "toRefs", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.toRefs }});
-Object.defineProperty(__vite_ssr_exports__, "triggerRef", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.triggerRef }});
-Object.defineProperty(__vite_ssr_exports__, "unref", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.unref }});
-Object.defineProperty(__vite_ssr_exports__, "watch", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.watch }});
-Object.defineProperty(__vite_ssr_exports__, "watchEffect", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.watchEffect }});
-Object.defineProperty(__vite_ssr_exports__, "isShallow", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.isShallow }});
-Object.defineProperty(__vite_ssr_exports__, "effect", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.effect }});
-Object.defineProperty(__vite_ssr_exports__, "effectScope", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.effectScope }});
-Object.defineProperty(__vite_ssr_exports__, "getCurrentScope", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.getCurrentScope }});
-Object.defineProperty(__vite_ssr_exports__, "onScopeDispose", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.onScopeDispose }});
-Object.defineProperty(__vite_ssr_exports__, "defineComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.defineComponent }});
-Object.defineProperty(__vite_ssr_exports__, "defineAsyncComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.defineAsyncComponent }});
-Object.defineProperty(__vite_ssr_exports__, "resolveComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.resolveComponent }});
-Object.defineProperty(__vite_ssr_exports__, "getCurrentInstance", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.getCurrentInstance }});
-Object.defineProperty(__vite_ssr_exports__, "h", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.h }});
-Object.defineProperty(__vite_ssr_exports__, "inject", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.inject }});
-Object.defineProperty(__vite_ssr_exports__, "nextTick", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.nextTick }});
-Object.defineProperty(__vite_ssr_exports__, "provide", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.provide }});
-Object.defineProperty(__vite_ssr_exports__, "useAttrs", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useAttrs }});
-Object.defineProperty(__vite_ssr_exports__, "useCssModule", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useCssModule }});
-Object.defineProperty(__vite_ssr_exports__, "useCssVars", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useCssVars }});
-Object.defineProperty(__vite_ssr_exports__, "useSlots", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useSlots }});
-Object.defineProperty(__vite_ssr_exports__, "useTransitionState", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.useTransitionState }});
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/composables.mjs");
-
-Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_9__.definePageMeta }});;
-}
-
-
-// --------------------
-// Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
-// Dependencies: 
-// - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
-// --------------------
-const $id_a8110be7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/capi.mjs");
-__vite_ssr_exportAll__(__vite_ssr_import_0__);
-const Vue2 = void 0;
-Object.defineProperty(__vite_ssr_exports__, "Vue2", { enumerable: true, configurable: true, get(){ return Vue2 }});
-const isVue2 = false;
-Object.defineProperty(__vite_ssr_exports__, "isVue2", { enumerable: true, configurable: true, get(){ return isVue2 }});
-const isVue3 = true;
-Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, configurable: true, get(){ return isVue3 }});
-;
-}
-
-
-// --------------------
-// Request: /node_modules/nuxt/dist/app/compat/capi.mjs
-// Parents: 
-// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// --------------------
-const $id_0c5717a4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-__vite_ssr_exportAll__(__vite_ssr_import_0__);
-const install = () => {
-};
-Object.defineProperty(__vite_ssr_exports__, "install", { enumerable: true, configurable: true, get(){ return install }});
-function set(target, key, val) {
-  if (Array.isArray(target)) {
-    target.length = Math.max(target.length, key);
-    target.splice(key, 1, val);
-    return val;
-  }
-  target[key] = val;
-  return val;
-}
-Object.defineProperty(__vite_ssr_exports__, "set", { enumerable: true, configurable: true, get(){ return set }});
-function del(target, key) {
-  if (Array.isArray(target)) {
-    target.splice(key, 1);
-    return;
-  }
-  delete target[key];
-}
-Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configurable: true, get(){ return del }});
-;
-}
-
-
-// --------------------
-// Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
-// Dependencies: 
-
-// --------------------
-const $id_ff6ed455 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const warnRuntimeUsage = (method) => console.warn(`${method}() is a compiler-hint helper that is only usable inside the script block of a single file component. Its arguments should be compiled away and passing it at runtime has no effect.`);
-const definePageMeta = (meta) => {
-  if (true) {
-    warnRuntimeUsage("definePageMeta");
-  }
-};
-Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true, configurable: true, get(){ return definePageMeta }});
-;
 }
 
 
@@ -4358,26 +4543,30 @@ const __modules__ = {
   "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
   "/components/CustomButton.vue?vue&type=style&index=0&scoped=true&lang.css": $id_4c702532,
   "/@id/plugin-vue:export-helper": $id_bbb863c1,
+  "/components/Cart.vue": $id_369b7c42,
+  "/store/cart.js": $id_977898a6,
+  "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
+  "/components/Cart.vue?vue&type=style&index=0&lang.css": $id_27152d15,
   "/assets/images/logo-dark.svg": $id_601aed72,
   "/components/DHeader.vue?vue&type=style&index=0&scoped=true&lang.css": $id_b4533245,
   "/components/courses.vue": $id_d8b304b9,
   "/components/Card..vue": $id_fbdbc9f5,
-  "/store/cart.js": $id_977898a6,
-  "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
   "/components/Card..vue?vue&type=style&index=0&scoped=true&lang.css": $id_d1e1cf22,
   "/pages/index.vue?vue&type=style&index=0&scoped=true&lang.css": $id_4aa9e65e,
   "/pages/index.vue": $id_cca58e97,
   "/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/router.options.mjs": $id_9c59dd07,
   "/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/middleware.mjs": $id_ef7a041e,
+  "/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs": $id_8bd22d7a,
+  "/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs": $id_cdbdc54e,
+  "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
+  "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
+  "/node_modules/@pinia/nuxt/dist/runtime/composables.mjs": $id_675b6856,
+  "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
   "/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/root-component.mjs": $id_7835aa11,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_e9bfada3,
   "/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/error-component.mjs": $id_b89da889,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_8cc6d73f,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_b90d4d0f,
-  "/@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs": $id_cdbdc54e,
-  "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
-  "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
-  "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css": $id_e68b6b38,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_14c8b574,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_a2b3b709,

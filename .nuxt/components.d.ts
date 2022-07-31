@@ -2,6 +2,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'Card': typeof import("../components/Card..vue")['default'],
+    'Cart': typeof import("../components/Cart.vue")['default'],
     'Courses': typeof import("../components/courses.vue")['default'],
     'CustomButton': typeof import("../components/CustomButton.vue")['default'],
     'DHeader': typeof import("../components/DHeader.vue")['default'],
@@ -13,6 +14,7 @@ declare module 'vue' {
     'ServerPlaceholder': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyCard': typeof import("../components/Card..vue")['default'],
+    'LazyCart': typeof import("../components/Cart.vue")['default'],
     'LazyCourses': typeof import("../components/courses.vue")['default'],
     'LazyCustomButton': typeof import("../components/CustomButton.vue")['default'],
     'LazyDHeader': typeof import("../components/DHeader.vue")['default'],
@@ -26,6 +28,7 @@ declare module 'vue' {
   }
 }
 export const Card: typeof import("../components/Card..vue")['default']
+export const Cart: typeof import("../components/Cart.vue")['default']
 export const Courses: typeof import("../components/courses.vue")['default']
 export const CustomButton: typeof import("../components/CustomButton.vue")['default']
 export const DHeader: typeof import("../components/DHeader.vue")['default']
@@ -37,6 +40,7 @@ export const ClientOnly: typeof import("../node_modules/nuxt/dist/app/components
 export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyCard: typeof import("../components/Card..vue")['default']
+export const LazyCart: typeof import("../components/Cart.vue")['default']
 export const LazyCourses: typeof import("../components/courses.vue")['default']
 export const LazyCustomButton: typeof import("../components/CustomButton.vue")['default']
 export const LazyDHeader: typeof import("../components/DHeader.vue")['default']
