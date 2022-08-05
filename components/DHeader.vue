@@ -1,8 +1,8 @@
 <template>
   <div class="">
-    <d-nav class="py-5 px-[150px]" />
+    <d-nav class="fixed z-50 w-full py-5 px-[150px]" />
 
-    <div class="h-screen pl-[150px]">
+    <div class="h-screen pl-[150px] pt-24">
       <div class="flex items-center justify-between">
         <div class="w-[40%] flex flex-col items-left justify-between">
           <h1 class="mb-[30px]">Maximize Skill, <br />Minimize Budget</h1>

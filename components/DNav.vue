@@ -15,7 +15,7 @@
       <custom-button class="" :btn-bg="'#13183f'">Get Started</custom-button>
     </div>
 
-    <div v-if="cartModal" class="w-1/2 absolute top-0 right-[-70px] z-50">
+    <div v-if="cartModal" class="w-1/3 absolute top-24 right-[100px] z-50">
       <cart />
     </div>
   </div>
