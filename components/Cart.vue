@@ -1,19 +1,22 @@
 <template>
-  <div class="bg-[#fff] rounded-lg p-6 shadow">
+  <div class="bg-[#fff] rounded-lg p-6 shadow h-[500px] overflow-y-scroll">
     <h2 class="font-bold text-2xl border-b pb-6">Cart</h2>
-    <div
-      v-for="(item, index) in cartItems"
-      :key="index"
-      class="w-full flex items-center justify-between p-4 border-b"
-    >
-      <table>
-        <tr class="text-left">
-          <th>Item</th>
-          <th>Qty</th>
-          <th>Unit price</th>
-          <th>Total</th>
+    <div>
+      <table class="text-sm">
+        <tr class="border-b">
+          <th>SN</th>
+          <th class="text-left">Item</th>
+          <th class="text-left">Qty</th>
+          <th class="text-left">Unit price</th>
+          <th class="text-right">Total</th>
+          <th class="text-right">Action</th>
         </tr>
-        <tr>
+        <tr
+          v-for="(item, index) in cartItems"
+          :key="index"
+          class="w-full p-4 border-b"
+        >
+          <td>{{ index + 1 }}</td>
           <td>
             <div class="flex items-center">
               <img class="mr-3 w-10 h-10" :src="item.icon" alt="" />
@@ -31,22 +34,22 @@
           </td>
           <td>
             <div class="flex items-center">
-              <p>{{ item.price }}</p>
+              <p>$ {{ item.price }}</p>
             </div>
           </td>
+          <td class="text-right">
+            {{ item.quantity * item.price }}
+          </td>
           <td>
-{{ item.price * item.quantity }}
+            <img
+              class="w-7 h-7 cursor-pointer"
+              src="../assets/images/trash.svg"
+              alt=""
+              @click="delete [item]"
+            />
           </td>
         </tr>
       </table>
-
-      <div class="p-3">
-        <img
-          class="w-7 h-7 cursor-pointer"
-          src="../assets/images/trash.svg"
-          alt=""
-        />
-      </div>
     </div>
 
     <div
@@ -55,6 +58,10 @@
     >
       Empty Cart
     </div>
+
+    <div class="flex items-center justify-end">
+      <custom-button class="mt-6" :btn-bg="'#13183f'">Checkout</custom-button>
+    </div>
   </div>
 </template>
 
@@ -62,10 +69,15 @@
 import { useCartStore } from "~~/store/cart";
 const cartStore = useCartStore();
 const cartItems = cartStore.cart || 0;
+
+const getTotal = (item) => {
+  return item.price;
+};
 </script>
 
 <style>
-th, td {
-  padding-right: 40px;
+th,
+td {
+  padding: 16px 20px;
 }
 </style>

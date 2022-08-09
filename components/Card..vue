@@ -37,8 +37,7 @@ const props = defineProps({
 
 const addToCart = (item) => {
   if(!alreadyInCart(item)) {
-    item.quantity = 1
-    cartStore.cart.push(item);
+    cartStore.cart.push({...item, quantity: 1});
   } else {
     alert(`${item.title} already in cart`)
   }
