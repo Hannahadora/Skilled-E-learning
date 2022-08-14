@@ -1,19 +1,33 @@
 <template>
   <div>
-    <div class="">
-      <div class="">
-        <d-header />
+    <div>
+      <div>
+        <d-header @openCheckoutForm="openCheckoutForm" />
       </div>
       <div class="px-[120px] py-[20px]">
         <courses />
       </div>
     </div>
+   <!-- <h-modal v-model="showCheckoutForm">
+     <checkout-form @close="closeCheckoutForm"/>
+   </h-modal> -->
   </div>
 </template>
 
 <script setup>
 import DHeader from "~~/components/DHeader.vue";
 import courses from "~~/components/courses.vue";
+import CheckoutForm from "~~/components/CheckoutForm.vue";
+
+const showCheckoutForm = ref(false)
+
+const closeCheckoutForm = () => {
+  showCheckoutForm.value = false
+}
+
+const openCheckoutForm = () => {
+  showCheckoutForm.value = true
+}
 </script>
 
 <style scoped>
