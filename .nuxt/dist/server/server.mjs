@@ -3485,7 +3485,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     __vite_ssr_import_5__.ssrRenderAttrs(_attrs)
   }><div class="pb-4 border-b flex items-start justify-between"><span class="font-bold text-2xl">Checkout Form</span><img class="w-7 h-7 cursor-pointer"${
     __vite_ssr_import_5__.ssrRenderAttr("src", __vite_ssr_import_6__.default)
-  } alt=""></div><div class="w-full grid grid-cols-2 gap-6 my-6"><form class="w-full flex flex-col border-r pr-6"><p>Personal Information</p>`)
+  } alt=""></div><div class="w-full grid grid-cols-2 gap-6 my-6"><form class="w-full flex flex-col border-r pr-6"><h4>Personal Information</h4>`)
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Full Name' }, null, _parent))
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, {
     type: 'phone',
@@ -3498,7 +3498,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Pickup Address' }, null, _parent))
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'State' }, null, _parent))
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Country' }, null, _parent))
-  _push(`</form><div><p>Cart Details</p><ul><!--[-->`)
+  _push(`</form><div><h4>Cart Details</h4><ul><!--[-->`)
   __vite_ssr_import_5__.ssrRenderList($setup.cartItems, (item, index) => {
     _push(`<li><span>${__vite_ssr_import_5__.ssrInterpolate(`${item.title} '-' ${item.quantity}`)}</span></li>`)
   })

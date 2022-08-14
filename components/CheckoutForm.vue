@@ -11,7 +11,7 @@
     </div>
     <div class="w-full grid grid-cols-2 gap-6 my-6">
       <form class="w-full flex flex-col border-r pr-6">
-        <p>Personal Information</p>
+        <h4>Personal Information</h4>
         <h-input :placeholder="'Full Name'" />
         <h-input :type="'phone'" :placeholder="'Phone Number'" />
         <h-input :type="'email'" :placeholder="'Email'" />
@@ -21,7 +21,7 @@
       </form>
 
       <div>
-        <p>Cart Details</p>
+        <h4>Cart Details</h4>
 
         <ul>
           <li v-for="(item, index) in cartItems" :key="index">
