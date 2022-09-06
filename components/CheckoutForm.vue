@@ -52,7 +52,6 @@
 import { useCartStore } from "~~/store/cart";
 const cartStore = useCartStore();
 const cartItems = cartStore.cart || [];
-const showCheckoutForm = ref(true);
 
 const totalCost = computed(() => {
   const totals = cartItems.map((item) => item?.quantity * item?.price);

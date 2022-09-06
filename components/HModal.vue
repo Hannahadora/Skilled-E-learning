@@ -1,5 +1,5 @@
 <template>
-  <div class="modal-wrapper" v-if="show" :class="classes">
+  <div class="modal-wrapper" :class="classes">
     <div class="modal-content mx-auto" :style="styles">
       <slot name="content"></slot>
     </div>

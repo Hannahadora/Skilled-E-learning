@@ -74,9 +74,14 @@
       </div>
     </div>
 
-    <h-modal v-model="showCheckoutForm" :modal-width="'900px'">
+    <h-modal v-if="checkoutFormModal" :modal-width="'900px'">
       <template #content>
-        <checkout-form @close="closeCheckoutForm" />
+        <checkout-form @close="closeCheckoutForm" @success="successModal = true" />
+      </template>
+    </h-modal>
+    <h-modal v-if="successModal" :modal-width="'600px'">
+      <template #content>
+        <success-screen @close="successModal = false" />
       </template>
     </h-modal>
   </div>
@@ -86,7 +91,8 @@
 import { useCartStore } from "~~/store/cart";
 const cartStore = useCartStore();
 const cartItems = cartStore.cart || [];
-const showCheckoutForm = ref(true);
+const checkoutFormModal = ref(false);
+const successModal = ref(false);
 
 const totalCost = computed(() => {
   const totals = cartItems.map((item) => item?.quantity * item?.price);
@@ -98,11 +104,12 @@ const removeItem = (index) => {
 };
 
 const closeCheckoutForm = () => {
-  showCheckoutForm.value = false;
+  checkoutFormModal.value = false;
 };
 
 const openCheckoutForm = () => {
-  showCheckoutForm.value = true;
+  checkoutFormModal.value = true;
+  console.log(checkoutFormModal.value, 'form')
 };
 </script>
 

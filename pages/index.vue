@@ -2,15 +2,12 @@
   <div>
     <div>
       <div>
-        <d-header @openCheckoutForm="openCheckoutForm" />
+        <d-header />
       </div>
       <div class="px-[120px] py-[20px]">
         <courses />
       </div>
     </div>
-   <!-- <h-modal v-model="showCheckoutForm">
-     <checkout-form @close="closeCheckoutForm"/>
-   </h-modal> -->
   </div>
 </template>
 
@@ -18,8 +15,6 @@
 import DHeader from "~~/components/DHeader.vue";
 import courses from "~~/components/courses.vue";
 import CheckoutForm from "~~/components/CheckoutForm.vue";
-
-const showCheckoutForm = ref(false)
 
 const closeCheckoutForm = () => {
   showCheckoutForm.value = false

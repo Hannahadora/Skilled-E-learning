@@ -10,6 +10,7 @@ declare module 'vue' {
     'DNav': typeof import("../components/DNav.vue")['default'],
     'HInput': typeof import("../components/HInput.vue")['default'],
     'HModal': typeof import("../components/HModal.vue")['default'],
+    'SuccessScreen': typeof import("../components/SuccessScreen.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -25,6 +26,7 @@ declare module 'vue' {
     'LazyDNav': typeof import("../components/DNav.vue")['default'],
     'LazyHInput': typeof import("../components/HInput.vue")['default'],
     'LazyHModal': typeof import("../components/HModal.vue")['default'],
+    'LazySuccessScreen': typeof import("../components/SuccessScreen.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -42,6 +44,7 @@ export const DHeader: typeof import("../components/DHeader.vue")['default']
 export const DNav: typeof import("../components/DNav.vue")['default']
 export const HInput: typeof import("../components/HInput.vue")['default']
 export const HModal: typeof import("../components/HModal.vue")['default']
+export const SuccessScreen: typeof import("../components/SuccessScreen.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -57,6 +60,7 @@ export const LazyDHeader: typeof import("../components/DHeader.vue")['default']
 export const LazyDNav: typeof import("../components/DNav.vue")['default']
 export const LazyHInput: typeof import("../components/HInput.vue")['default']
 export const LazyHModal: typeof import("../components/HModal.vue")['default']
+export const LazySuccessScreen: typeof import("../components/SuccessScreen.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']

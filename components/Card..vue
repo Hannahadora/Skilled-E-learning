@@ -13,7 +13,7 @@
             item.price
           }}</span>
           <custom-button
-            @click="addToCart(item)"
+            @click="() => {addToCart(item)}"
             class=""
             sm
             :btn-bg="alreadyInCart(item) ? '#47f75b' : '#13183f'"

@@ -26,7 +26,7 @@ const props = defineProps({
 
 .h-input {
   border: none;
-  background: transparent;
+  background: #fff;
   font-size: 14px;
   width: 100%;
 }
