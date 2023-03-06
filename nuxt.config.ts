@@ -14,7 +14,8 @@ export default defineNuxtConfig({
         link: [{ rel: "stylesheet", type: "text/css", href: "./assets/css/style.css" }],
     },
     modules: [
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        '@vueuse/nuxt',
     ],
     buildModules: [ '@pinia/nuxt' ]
 })

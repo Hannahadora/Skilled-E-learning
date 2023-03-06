@@ -1,5 +1,5 @@
 <template>
-<button class="btn" :class="classes" :style="styles" v-bind="$attrs">
+  <button class="btn" :class="classes" :disabled="disabled" :style="styles" v-bind="$attrs">
     <slot></slot>
   </button>
 </template>
@@ -10,6 +10,7 @@ const props = defineProps({
   textColor: { type: String, default: "#fff", required: false },
   lg: { type: String, required: false },
   sm: { type: String, required: false },
+  disabled: {type: Boolean, required: false}
 });
 
 const classes = {
@@ -40,5 +41,9 @@ const styles = {
   padding: 7px 16px;
   font-size: 13px;
   border-radius: 45px;
+}
+button:disabled {
+  cursor: not-allowed;
+  background-color: #68686b3a !important;
 }
 </style>

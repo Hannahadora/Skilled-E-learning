@@ -88,3 +88,7 @@ h4 {
 p {
   font-size: 18px !important;
 }
+button:disabled {
+  cursor: not-allowed;
+  background-color: #b7b8d73a;
+}

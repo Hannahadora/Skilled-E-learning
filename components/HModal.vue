@@ -50,6 +50,6 @@ const classes = computed(() => {
 .modal-content {
   background: #fff;
   border-radius: 14px;
-  padding: 32px;
+  padding: 24px;
 }
 </style>

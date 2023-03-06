@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <div class="bg-[#fff] rounded-lg p-6 shadow h-[500px] overflow-y-scroll">
+  <div class="relative">
+    <div
+      class="w-full bg-[#fff] rounded-lg p-6 shadow h-[500px]"
+    >
       <h2 class="font-bold text-2xl border-b pb-6">Cart</h2>
-      <div>
-        <table class="text-sm">
+      <div class="w-full h-[250px] overflow-y-scroll">
+        <table class="text-sm w-full">
           <tr class="border-b">
             <th>SN</th>
             <th class="text-left">Item</th>
@@ -43,7 +45,7 @@
             </td>
             <td>
               <img
-                class="w-7 h-7 cursor-pointer"
+                class="w-7 h-7 cursor-pointer delete-icon"
                 src="../assets/images/trash.svg"
                 alt=""
                 @click="removeItem(index)"
@@ -60,23 +62,29 @@
         Empty Cart
       </div>
 
-      <div class="flex items-center justify-end mt-6 px-8 text-xl">
-        <h6 class="font-bold">Total:</h6>
-        <h6 class="ml-4 font-bold">$ {{ totalCost }}</h6>
-      </div>
-      <div class="flex items-center justify-center">
-        <custom-button
-          class="mt-6 w-full uppercase"
-          :btn-bg="'#13183f'"
-          @click="openCheckoutForm"
-          >Checkout</custom-button
-        >
+      <div class="absolute bottom-[24px] right-[24px] mt-[30px]">
+        <div class="flex items-center justify-end mt-6 px-8 text-xl">
+          <h6 class="font-bold">Total:</h6>
+          <h6 class="ml-4 font-bold">$ {{ totalCost }}</h6>
+        </div>
+        <div class="flex items-center justify-center">
+          <custom-button
+            :disabled="cartStore.cart?.length === 0"
+            class="mt-6 w-full uppercase"
+            :btn-bg="'#13183f'"
+            @click="openCheckoutForm"
+            >Checkout</custom-button
+          >
+        </div>
       </div>
     </div>
 
     <h-modal v-if="checkoutFormModal" :modal-width="'900px'">
       <template #content>
-        <checkout-form @close="closeCheckoutForm" @success="successModal = true" />
+        <checkout-form
+          @close="closeCheckoutForm"
+          @success="successModal = true"
+        />
       </template>
     </h-modal>
     <h-modal v-if="successModal" :modal-width="'600px'">
@@ -89,6 +97,7 @@
 
 <script setup>
 import { useCartStore } from "~~/store/cart";
+
 const cartStore = useCartStore();
 const cartItems = cartStore.cart || [];
 const checkoutFormModal = ref(false);
@@ -109,13 +118,34 @@ const closeCheckoutForm = () => {
 
 const openCheckoutForm = () => {
   checkoutFormModal.value = true;
-  console.log(checkoutFormModal.value, 'form')
+  console.log(checkoutFormModal.value, "form");
 };
 </script>
 
-<style>
+<style scoped>
 th,
 td {
   padding: 16px 20px;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c89999;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ad7b7b;
+}
+
 </style>

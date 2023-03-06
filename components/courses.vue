@@ -17,9 +17,10 @@
 </template>
 
 <script setup>
-import Card from "./Card..vue";
+import Card from "./Card.vue";
 const courses = ref([
   {
+    id: "itm1",
     price: "65.00",
     quantity: 0,
     title: "Animation",
@@ -27,6 +28,7 @@ const courses = ref([
     info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
   },
   {
+    id: "itm2",
     price: "52.00",
     quantity: 0,
     title: "Design",
@@ -34,6 +36,7 @@ const courses = ref([
     info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
   },
   {
+    id: "itm3",
     price: "76.00",
     quantity: 0,
     title: "Photography",
@@ -41,6 +44,7 @@ const courses = ref([
     info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
   },
   {
+    id: "itm4",
     price: "84.00",
     quantity: 0,
     title: "Crypto",
@@ -48,6 +52,7 @@ const courses = ref([
     info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
   },
   {
+    id: "itm5",
     price: "55.00",
     quantity: 0,
     title: "Business",

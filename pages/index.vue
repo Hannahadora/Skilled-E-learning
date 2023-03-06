@@ -16,13 +16,15 @@ import DHeader from "~~/components/DHeader.vue";
 import courses from "~~/components/courses.vue";
 import CheckoutForm from "~~/components/CheckoutForm.vue";
 
+
 const closeCheckoutForm = () => {
-  showCheckoutForm.value = false
-}
+  showCheckoutForm.value = false;
+};
 
 const openCheckoutForm = () => {
-  showCheckoutForm.value = true
-}
+  showCheckoutForm.value = true;
+};
+
 </script>
 
 <style scoped>
