@@ -4,7 +4,7 @@
       <div>
         <d-header />
       </div>
-      <div class="px-[120px] py-[20px]">
+      <div class="px-[120px] py-[20px] mt-[20px]">
         <courses />
       </div>
     </div>

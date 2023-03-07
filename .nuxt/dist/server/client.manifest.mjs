@@ -15,7 +15,10 @@ export default {
     "pages/index.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css",
-    "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css"
+    "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css",
+    "assets/css/tailwind_.css",
+    "assets/css/style.css",
+    "assets/css/main.css"
   ],
   "initial": [
     "@vite/client",
@@ -32,7 +35,10 @@ export default {
     "pages/index.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css",
-    "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css"
+    "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css",
+    "assets/css/tailwind_.css",
+    "assets/css/style.css",
+    "assets/css/main.css"
   ],
   "async": [],
   "modules": {}

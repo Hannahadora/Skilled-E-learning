@@ -30,7 +30,7 @@ import CustomButton from "./CustomButton.vue";
 
 <style scoped>
 .hero {
-  background: url("/public/images/image-hero-desktop@2x.png");
+  background: url("/images/image-hero-desktop@2x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

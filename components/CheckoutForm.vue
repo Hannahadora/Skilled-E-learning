@@ -4,7 +4,7 @@
       <span class="font-bold text-2xl">Checkout Form</span>
       <img
         class="w-7 h-7 cursor-pointer"
-        src="/public/images/x.svg"
+        src="/images/x.svg"
         alt=""
         @click="closeModal"
       />
