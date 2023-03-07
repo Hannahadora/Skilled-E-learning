@@ -3618,7 +3618,7 @@ const Components = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   Html,
   Body
 }, Symbol.toStringTag, { value: "Module" }));
-const metaConfig = { "globalMeta": { "charset": "utf-8", "viewport": "width=device-width, initial-scale=1", "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }], "link": [{ "rel": "stylesheet", "type": "text/css", "href": "./assets/css/style.css" }], "style": [], "script": [], "title": "Skill E-learning", "css": ["@/assets/css/style.css", "@/assets/css/main.css"] } };
+const metaConfig = { "globalMeta": { "charset": "utf-8", "viewport": "width=device-width, initial-scale=1", "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }], "link": [{ "rel": "stylesheet", "type": "text/css", "href": "./assets/css/style.css" }], "style": [], "script": [], "title": "Skill E-learning", "css": ["~/assets/css/style.css", "~/assets/css/main.css"] } };
 const metaMixin = {
   created() {
     const instance = vue_cjs_prod.getCurrentInstance();
@@ -3845,7 +3845,7 @@ const _sfc_main$d = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_h_input = __nuxt_component_0;
       const _component_custom_button = CustomButton;
-      _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "" }, _attrs))} data-v-303fb26d><div class="pb-4 border-b flex items-start justify-between" data-v-303fb26d><span class="font-bold text-2xl" data-v-303fb26d>Checkout Form</span><img class="w-7 h-7 cursor-pointer"${serverRenderer.exports.ssrRenderAttr("src", _imports_0$1)} alt="" data-v-303fb26d></div><div class="w-full grid grid-cols-2 gap-6 my-6" data-v-303fb26d><form class="w-full flex flex-col border-r pr-6" data-v-303fb26d><h4 data-v-303fb26d>Personal Information</h4>`);
+      _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "" }, _attrs))} data-v-21eadc8e><div class="pb-4 border-b flex items-start justify-between" data-v-21eadc8e><span class="font-bold text-2xl" data-v-21eadc8e>Checkout Form</span><img class="w-7 h-7 cursor-pointer"${serverRenderer.exports.ssrRenderAttr("src", _imports_0$1)} alt="" data-v-21eadc8e></div><div class="w-full grid grid-cols-2 gap-6 my-6" data-v-21eadc8e><form class="w-full flex flex-col border-r pr-6" data-v-21eadc8e><h4 data-v-21eadc8e>Personal Information</h4>`);
       _push(serverRenderer.exports.ssrRenderComponent(_component_h_input, { placeholder: "Full Name" }, null, _parent));
       _push(serverRenderer.exports.ssrRenderComponent(_component_h_input, {
         type: "phone",
@@ -3858,11 +3858,11 @@ const _sfc_main$d = {
       _push(serverRenderer.exports.ssrRenderComponent(_component_h_input, { placeholder: "Pickup Address" }, null, _parent));
       _push(serverRenderer.exports.ssrRenderComponent(_component_h_input, { placeholder: "State" }, null, _parent));
       _push(serverRenderer.exports.ssrRenderComponent(_component_h_input, { placeholder: "Country" }, null, _parent));
-      _push(`</form><div data-v-303fb26d><h4 class="mb-[10px]" data-v-303fb26d>Cart Details</h4><ul class="flex flex-col max-h-[400px] overflow-y-scroll px-[8px]" data-v-303fb26d><!--[-->`);
+      _push(`</form><div data-v-21eadc8e><h4 class="mb-[10px]" data-v-21eadc8e>Cart Details</h4><ul class="flex flex-col max-h-[400px] overflow-y-scroll px-[8px]" data-v-21eadc8e><!--[-->`);
       serverRenderer.exports.ssrRenderList(vue_cjs_prod.unref(cartItems), (item, index2) => {
-        _push(`<li class="my-[8px]" data-v-303fb26d><div class="flex items-start justify-between" data-v-303fb26d><div class="w-[70%]" data-v-303fb26d><div class="flex items-center mr-[8px]" data-v-303fb26d><img${serverRenderer.exports.ssrRenderAttr("src", item.icon)} alt="" class="mr-[4px] w-[20px] h-[20px]" data-v-303fb26d><p class="font-bold text-[14px]" data-v-303fb26d>${serverRenderer.exports.ssrInterpolate(`${item.title}`)}</p></div><span class="text-[12px]" data-v-303fb26d>${serverRenderer.exports.ssrInterpolate(`${item.info}`)}</span></div><div class="flex items-center justify-between" data-v-303fb26d><span class="text-[12px] mr-8" style="${serverRenderer.exports.ssrRenderStyle({ "white-space": "nowrap" })}" data-v-303fb26d>$ ${serverRenderer.exports.ssrInterpolate(`${item.price}`)}</span><span class="text-[12px] mr-8" style="${serverRenderer.exports.ssrRenderStyle({ "white-space": "nowrap" })}" data-v-303fb26d>${serverRenderer.exports.ssrInterpolate(`${item.quantity}`)}</span><span class="font-bold" style="${serverRenderer.exports.ssrRenderStyle({ "white-space": "nowrap" })}" data-v-303fb26d>$ ${serverRenderer.exports.ssrInterpolate(item.quantity * item.price)}</span></div></div></li>`);
+        _push(`<li class="my-[8px]" data-v-21eadc8e><div class="flex items-start justify-between" data-v-21eadc8e><div class="w-[70%]" data-v-21eadc8e><div class="flex items-center mr-[8px]" data-v-21eadc8e><img${serverRenderer.exports.ssrRenderAttr("src", item.icon)} alt="" class="mr-[4px] w-[20px] h-[20px]" data-v-21eadc8e><p class="font-bold text-[14px]" data-v-21eadc8e>${serverRenderer.exports.ssrInterpolate(`${item.title}`)}</p></div><span class="text-[12px]" data-v-21eadc8e>${serverRenderer.exports.ssrInterpolate(`${item.info}`)}</span></div><div class="flex items-center justify-between" data-v-21eadc8e><span class="text-[12px] mr-8" style="${serverRenderer.exports.ssrRenderStyle({ "white-space": "nowrap" })}" data-v-21eadc8e>$ ${serverRenderer.exports.ssrInterpolate(`${item.price}`)}</span><span class="text-[12px] mr-8" style="${serverRenderer.exports.ssrRenderStyle({ "white-space": "nowrap" })}" data-v-21eadc8e>${serverRenderer.exports.ssrInterpolate(`${item.quantity}`)}</span><span class="font-bold" style="${serverRenderer.exports.ssrRenderStyle({ "white-space": "nowrap" })}" data-v-21eadc8e>$ ${serverRenderer.exports.ssrInterpolate(item.quantity * item.price)}</span></div></div></li>`);
       });
-      _push(`<!--]--></ul><div class="flex items-center justify-end mt-6 px-8 text-xl" data-v-303fb26d><h6 class="font-bold" data-v-303fb26d>Total:</h6><h6 class="ml-4 font-bold" data-v-303fb26d>$ ${serverRenderer.exports.ssrInterpolate(vue_cjs_prod.unref(totalCost))}</h6></div><div class="flex items-center justify-center" data-v-303fb26d>`);
+      _push(`<!--]--></ul><div class="flex items-center justify-end mt-6 px-8 text-xl" data-v-21eadc8e><h6 class="font-bold" data-v-21eadc8e>Total:</h6><h6 class="ml-4 font-bold" data-v-21eadc8e>$ ${serverRenderer.exports.ssrInterpolate(vue_cjs_prod.unref(totalCost))}</h6></div><div class="flex items-center justify-center" data-v-21eadc8e>`);
       _push(serverRenderer.exports.ssrRenderComponent(_component_custom_button, {
         disabled: vue_cjs_prod.unref(formIsEmpty),
         class: "mt-6 w-full uppercase",
@@ -3890,7 +3890,7 @@ _sfc_main$d.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/CheckoutForm.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
-const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-303fb26d"]]);
+const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-21eadc8e"]]);
 const _sfc_main$c = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "h-[300px] rounded bg-white" }, _attrs))}><div class="flex items-center justify-center"><p class="text-center">Success!!!<br>Your item will arrive in 7 working days</p></div></div>`);
@@ -3928,17 +3928,17 @@ const _sfc_main$b = {
       const _component_h_modal = __nuxt_component_1;
       const _component_checkout_form = __nuxt_component_2;
       const _component_success_screen = __nuxt_component_3;
-      _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "relative" }, _attrs))} data-v-2a29ada8><div class="w-full bg-[#fff] rounded-lg p-6 shadow h-[500px]" data-v-2a29ada8><h2 class="font-bold text-2xl border-b pb-6" data-v-2a29ada8>Cart</h2><div class="w-full h-[250px] overflow-y-scroll" data-v-2a29ada8><table class="text-sm w-full" data-v-2a29ada8><tr class="border-b" data-v-2a29ada8><th data-v-2a29ada8>SN</th><th class="text-left" data-v-2a29ada8>Item</th><th class="text-left" data-v-2a29ada8>Qty</th><th class="text-left" data-v-2a29ada8>Unit price ($)</th><th class="text-right" data-v-2a29ada8>Total ($)</th><th class="text-right" data-v-2a29ada8>Action</th></tr><!--[-->`);
+      _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "relative" }, _attrs))} data-v-60a61857><div class="w-full bg-[#fff] rounded-lg p-6 shadow h-[500px]" data-v-60a61857><h2 class="font-bold text-2xl border-b pb-6" data-v-60a61857>Cart</h2><div class="w-full h-[250px] overflow-y-scroll" data-v-60a61857><table class="text-sm w-full" data-v-60a61857><tr class="border-b" data-v-60a61857><th data-v-60a61857>SN</th><th class="text-left" data-v-60a61857>Item</th><th class="text-left" data-v-60a61857>Qty</th><th class="text-left" data-v-60a61857>Unit price ($)</th><th class="text-right" data-v-60a61857>Total ($)</th><th class="text-right" data-v-60a61857>Action</th></tr><!--[-->`);
       serverRenderer.exports.ssrRenderList(vue_cjs_prod.unref(cartItems), (item, index2) => {
-        _push(`<tr class="w-full p-4 border-b" data-v-2a29ada8><td data-v-2a29ada8>${serverRenderer.exports.ssrInterpolate(index2 + 1)}</td><td data-v-2a29ada8><div class="flex items-center" data-v-2a29ada8><img class="mr-3 w-10 h-10"${serverRenderer.exports.ssrRenderAttr("src", item.icon)} alt="" data-v-2a29ada8><h4 data-v-2a29ada8>${serverRenderer.exports.ssrInterpolate(item.title)}</h4></div></td><td data-v-2a29ada8><div class="flex items-center bg-[#f4f4f4] rounded w-14" data-v-2a29ada8><input class="bg-transparent font-bold text-center w-full" type="number" min="1"${serverRenderer.exports.ssrRenderAttr("value", item.quantity)} data-v-2a29ada8></div></td><td data-v-2a29ada8><div class="flex items-center" data-v-2a29ada8><p data-v-2a29ada8>${serverRenderer.exports.ssrInterpolate(item.price)}</p></div></td><td class="text-right" data-v-2a29ada8>${serverRenderer.exports.ssrInterpolate(item.quantity * item.price)}</td><td data-v-2a29ada8><img class="w-7 h-7 cursor-pointer delete-icon"${serverRenderer.exports.ssrRenderAttr("src", _imports_0)} alt="" data-v-2a29ada8></td></tr>`);
+        _push(`<tr class="w-full p-4 border-b" data-v-60a61857><td data-v-60a61857>${serverRenderer.exports.ssrInterpolate(index2 + 1)}</td><td data-v-60a61857><div class="flex items-center" data-v-60a61857><img class="mr-3 w-10 h-10"${serverRenderer.exports.ssrRenderAttr("src", item.icon)} alt="" data-v-60a61857><h4 data-v-60a61857>${serverRenderer.exports.ssrInterpolate(item.title)}</h4></div></td><td data-v-60a61857><div class="flex items-center bg-[#f4f4f4] rounded w-14" data-v-60a61857><input class="bg-transparent font-bold text-center w-full" type="number" min="1"${serverRenderer.exports.ssrRenderAttr("value", item.quantity)} data-v-60a61857></div></td><td data-v-60a61857><div class="flex items-center" data-v-60a61857><p data-v-60a61857>${serverRenderer.exports.ssrInterpolate(item.price)}</p></div></td><td class="text-right" data-v-60a61857>${serverRenderer.exports.ssrInterpolate(item.quantity * item.price)}</td><td data-v-60a61857><img class="w-7 h-7 cursor-pointer delete-icon"${serverRenderer.exports.ssrRenderAttr("src", _imports_0)} alt="" data-v-60a61857></td></tr>`);
       });
       _push(`<!--]--></table></div>`);
       if (vue_cjs_prod.unref(cartItems).length === 0) {
-        _push(`<div class="h-[150px] flex items-center justify-center" data-v-2a29ada8> Empty Cart </div>`);
+        _push(`<div class="h-[150px] flex items-center justify-center" data-v-60a61857> Empty Cart </div>`);
       } else {
         _push(`<!---->`);
       }
-      _push(`<div class="absolute bottom-[24px] right-[24px] mt-[30px]" data-v-2a29ada8><div class="flex items-center justify-end mt-6 px-8 text-xl" data-v-2a29ada8><h6 class="font-bold" data-v-2a29ada8>Total:</h6><h6 class="ml-4 font-bold" data-v-2a29ada8>$ ${serverRenderer.exports.ssrInterpolate(vue_cjs_prod.unref(totalCost))}</h6></div><div class="flex items-center justify-center" data-v-2a29ada8>`);
+      _push(`<div class="absolute bottom-[24px] right-[24px] mt-[30px]" data-v-60a61857><div class="flex items-center justify-end mt-6 px-8 text-xl" data-v-60a61857><h6 class="font-bold" data-v-60a61857>Total:</h6><h6 class="ml-4 font-bold" data-v-60a61857>$ ${serverRenderer.exports.ssrInterpolate(vue_cjs_prod.unref(totalCost))}</h6></div><div class="flex items-center justify-center" data-v-60a61857>`);
       _push(serverRenderer.exports.ssrRenderComponent(_component_custom_button, {
         disabled: ((_a = vue_cjs_prod.unref(cartStore).cart) == null ? void 0 : _a.length) === 0,
         class: "mt-6 w-full uppercase",
@@ -4009,7 +4009,7 @@ _sfc_main$b.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Cart.vue");
   return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
 };
-const Cart = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-2a29ada8"]]);
+const Cart = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-60a61857"]]);
 const isString = (val) => typeof val === "string";
 const noop = () => {
 };
@@ -4187,7 +4187,7 @@ const _sfc_main$a = {
     return (_ctx, _push, _parent, _attrs) => {
       _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({
         class: ["nav flex items-center justify-between z-[99999]", { "on-scroll-bg": scrollPosition.value > 50 }]
-      }, _attrs))} data-v-287a7426><div data-v-287a7426><img${serverRenderer.exports.ssrRenderAttr("src", _imports_0$2)} alt="logo" data-v-287a7426></div><div class="flex items-center space-x-6" data-v-287a7426><div class="relative cursor-pointer" data-v-287a7426><img${serverRenderer.exports.ssrRenderAttr("src", _imports_1)} alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-287a7426><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${serverRenderer.exports.ssrRenderStyle({ "background": "var(--main-gradient)" })}" data-v-287a7426><span class="text-[#fff] text-center font-bold text-sm" data-v-287a7426>${serverRenderer.exports.ssrInterpolate(vue_cjs_prod.unref(cartLength))}</span></div></div>`);
+      }, _attrs))} data-v-4cc02488><div data-v-4cc02488><img${serverRenderer.exports.ssrRenderAttr("src", _imports_0$2)} alt="logo" data-v-4cc02488></div><div class="flex items-center space-x-6" data-v-4cc02488><div class="relative cursor-pointer" data-v-4cc02488><img${serverRenderer.exports.ssrRenderAttr("src", _imports_1)} alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-4cc02488><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${serverRenderer.exports.ssrRenderStyle({ "background": "var(--main-gradient)" })}" data-v-4cc02488><span class="text-[#fff] text-center font-bold text-sm" data-v-4cc02488>${serverRenderer.exports.ssrInterpolate(vue_cjs_prod.unref(cartLength))}</span></div></div>`);
       _push(serverRenderer.exports.ssrRenderComponent(CustomButton, {
         class: "",
         "btn-bg": "#13183f"
@@ -4205,7 +4205,7 @@ const _sfc_main$a = {
       }, _parent));
       _push(`</div>`);
       if (cartModal.value) {
-        _push(`<div class="w-[50%] absolute top-24 right-[100px] z-50" data-v-287a7426>`);
+        _push(`<div class="w-[50%] absolute top-24 right-[100px] z-50" data-v-4cc02488>`);
         _push(serverRenderer.exports.ssrRenderComponent(Cart, null, null, _parent));
         _push(`</div>`);
       } else {
@@ -4221,15 +4221,15 @@ _sfc_main$a.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/DNav.vue");
   return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
-const DNav = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-287a7426"]]);
+const DNav = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-4cc02488"]]);
 const _sfc_main$9 = {
   __name: "DHeader",
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "" }, _attrs))} data-v-f7649474>`);
+      _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "" }, _attrs))} data-v-5018e271>`);
       _push(serverRenderer.exports.ssrRenderComponent(DNav, { class: "fixed z-50 w-full py-5 px-[150px]" }, null, _parent));
-      _push(`<div class="h-screen pl-[150px] pt-24" data-v-f7649474><div class="flex items-center justify-between" data-v-f7649474><div class="w-[40%] flex flex-col items-left justify-between" data-v-f7649474><h1 class="mb-[30px]" data-v-f7649474>Maximize Skill, <br data-v-f7649474>Minimize Budget</h1><p class="mb-[40px]" data-v-f7649474> Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want. </p>`);
+      _push(`<div class="h-screen pl-[150px] pt-24" data-v-5018e271><div class="flex items-center justify-between" data-v-5018e271><div class="w-[40%] flex flex-col items-left justify-between" data-v-5018e271><h1 class="mb-[30px]" data-v-5018e271>Maximize Skill, <br data-v-5018e271>Minimize Budget</h1><p class="mb-[40px]" data-v-5018e271> Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want. </p>`);
       _push(serverRenderer.exports.ssrRenderComponent(CustomButton, {
         class: "",
         lg: "",
@@ -4246,7 +4246,7 @@ const _sfc_main$9 = {
         }),
         _: 1
       }, _parent));
-      _push(`</div><div class="h-[750px] w-[50%] mt-[-0px] overflow-hidden" data-v-f7649474><div class="hero mr-[-300px] mt-[-120px]" data-v-f7649474></div></div></div></div></div>`);
+      _push(`</div><div class="h-[750px] w-[50%] mt-[-0px] overflow-hidden" data-v-5018e271><div class="hero mr-[-300px] mt-[-120px]" data-v-5018e271></div></div></div></div></div>`);
     };
   }
 };
@@ -4256,7 +4256,7 @@ _sfc_main$9.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/DHeader.vue");
   return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
-const DHeader = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-f7649474"]]);
+const DHeader = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-5018e271"]]);
 const _sfc_main$8 = {
   __name: "Card",
   __ssrInlineRender: true,
@@ -4325,7 +4325,7 @@ const _sfc_main$7 = {
         price: "65.00",
         quantity: 0,
         title: "Animation",
-        icon: "../assets/images/icon-animation.svg",
+        icon: "/static/images/icon-animation.svg",
         info: "Learn the latest animation techniques to create stunning motion design and captivate your audience."
       },
       {
@@ -4333,7 +4333,7 @@ const _sfc_main$7 = {
         price: "52.00",
         quantity: 0,
         title: "Design",
-        icon: "../assets/images/icon-design.svg",
+        icon: "/static/images/icon-design.svg",
         info: "Learn the latest animation techniques to create stunning motion design and captivate your audience."
       },
       {
@@ -4341,7 +4341,7 @@ const _sfc_main$7 = {
         price: "76.00",
         quantity: 0,
         title: "Photography",
-        icon: "../assets/images/icon-photography.svg",
+        icon: "/static/images/icon-photography.svg",
         info: "Create beautiful, usable interfaces to help shape the future of how the web looks."
       },
       {
@@ -4349,7 +4349,7 @@ const _sfc_main$7 = {
         price: "84.00",
         quantity: 0,
         title: "Crypto",
-        icon: "../assets/images/icon-crypto.svg",
+        icon: "/static/images/icon-crypto.svg",
         info: "Create beautiful, usable interfaces to help shape the future of how the web looks."
       },
       {
@@ -4357,7 +4357,7 @@ const _sfc_main$7 = {
         price: "55.00",
         quantity: 0,
         title: "Business",
-        icon: "../assets/images/icon-business.svg",
+        icon: "/static/images/icon-business.svg",
         info: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
       }
     ]);

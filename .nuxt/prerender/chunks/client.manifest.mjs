@@ -1,22 +1,20 @@
 const client_manifest = {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-abd68c38.mjs",
+    "file": "entry-a7b69768.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
       "pages/index.vue"
     ],
     "css": [
-      "entry.3b2d7d7f.css"
+      "entry.34c2e7bd.css"
     ],
     "assets": [
-      "x.b8bc5bbd.svg",
-      "logo-dark.8d5c681f.svg",
       "image-hero-desktop@2x.977c9775.png"
     ]
   },
   "pages/index.vue": {
-    "file": "index-1c4e2411.mjs",
+    "file": "index-06e512ee.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [

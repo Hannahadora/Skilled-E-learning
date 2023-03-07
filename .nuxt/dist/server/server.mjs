@@ -2970,7 +2970,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     __vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({
       class: ["nav flex items-center justify-between z-[99999]", { 'on-scroll-bg': $setup.scrollPosition > 50 }]
     }, _attrs))
-  } data-v-3af7bf0c><div data-v-3af7bf0c><img src="/static/images/logo-dark.svg" alt="logo" data-v-3af7bf0c></div><div class="flex items-center space-x-6" data-v-3af7bf0c><div class="relative cursor-pointer" data-v-3af7bf0c><img src="/static/images/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-3af7bf0c><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
+  } data-v-3af7bf0c><div data-v-3af7bf0c><img src="/_nuxt/components/logo-dark.svg" alt="logo" data-v-3af7bf0c></div><div class="flex items-center space-x-6" data-v-3af7bf0c><div class="relative cursor-pointer" data-v-3af7bf0c><img src="/_nuxt/components/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-3af7bf0c><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
     __vite_ssr_import_6__.ssrRenderStyle({"background":"var(--main-gradient)"})
   }" data-v-3af7bf0c><span class="text-[#fff] text-center font-bold text-sm" data-v-3af7bf0c>${
     __vite_ssr_import_6__.ssrInterpolate($setup.cartLength)

@@ -4,13 +4,13 @@
     :class="{ 'on-scroll-bg': scrollPosition > 50 }"
   >
     <div>
-      <img src="/static/images/logo-dark.svg" alt="logo" />
+      <img src="./logo-dark.svg" alt="logo" />
     </div>
 
     <div class="flex items-center space-x-6">
       <div class="relative cursor-pointer" @click="openCart">
         <img
-          src="/static/images/shopping-cart.svg"
+          src="./shopping-cart.svg"
           alt=""
           class="mr-6 w-7 h-7 cursor-pointer"
         />
