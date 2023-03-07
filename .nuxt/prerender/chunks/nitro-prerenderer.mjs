@@ -1,25 +1,15 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/node-fetch-native/dist/polyfill.mjs';
-import { Server } from 'http';
-import { tmpdir } from 'os';
-import { join } from 'path';
-import { mkdirSync } from 'fs';
-import { parentPort, threadId } from 'worker_threads';
-import { provider, isWindows } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler, eventHandler, useQuery } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/h3/dist/index.mjs';
+import 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/node-fetch-native/dist/polyfill.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/h3/dist/index.mjs';
 import { createFetch as createFetch$1, Headers } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/ohmyfetch/dist/node.mjs';
 import destr from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/destr/dist/index.mjs';
 import { createRouter as createRouter$1 } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/radix3/dist/index.mjs';
 import { createCall, createFetch } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/unenv/runtime/fetch/index.mjs';
 import { createHooks } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/scule/dist/index.mjs';
 import { hash } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/ohash/dist/index.mjs';
-import { parseURL, withQuery, joinURL } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/ufo/dist/index.mjs';
+import { parseURL, withQuery } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/ufo/dist/index.mjs';
 import { createStorage } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/unstorage/dist/index.mjs';
 import _unstorage_drivers_fs from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/unstorage/dist/drivers/fs.mjs';
-import { createRenderer } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/vue-bundle-renderer/dist/index.mjs';
-import devalue from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/vue/server-renderer/index.mjs';
-import { snakeCase } from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/node_modules/scule/dist/index.mjs';
-import htmlTemplate from 'file://C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/views/document.template.mjs';
 
 const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"public":{}};
 const ENV_PREFIX = "NITRO_";
@@ -294,7 +284,7 @@ const errorHandler = (async function errorhandler(_error, event) {
     statusCode,
     statusMessage,
     message,
-    description: statusCode !== 404 ? `<pre>${stack.map((i) => `<span class="stack${i.internal ? " internal" : ""}">${i.text}</span>`).join("\n")}</pre>` : "",
+    description: "",
     data: _error.data
   };
   event.res.statusCode = errorObject.statusCode;
@@ -316,10 +306,9 @@ const errorHandler = (async function errorhandler(_error, event) {
   event.res.end(html);
 });
 
-const _lazy_392064 = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_392064 = () => import('./renderer.mjs').then(function (n) { return n.a; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_392064, lazy: true, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_392064, lazy: true, middleware: false, method: undefined }
 ];
 
@@ -327,7 +316,7 @@ function createNitroApp() {
   const config = useRuntimeConfig();
   const hooks = createHooks();
   const h3App = createApp({
-    debug: destr(true),
+    debug: destr(false),
     onError: errorHandler
   });
   h3App.use(config.app.baseURL, timingMiddleware);
@@ -368,155 +357,11 @@ function createNitroApp() {
 }
 const nitroApp = createNitroApp();
 
-const server = new Server(nitroApp.h3App.nodeHandler);
-function getAddress() {
-  if (provider === "stackblitz" || process.env.NITRO_NO_UNIX_SOCKET) {
-    return "0";
-  }
-  const socketName = `worker-${process.pid}-${threadId}.sock`;
-  if (isWindows) {
-    return join("\\\\.\\pipe\\nitro", socketName);
-  } else {
-    const socketDir = join(tmpdir(), "nitro");
-    mkdirSync(socketDir, { recursive: true });
-    return join(socketDir, socketName);
-  }
-}
-const listenAddress = getAddress();
-server.listen(listenAddress, () => {
-  const _address = server.address();
-  parentPort.postMessage({
-    event: "listen",
-    address: typeof _address === "string" ? { socketPath: _address } : { host: "localhost", port: _address.port }
-  });
-});
+const localFetch = nitroApp.localFetch;
 {
-  process.on("unhandledRejection", (err) => console.error("[nitro] [dev] [unhandledRejection]", err));
-  process.on("uncaughtException", (err) => console.error("[nitro] [dev] [uncaughtException]", err));
+  process.on("unhandledRejection", (err) => console.error("[nitro] [dev] [unhandledRejection] " + err));
+  process.on("uncaughtException", (err) => console.error("[nitro] [dev] [uncaughtException] " + err));
 }
 
-function buildAssetsURL(...path) {
-  return joinURL(publicAssetsURL(), useRuntimeConfig().app.buildAssetsDir, ...path);
-}
-function publicAssetsURL(...path) {
-  const publicBase = useRuntimeConfig().app.cdnURL || useRuntimeConfig().app.baseURL;
-  return path.length ? joinURL(publicBase, ...path) : publicBase;
-}
-
-const getClientManifest = () => import('file://C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r);
-const getServerEntry = () => import('file://C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
-const getSSRRenderer = lazyCachedFunction(async () => {
-  const clientManifest = await getClientManifest();
-  if (!clientManifest) {
-    throw new Error("client.manifest is not available");
-  }
-  const createSSRApp = await getServerEntry();
-  if (!createSSRApp) {
-    throw new Error("Server bundle is not available");
-  }
-  const renderToString$1 = async (input, context) => {
-    const html = await renderToString(input, context);
-    return `<div id="__nuxt">${html}</div>`;
-  };
-  return createRenderer(createSSRApp, {
-    clientManifest,
-    renderToString: renderToString$1,
-    publicPath: buildAssetsURL()
-  });
-});
-const getSPARenderer = lazyCachedFunction(async () => {
-  const clientManifest = await getClientManifest();
-  const renderToString = (ssrContext) => {
-    const config = useRuntimeConfig();
-    ssrContext.payload = {
-      serverRendered: false,
-      config: {
-        public: config.public,
-        app: config.app
-      }
-    };
-    let entryFiles = Object.values(clientManifest).filter((fileValue) => fileValue.isEntry);
-    if ("all" in clientManifest && "initial" in clientManifest) {
-      entryFiles = clientManifest.initial.map((file) => ({ file }));
-    }
-    return Promise.resolve({
-      html: '<div id="__nuxt"></div>',
-      renderResourceHints: () => "",
-      renderStyles: () => entryFiles.flatMap(({ css }) => css).filter((css) => css != null).map((file) => `<link rel="stylesheet" href="${buildAssetsURL(file)}">`).join(""),
-      renderScripts: () => entryFiles.map(({ file }) => {
-        const isMJS = !file.endsWith(".js");
-        return `<script ${isMJS ? 'type="module"' : ""} src="${buildAssetsURL(file)}"><\/script>`;
-      }).join("")
-    });
-  };
-  return { renderToString };
-});
-const renderer = eventHandler(async (event) => {
-  const ssrError = event.req.url?.startsWith("/__nuxt_error") ? useQuery(event) : null;
-  const url = ssrError?.url || event.req.url;
-  const ssrContext = {
-    url,
-    event,
-    req: event.req,
-    res: event.res,
-    runtimeConfig: useRuntimeConfig(),
-    noSSR: !!event.req.headers["x-nuxt-no-ssr"],
-    error: ssrError,
-    nuxt: void 0,
-    payload: void 0
-  };
-  const renderer = ssrContext.noSSR ? await getSPARenderer() : await getSSRRenderer();
-  const rendered = await renderer.renderToString(ssrContext).catch((e) => {
-    if (!ssrError) {
-      throw e;
-    }
-  });
-  if (!rendered) {
-    return;
-  }
-  if (event.res.writableEnded) {
-    return;
-  }
-  if (ssrContext.error && !ssrError) {
-    throw ssrContext.error;
-  }
-  if (ssrContext.nuxt?.hooks) {
-    await ssrContext.nuxt.hooks.callHook("app:rendered");
-  }
-  const html = await renderHTML(ssrContext.payload, rendered, ssrContext);
-  event.res.setHeader("Content-Type", "text/html;charset=UTF-8");
-  return html;
-});
-async function renderHTML(payload, rendered, ssrContext) {
-  const state = `<script>window.__NUXT__=${devalue(payload)}<\/script>`;
-  rendered.meta = rendered.meta || {};
-  if (ssrContext.renderMeta) {
-    Object.assign(rendered.meta, await ssrContext.renderMeta());
-  }
-  return htmlTemplate({
-    HTML_ATTRS: rendered.meta.htmlAttrs || "",
-    HEAD_ATTRS: rendered.meta.headAttrs || "",
-    HEAD: (rendered.meta.headTags || "") + rendered.renderResourceHints() + rendered.renderStyles() + (ssrContext.styles || ""),
-    BODY_ATTRS: rendered.meta.bodyAttrs || "",
-    BODY_PREPEND: ssrContext.teleports?.body || "",
-    APP: (rendered.meta.bodyScriptsPrepend || "") + rendered.html + state + rendered.renderScripts() + (rendered.meta.bodyScripts || "")
-  });
-}
-function lazyCachedFunction(fn) {
-  let res = null;
-  return () => {
-    if (res === null) {
-      res = fn().catch((err) => {
-        res = null;
-        throw err;
-      });
-    }
-    return res;
-  };
-}
-
-const renderer$1 = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  'default': renderer
-});
-//# sourceMappingURL=index.mjs.map
+export { localFetch as l, useRuntimeConfig as u };
+//# sourceMappingURL=nitro-prerenderer.mjs.map
