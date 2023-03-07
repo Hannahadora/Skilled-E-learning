@@ -17,6 +17,7 @@
     "@pinia/nuxt": "^0.3.1",
     "@vueuse/core": "^9.2.0",
     "@vueuse/nuxt": "^9.13.0",
-    "pinia": "^2.0.17"
+    "pinia": "^2.0.17",
+    "vee-validate": "^4.7.4"
   }
 }

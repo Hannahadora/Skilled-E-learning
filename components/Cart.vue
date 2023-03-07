@@ -31,6 +31,7 @@
                 <input
                   class="bg-transparent font-bold text-center w-full"
                   type="number"
+                  min="1"
                   v-model="item.quantity"
                 />
               </div>

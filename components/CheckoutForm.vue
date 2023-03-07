@@ -53,7 +53,7 @@
 
         <div class="flex items-center justify-center">
           <custom-button
-            :disabled="!personalDetails"
+            :disabled="formIsEmpty"
             class="mt-6 w-full uppercase"
             :btn-bg="'#13183f'"
             @click="openCheckoutForm"
@@ -80,9 +80,9 @@ const form = reactive({
   country: "",
 })
 
-const personalDetails = computed(() => {
-  return Object.values(object).every(value => !!value);
-})
+const formIsEmpty = computed(() => {
+  return Object.values(form).every(x => x === null || x === '');
+});
 
 const totalCost = computed(() => {
   const totals = cartItems.map((item) => item?.quantity * item?.price);
