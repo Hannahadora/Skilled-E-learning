@@ -2905,6 +2905,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /store/cart.js ($id_977898a6)
 // - /node_modules/@vueuse/core/index.mjs ($id_e8934cdc)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /assets/images/logo-dark.svg ($id_601aed72)
+// - /assets/images/shopping-cart.svg ($id_6f0e7496)
 // - /components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css ($id_30f60d00)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -2964,13 +2966,22 @@ const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/assets/images/logo-dark.svg");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/assets/images/shopping-cart.svg");
+
+
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${
     __vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({
       class: ["nav flex items-center justify-between z-[99999]", { 'on-scroll-bg': $setup.scrollPosition > 50 }]
     }, _attrs))
-  } data-v-3af7bf0c><div data-v-3af7bf0c><img src="/_nuxt/components/logo-dark.svg" alt="logo" data-v-3af7bf0c></div><div class="flex items-center space-x-6" data-v-3af7bf0c><div class="relative cursor-pointer" data-v-3af7bf0c><img src="/_nuxt/components/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-3af7bf0c><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
+  } data-v-3af7bf0c><div data-v-3af7bf0c><img${
+    __vite_ssr_import_6__.ssrRenderAttr("src", __vite_ssr_import_7__.default)
+  } alt="logo" data-v-3af7bf0c></div><div class="flex items-center space-x-6" data-v-3af7bf0c><div class="relative cursor-pointer" data-v-3af7bf0c><img${
+    __vite_ssr_import_6__.ssrRenderAttr("src", __vite_ssr_import_8__.default)
+  } alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-3af7bf0c><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
     __vite_ssr_import_6__.ssrRenderStyle({"background":"var(--main-gradient)"})
   }" data-v-3af7bf0c><span class="text-[#fff] text-center font-bold text-sm" data-v-3af7bf0c>${
     __vite_ssr_import_6__.ssrInterpolate($setup.cartLength)
@@ -3001,20 +3012,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`</div>`)
 }
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css");
 
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_8__.useSSRContext()
+  const ssrContext = __vite_ssr_import_10__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/DNav.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-3af7bf0c"],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/DNav.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_11__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-3af7bf0c"],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/DNav.vue"]]);
 }
 
 
@@ -3273,7 +3284,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_7__.ssrInterpolate(item.price)
     }</p></div></td><td class="text-right" data-v-f6c0e60a>${
       __vite_ssr_import_7__.ssrInterpolate(item.quantity * item.price)
-    }</td><td data-v-f6c0e60a><img class="w-7 h-7 cursor-pointer delete-icon" src="/static/images/trash.svg" alt="" data-v-f6c0e60a></td></tr>`)
+    }</td><td data-v-f6c0e60a><img class="w-7 h-7 cursor-pointer delete-icon" src="/public/images/trash.svg" alt="" data-v-f6c0e60a></td></tr>`)
   })
   _push(`<!--]--></table></div>`)
   if ($setup.cartItems.length === 0) {
@@ -3535,7 +3546,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_h_input = __vite_ssr_import_0__.default
   const _component_custom_button = __vite_ssr_import_1__.default
 
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "" }, _attrs))} data-v-0ade75f6><div class="pb-4 border-b flex items-start justify-between" data-v-0ade75f6><span class="font-bold text-2xl" data-v-0ade75f6>Checkout Form</span><img class="w-7 h-7 cursor-pointer" src="/static/images/x.svg" alt="" data-v-0ade75f6></div><div class="w-full grid grid-cols-2 gap-6 my-6" data-v-0ade75f6><form class="w-full flex flex-col border-r pr-6" data-v-0ade75f6><h4 data-v-0ade75f6>Personal Information</h4>`)
+  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "" }, _attrs))} data-v-0ade75f6><div class="pb-4 border-b flex items-start justify-between" data-v-0ade75f6><span class="font-bold text-2xl" data-v-0ade75f6>Checkout Form</span><img class="w-7 h-7 cursor-pointer" src="/public/images/x.svg" alt="" data-v-0ade75f6></div><div class="w-full grid grid-cols-2 gap-6 my-6" data-v-0ade75f6><form class="w-full flex flex-col border-r pr-6" data-v-0ade75f6><h4 data-v-0ade75f6>Personal Information</h4>`)
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Full Name' }, null, _parent))
   _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, {
     type: 'phone',
@@ -11773,6 +11784,30 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 
 
 // --------------------
+// Request: /assets/images/logo-dark.svg
+// Parents: 
+// - /components/DNav.vue ($id_e01dbb6d)
+// Dependencies: 
+
+// --------------------
+const $id_601aed72 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/_nuxt/assets/images/logo-dark.svg";
+}
+
+
+// --------------------
+// Request: /assets/images/shopping-cart.svg
+// Parents: 
+// - /components/DNav.vue ($id_e01dbb6d)
+// Dependencies: 
+
+// --------------------
+const $id_6f0e7496 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/_nuxt/assets/images/shopping-cart.svg";
+}
+
+
+// --------------------
 // Request: /components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css
 // Parents: 
 // - /components/DNav.vue ($id_e01dbb6d)
@@ -11792,7 +11827,7 @@ __vite_ssr_exports__.default = ".on-scroll-bg[data-v-3af7bf0c]{background:#fff;b
 
 // --------------------
 const $id_b4533245 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".hero[data-v-0aec5c06]{background:url(/_nuxt/static/images/image-hero-desktop@2x.png);background-position:50%;background-repeat:no-repeat;background-size:cover;height:100%}";
+__vite_ssr_exports__.default = ".hero[data-v-0aec5c06]{background:url(/_nuxt/public/images/image-hero-desktop@2x.png);background-position:50%;background-repeat:no-repeat;background-size:cover;height:100%}";
 }
 
 
@@ -11824,7 +11859,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "65.00",
     quantity: 0,
     title: "Animation",
-    icon: "/static/images/icon-animation.svg",
+    icon: "/public/images/icon-animation.svg",
     info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
   },
   {
@@ -11832,7 +11867,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "52.00",
     quantity: 0,
     title: "Design",
-    icon: "/static/images/icon-design.svg",
+    icon: "/public/images/icon-design.svg",
     info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
   },
   {
@@ -11840,7 +11875,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "76.00",
     quantity: 0,
     title: "Photography",
-    icon: "/static/images/icon-photography.svg",
+    icon: "/public/images/icon-photography.svg",
     info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
   },
   {
@@ -11848,7 +11883,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "84.00",
     quantity: 0,
     title: "Crypto",
-    icon: "/static/images/icon-crypto.svg",
+    icon: "/public/images/icon-crypto.svg",
     info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
   },
   {
@@ -11856,7 +11891,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "55.00",
     quantity: 0,
     title: "Business",
-    icon: "/static/images/icon-business.svg",
+    icon: "/public/images/icon-business.svg",
     info: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.",
   },
 ]);
@@ -13022,6 +13057,8 @@ const __modules__ = {
   "/node_modules/@vueuse/shared/index.mjs": $id_d77aacc8,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
+  "/assets/images/logo-dark.svg": $id_601aed72,
+  "/assets/images/shopping-cart.svg": $id_6f0e7496,
   "/components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css": $id_30f60d00,
   "/components/DHeader.vue?vue&type=style&index=0&scoped=true&lang.css": $id_b4533245,
   "/components/courses.vue": $id_d8b304b9,

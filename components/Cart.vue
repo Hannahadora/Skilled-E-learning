@@ -47,7 +47,7 @@
             <td>
               <img
                 class="w-7 h-7 cursor-pointer delete-icon"
-                src="/static/images/trash.svg"
+                src="/public/images/trash.svg"
                 alt=""
                 @click="removeItem(index)"
               />
