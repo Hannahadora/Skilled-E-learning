@@ -11859,7 +11859,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "65.00",
     quantity: 0,
     title: "Animation",
-    icon: "/public/images/icon-animation.svg",
+    icon: "/images/icon-animation.svg",
     info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
   },
   {
@@ -11867,7 +11867,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "52.00",
     quantity: 0,
     title: "Design",
-    icon: "/public/images/icon-design.svg",
+    icon: "/images/icon-design.svg",
     info: "Learn the latest animation techniques to create stunning motion design and captivate your audience.",
   },
   {
@@ -11875,7 +11875,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "76.00",
     quantity: 0,
     title: "Photography",
-    icon: "/public/images/icon-photography.svg",
+    icon: "/images/icon-photography.svg",
     info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
   },
   {
@@ -11883,7 +11883,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "84.00",
     quantity: 0,
     title: "Crypto",
-    icon: "/public/images/icon-crypto.svg",
+    icon: "/images/icon-crypto.svg",
     info: "Create beautiful, usable interfaces to help shape the future of how the web looks.",
   },
   {
@@ -11891,7 +11891,7 @@ const courses = __vite_ssr_import_0__.ref([
     price: "55.00",
     quantity: 0,
     title: "Business",
-    icon: "/public/images/icon-business.svg",
+    icon: "/images/icon-business.svg",
     info: "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.",
   },
 ]);
