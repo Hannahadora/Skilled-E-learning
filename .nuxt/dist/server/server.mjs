@@ -2949,7 +2949,7 @@ const handleScroll = () => {
 
 __vite_ssr_import_0__.onMounted(() => {
   window.addEventListener("scroll", handleScroll());
-  // handleScroll()
+  handleScroll()
 });
 
 __vite_ssr_import_4__.onClickOutside(target, () => cartModal.value = false);

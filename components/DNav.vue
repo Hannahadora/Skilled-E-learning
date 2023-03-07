@@ -65,7 +65,7 @@ const handleScroll = () => {
 
 onMounted(() => {
   window.addEventListener("scroll", handleScroll());
-  // handleScroll()
+  handleScroll()
 });
 
 onClickOutside(target, () => cartModal.value = false);
