@@ -180,7 +180,7 @@ import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/ohmyfetch/
 const $id_eed567b7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
-const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[{"rel":"stylesheet","type":"text/css","href":"./assets/css/style.css"}],"style":[],"script":[],"title":"Skil E-learning","css":["./assets/css/style.css","./assets/css/main.css"]}}
+const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[{"rel":"stylesheet","type":"text/css","href":"./assets/css/style.css"}],"style":[],"script":[],"title":"Skill E-learning","css":["@/assets/css/style.css","./assets/css/main.css"]}}
 const baseURL = () => appConfig.baseURL
 Object.defineProperty(__vite_ssr_exports__, "baseURL", { enumerable: true, configurable: true, get(){ return baseURL }});
 const buildAssetsDir = () => appConfig.buildAssetsDir
@@ -2433,7 +2433,7 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 // --------------------
 const $id_e9e03128 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[{"rel":"stylesheet","type":"text/css","href":"./assets/css/style.css"}],"style":[],"script":[],"title":"Skil E-learning","css":["./assets/css/style.css","./assets/css/main.css"]}};
+__vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[{"rel":"stylesheet","type":"text/css","href":"./assets/css/style.css"}],"style":[],"script":[],"title":"Skill E-learning","css":["@/assets/css/style.css","./assets/css/main.css"]}};
 }
 
 
