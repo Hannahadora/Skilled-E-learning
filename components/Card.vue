@@ -2,6 +2,7 @@
   <div class="main-card">
     <div class="card">
       <img :src="item.icon" alt="" class="card-icon" />
+      <div class="modal-card-icon h-[56px] w-[56px]"></div>
       <h3 class="mb-[16px] mt-[40px] font-bold">{{ item.title }}</h3>
       <slot class="cursor-pointer" name="content"></slot>
       <p class="mt-[24px] text-[#f74780] cursor-pointer">Get Started</p>
@@ -17,7 +18,7 @@
             class=""
             sm
             :btn-bg="alreadyInCart(item) ? '#47f75b' : '#13183f'"
-            >{{ alreadyInCart(item) ? 'Already In Cart' : 'Add to cart' }}</custom-button
+            >{{ alreadyInCart(item) ? 'In Cart' : 'Add to cart' }}</custom-button
           >
         </div>
       </div>
@@ -58,6 +59,13 @@ const alreadyInCart = (item) => {
   position: absolute;
   top: -16px;
 }
+.modal-card-icon {
+  position: absolute;
+  top: -16px;
+  background: rgba(0, 0, 0, 0.551);
+  border-radius: 100%;
+  display: none !important;
+}
 
 .main-card {
   max-width: 400px;
@@ -85,6 +93,9 @@ const alreadyInCart = (item) => {
   background: #fff;
 }
 .main-card:hover .modal-wrapper {
+  display: block !important;
+}
+.main-card:hover .modal-card-icon {
   display: block !important;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 gap-[50px]">
+  <div class="grid lg:grid-cols-3 grid-cols-2 gap-[50px]">
     <div
       class="relative h-[300px] rounded-[16px]"
       style="background: var(--main-gradient)"

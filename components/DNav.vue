@@ -1,14 +1,14 @@
 <template>
   <div
-    class="nav flex items-center justify-between z-[99999]"
-    :class="{ 'on-scroll-bg': scrollPosition > 50 }"
+    class="nav flex items-center justify-between z-[99999] bg-[#fff]"
+    :class="{ 'on-scroll-bg': activateNavBg }"
   >
     <div>
       <img src="/images/logo-dark.svg" alt="logo" />
     </div>
 
     <div class="flex items-center space-x-6">
-      <div class="relative cursor-pointer" @click="openCart">
+      <div class="relative cursor-pointer" @click="toggleCart">
         <img
           src="/images/shopping-cart.svg"
           alt=""
@@ -30,7 +30,7 @@
     <div
       ref="target"
       v-if="cartModal"
-      class="w-[50%] absolute top-24 right-[100px] z-50"
+      class="w-[45%] absolute top-24 right-[100px] z-50"
     >
       <cart />
     </div>
@@ -48,11 +48,20 @@ const cartStore = useCartStore();
 const cartModal = ref(false);
 const cart = cartStore.cart || [];
 const target = ref(null);
+const activateNavBg = ref(false)
 
 const scrollPosition = ref(null);
 
-const openCart = () => {
-  cartModal.value = !cartModal.value;
+watch(scrollPosition, () => {
+  scrollPosition.value > 50 ? activateNavBg.value = true : activateNavBg.value = false
+});
+
+const toggleCart = () => {
+  if(cartModal.value === true) {
+    cartModal.value = false;
+  } else {
+    cartModal.value = true;
+  }
 };
 
 const cartLength = computed(() => {
@@ -61,6 +70,9 @@ const cartLength = computed(() => {
 
 const handleScroll = () => {
   scrollPosition.value = window.scrollY;
+  if(scrollPosition.value > 50) {
+    activateNavBg.value = true
+  }
 };
 
 onMounted(() => {
@@ -75,7 +87,7 @@ onClickOutside(target, () => cartModal.value = false);
 <style scoped>
 .on-scroll-bg {
   background: rgb(255, 255, 255);
-  box-shadow: 5px 5px #504f4f23;
+  box-shadow: 1px 1px #504f4f23;
 ;
 }
 

@@ -117,9 +117,9 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/HModal.vue ($id_9ff07e4b)
 // - /components/HInput.vue ($id_94ae457a)
 // - /components/CheckoutForm.vue ($id_ab660410)
+// - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /components/SuccessScreen.vue ($id_6a58e2ee)
 // - /components/Cart.vue ($id_369b7c42)
-// - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /components/DHeader.vue ($id_68f611df)
 // - /components/courses.vue ($id_d8b304b9)
 // - /components/Card.vue ($id_243aaff2)
@@ -1573,7 +1573,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxtjs/t
 
 // --------------------
 const $id_0a1402e6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.bottom-\\[24px\\]{bottom:24px}.right-\\[24px\\]{right:24px}.top-\\[-15px\\]{top:-15px}.left-\\[-15px\\]{left:-15px}.top-24{top:6rem}.right-\\[100px\\]{right:100px}.z-50{z-index:50}.z-\\[99999\\]{z-index:99999}.mx-auto{margin-left:auto;margin-right:auto}.my-6{margin-bottom:1.5rem;margin-top:1.5rem}.my-\\[8px\\]{margin-bottom:8px;margin-top:8px}.mb-\\[16px\\]{margin-bottom:16px}.mt-\\[40px\\]{margin-top:40px}.mt-\\[24px\\]{margin-top:24px}.mb-6{margin-bottom:1.5rem}.mr-3{margin-right:.75rem}.mt-\\[30px\\]{margin-top:30px}.mt-6{margin-top:1.5rem}.ml-4{margin-left:1rem}.mb-\\[10px\\]{margin-bottom:10px}.mr-\\[8px\\]{margin-right:8px}.mr-\\[4px\\]{margin-right:4px}.mr-8{margin-right:2rem}.mb-\\[30px\\]{margin-bottom:30px}.mb-\\[40px\\]{margin-bottom:40px}.mt-\\[-0px\\]{margin-top:0}.mr-\\[-300px\\]{margin-right:-300px}.mt-\\[-120px\\]{margin-top:-120px}.mr-6{margin-right:1.5rem}.block{display:block}.flex{display:flex}.table{display:table}.grid{display:grid}.h-\\[500px\\]{height:500px}.h-\\[250px\\]{height:250px}.h-10{height:2.5rem}.h-7{height:1.75rem}.h-\\[150px\\]{height:150px}.h-\\[20px\\]{height:20px}.h-\\[300px\\]{height:300px}.h-screen{height:100vh}.h-\\[750px\\]{height:750px}.max-h-\\[400px\\]{max-height:400px}.w-full{width:100%}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-7{width:1.75rem}.w-\\[70\\%\\]{width:70%}.w-\\[20px\\]{width:20px}.w-\\[40\\%\\]{width:40%}.w-\\[50\\%\\]{width:50%}.max-w-\\[1920px\\]{max-width:1920px}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-6{gap:1.5rem}.gap-\\[50px\\]{gap:50px}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-scroll{overflow-y:scroll}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-\\[16px\\]{border-radius:16px}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-r{border-right-width:1px}.bg-\\[\\#fff\\]{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-\\[\\#f4f4f4\\]{--tw-bg-opacity:1;background-color:rgb(244 244 244/var(--tw-bg-opacity))}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.p-6{padding:1.5rem}.p-4{padding:1rem}.p-8{padding:2rem}.px-8{padding-left:2rem;padding-right:2rem}.px-\\[8px\\]{padding-left:8px;padding-right:8px}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-\\[150px\\]{padding-left:150px;padding-right:150px}.px-\\[120px\\]{padding-left:120px;padding-right:120px}.py-\\[20px\\]{padding-bottom:20px;padding-top:20px}.pb-6{padding-bottom:1.5rem}.pb-4{padding-bottom:1rem}.pr-6{padding-right:1.5rem}.pl-\\[150px\\]{padding-left:150px}.pt-24{padding-top:6rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-\\[14px\\]{font-size:14px}.text-\\[12px\\]{font-size:12px}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.italic{font-style:italic}.text-\\[\\#f74780\\]{--tw-text-opacity:1;color:rgb(247 71 128/var(--tw-text-opacity))}.text-\\[\\#fff\\]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.bottom-\\[24px\\]{bottom:24px}.right-\\[24px\\]{right:24px}.top-\\[-15px\\]{top:-15px}.left-\\[-15px\\]{left:-15px}.top-24{top:6rem}.right-\\[100px\\]{right:100px}.z-50{z-index:50}.z-\\[99999\\]{z-index:99999}.float-right{float:right}.mx-auto{margin-left:auto;margin-right:auto}.mx-\\[4px\\]{margin-left:4px;margin-right:4px}.my-6{margin-bottom:1.5rem;margin-top:1.5rem}.my-\\[8px\\]{margin-bottom:8px;margin-top:8px}.mb-\\[16px\\]{margin-bottom:16px}.mt-\\[40px\\]{margin-top:40px}.mt-\\[24px\\]{margin-top:24px}.mb-6{margin-bottom:1.5rem}.mr-3{margin-right:.75rem}.mt-\\[30px\\]{margin-top:30px}.mt-6{margin-top:1.5rem}.ml-4{margin-left:1rem}.mb-\\[10px\\]{margin-bottom:10px}.mr-\\[8px\\]{margin-right:8px}.mr-\\[4px\\]{margin-right:4px}.mr-8{margin-right:2rem}.mb-\\[40px\\]{margin-bottom:40px}.mb-\\[30px\\]{margin-bottom:30px}.mt-\\[-0px\\]{margin-top:0}.mr-\\[-300px\\]{margin-right:-300px}.mt-\\[-120px\\]{margin-top:-120px}.mr-6{margin-right:1.5rem}.mt-\\[16px\\]{margin-top:16px}.block{display:block}.flex{display:flex}.table{display:table}.grid{display:grid}.h-\\[56px\\]{height:56px}.h-\\[440px\\]{height:440px}.h-\\[250px\\]{height:250px}.h-7{height:1.75rem}.h-4{height:1rem}.h-\\[150px\\]{height:150px}.h-\\[20px\\]{height:20px}.h-\\[300px\\]{height:300px}.h-auto{height:auto}.h-\\[750px\\]{height:750px}.h-\\[200px\\]{height:200px}.h-full{height:100%}.max-h-\\[400px\\]{max-height:400px}.w-\\[56px\\]{width:56px}.w-full{width:100%}.w-7{width:1.75rem}.w-\\[30px\\]{width:30px}.w-4{width:1rem}.w-\\[70\\%\\]{width:70%}.w-\\[20px\\]{width:20px}.w-\\[40\\%\\]{width:40%}.w-\\[50\\%\\]{width:50%}.w-\\[45\\%\\]{width:45%}.max-w-\\[1920px\\]{max-width:1920px}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-6{gap:1.5rem}.gap-\\[50px\\]{gap:50px}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-scroll{overflow-y:scroll}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-\\[16px\\]{border-radius:16px}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-r{border-right-width:1px}.border-\\[\\#f4f4f4\\]{--tw-border-opacity:1;border-color:rgb(244 244 244/var(--tw-border-opacity))}.bg-\\[\\#fff\\],.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.p-3{padding:.75rem}.p-4{padding:1rem}.p-8{padding:2rem}.py-\\[2px\\]{padding-bottom:2px;padding-top:2px}.px-\\[5px\\]{padding-left:5px;padding-right:5px}.px-8{padding-left:2rem;padding-right:2rem}.px-\\[8px\\]{padding-left:8px;padding-right:8px}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-\\[150px\\]{padding-left:150px;padding-right:150px}.py-\\[20px\\]{padding-bottom:20px;padding-top:20px}.pb-6{padding-bottom:1.5rem}.pb-4{padding-bottom:1rem}.pr-6{padding-right:1.5rem}.pl-\\[150px\\]{padding-left:150px}.pt-16{padding-top:4rem}.pl-\\[16px\\]{padding-left:16px}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-serif{font-family:ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-\\[18px\\]{font-size:18px}.text-sm{font-size:.875rem;line-height:1.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\\[10px\\]{font-size:10px}.text-\\[14px\\]{font-size:14px}.text-\\[12px\\]{font-size:12px}.text-\\[32px\\]{font-size:32px}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.italic{font-style:italic}.text-\\[\\#f74780\\]{--tw-text-opacity:1;color:rgb(247 71 128/var(--tw-text-opacity))}.text-\\[\\#fff\\]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-\\[\\#000\\]{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.hover\\:bg-red-500:hover{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.hover\\:text-\\[\\#fff\\]:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}@media (min-width:768px){.md\\:pl-\\[36px\\]{padding-left:36px}}@media (min-width:1024px){.lg\\:px-\\[80px\\]{padding-left:80px;padding-right:80px}}@media (min-width:1280px){.xl\\:px-\\[120px\\]{padding-left:120px;padding-right:120px}}";
 }
 
 
@@ -2794,7 +2794,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)} data-v-2a183b29><div data-v-2a183b29><div data-v-2a183b29>`)
   _push(__vite_ssr_import_3__.ssrRenderComponent($setup["DHeader"], null, null, _parent))
-  _push(`</div><div class="px-[120px] py-[20px] mt-[20px]" data-v-2a183b29>`)
+  _push(`</div><div class="xl:px-[120px] lg:px-[80px] md:px-[36px] px-[16px] py-[20px]" data-v-2a183b29>`)
   _push(__vite_ssr_import_3__.ssrRenderComponent($setup["courses"], null, null, _parent))
   _push(`</div></div></div>`)
 }
@@ -2855,9 +2855,9 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "" }, _attrs))} data-v-0aec5c06>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent($setup["DNav"], { class: "fixed z-50 w-full py-5 px-[150px]" }, null, _parent))
-  _push(`<div class="h-screen pl-[150px] pt-24" data-v-0aec5c06><div class="flex items-center justify-between" data-v-0aec5c06><div class="w-[40%] flex flex-col items-left justify-between" data-v-0aec5c06><h1 class="mb-[30px]" data-v-0aec5c06>Maximize Skill, <br data-v-0aec5c06>Minimize Budget</h1><p class="mb-[40px]" data-v-0aec5c06> Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want. </p>`)
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "lg:mb-[40px] mb-[20px]" }, _attrs))} data-v-0aec5c06>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent($setup["DNav"], { class: "fixed z-50 w-full py-5 xl:px-[150px] lg:px-[80px] md:px-[36px] px-[16px]" }, null, _parent))
+  _push(`<div class="md:h-auto h-screen xl:pl-[150px] lg:pl-[80px] md:pl-[36px] pl-[16px] lg:pt-16 pt-[4px]" data-v-0aec5c06><div class="flex mditems-center justify-between" data-v-0aec5c06><div class="w-[40%] flex flex-col items-left justify-between" data-v-0aec5c06><h1 class="lg:mb-[30px] mb-[16px]" data-v-0aec5c06>Maximize Skill, <br data-v-0aec5c06>Minimize Budget</h1><p class="mb-[40px]" data-v-0aec5c06> Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want. </p>`)
   _push(__vite_ssr_import_3__.ssrRenderComponent($setup["CustomButton"], {
     class: "",
     lg: "",
@@ -2874,7 +2874,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     }),
     _: 1 /* STABLE */
   }, _parent))
-  _push(`</div><div class="h-[750px] w-[50%] mt-[-0px] overflow-hidden" data-v-0aec5c06><div class="hero mr-[-300px] mt-[-120px]" data-v-0aec5c06></div></div></div></div></div>`)
+  _push(`</div><div class="md:h-[750px] h-[400px] w-[50%] mt-[-0px] overflow-hidden" data-v-0aec5c06><div class="hero mr-[-300px] md:mt-[-120px] mt-[-70px]" data-v-0aec5c06></div></div></div></div></div>`)
 }
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/DHeader.vue?vue&type=style&index=0&scoped=true&lang.css");
@@ -2931,11 +2931,20 @@ const cartStore = __vite_ssr_import_3__.useCartStore();
 const cartModal = __vite_ssr_import_0__.ref(false);
 const cart = cartStore.cart || [];
 const target = __vite_ssr_import_0__.ref(null);
+const activateNavBg = __vite_ssr_import_0__.ref(false)
 
 const scrollPosition = __vite_ssr_import_0__.ref(null);
 
-const openCart = () => {
-  cartModal.value = !cartModal.value;
+__vite_ssr_import_0__.watch(scrollPosition, () => {
+  scrollPosition.value > 50 ? activateNavBg.value = true : activateNavBg.value = false
+});
+
+const toggleCart = () => {
+  if(cartModal.value === true) {
+    cartModal.value = false;
+  } else {
+    cartModal.value = true;
+  }
 };
 
 const cartLength = __vite_ssr_import_0__.computed(() => {
@@ -2944,6 +2953,9 @@ const cartLength = __vite_ssr_import_0__.computed(() => {
 
 const handleScroll = () => {
   scrollPosition.value = window.scrollY;
+  if(scrollPosition.value > 50) {
+    activateNavBg.value = true
+  }
 };
 
 __vite_ssr_import_0__.onMounted(() => {
@@ -2954,7 +2966,7 @@ __vite_ssr_import_0__.onMounted(() => {
 __vite_ssr_import_4__.onClickOutside(target, () => cartModal.value = false);
 
 
-const __returned__ = { cartStore, cartModal, cart, target, scrollPosition, openCart, cartLength, handleScroll, CustomButton: __vite_ssr_import_1__.default, Cart: __vite_ssr_import_2__.default, useCartStore: __vite_ssr_import_3__.useCartStore, onClickOutside: __vite_ssr_import_4__.onClickOutside }
+const __returned__ = { cartStore, cartModal, cart, target, activateNavBg, scrollPosition, toggleCart, cartLength, handleScroll, CustomButton: __vite_ssr_import_1__.default, Cart: __vite_ssr_import_2__.default, useCartStore: __vite_ssr_import_3__.useCartStore, onClickOutside: __vite_ssr_import_4__.onClickOutside }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -2968,7 +2980,7 @@ const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${
     __vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({
-      class: ["nav flex items-center justify-between z-[99999]", { 'on-scroll-bg': $setup.scrollPosition > 50 }]
+      class: ["nav flex items-center justify-between z-[99999] bg-[#fff]", { 'on-scroll-bg': $setup.activateNavBg }]
     }, _attrs))
   } data-v-3af7bf0c><div data-v-3af7bf0c><img src="/images/logo-dark.svg" alt="logo" data-v-3af7bf0c></div><div class="flex items-center space-x-6" data-v-3af7bf0c><div class="relative cursor-pointer" data-v-3af7bf0c><img src="/images/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-3af7bf0c><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
     __vite_ssr_import_6__.ssrRenderStyle({"background":"var(--main-gradient)"})
@@ -2992,7 +3004,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
   _push(`</div>`)
   if ($setup.cartModal) {
-    _push(`<div class="w-[50%] absolute top-24 right-[100px] z-50" data-v-3af7bf0c>`)
+    _push(`<div class="w-[45%] absolute top-24 right-[100px] z-50" data-v-3af7bf0c>`)
     _push(__vite_ssr_import_6__.ssrRenderComponent($setup["Cart"], null, null, _parent))
     _push(`</div>`)
   } else {
@@ -3024,6 +3036,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_m
 // - /components/DNav.vue ($id_e01dbb6d)
 // - /components/Cart.vue ($id_369b7c42)
 // - /components/CheckoutForm.vue ($id_ab660410)
+// - /components/SuccessScreen.vue ($id_6a58e2ee)
 // - /components/DHeader.vue ($id_68f611df)
 // - /components/Card.vue ($id_243aaff2)
 // Dependencies: 
@@ -3050,7 +3063,7 @@ const props = __props
 
 
 const classes = {
-  ["btn-bg"]: props.lg,
+  ["btn-lg"]: props.lg,
   ["btn-sm"]: props.sm,
 };
 
@@ -3143,7 +3156,7 @@ import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/vue/server
 
 // --------------------
 const $id_4c702532 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".btn[data-v-480e7b5e]{border:none;border-radius:45px;cursor:pointer;font-size:18px;padding:14px 24px}.btn-bg[data-v-480e7b5e]{padding:16px 36px}.btn-sm[data-v-480e7b5e]{border-radius:45px;font-size:13px;padding:7px 16px}button[data-v-480e7b5e]:disabled{background-color:#68686b3a!important;cursor:not-allowed}";
+__vite_ssr_exports__.default = ".btn[data-v-480e7b5e]{border:none;border-radius:45px;cursor:pointer;font-size:14px;padding:7px 16px}.btn-lg[data-v-480e7b5e]{padding:16px 36px!important}.btn-sm[data-v-480e7b5e]{border-radius:45px;font-size:13px;padding:7px 16px!important}button[data-v-480e7b5e]:disabled{background-color:#68686b3a!important;cursor:not-allowed}";
 }
 
 
@@ -3237,12 +3250,28 @@ const closeCheckoutForm = () => {
   checkoutFormModal.value = false;
 };
 
-const openCheckoutForm = () => {
-  checkoutFormModal.value = true;
-  console.log(checkoutFormModal.value, "form");
+const closeSuccessModal = () => {
+  cartStore.emptyCart()
+  checkoutFormModal.value = false;
+  successModal.value = false;
 };
 
-const __returned__ = { cartStore, cartItems, checkoutFormModal, successModal, totalCost, removeItem, closeCheckoutForm, openCheckoutForm, useCartStore: __vite_ssr_import_5__.useCartStore }
+const openCheckoutForm = () => {
+  checkoutFormModal.value = true;
+};
+
+const increaseQty = (item) => {
+  const itemxx = cartItems?.find((el) => el.id === item.id);
+  itemxx.quantity++;
+};
+const decreaseQty = (item) => {
+  const itemxx = cartItems?.find((el) => el.id === item.id);
+  if (itemxx.quantity > 1) {
+    itemxx.quantity--;
+  }
+};
+
+const __returned__ = { cartStore, cartItems, checkoutFormModal, successModal, totalCost, removeItem, closeCheckoutForm, closeSuccessModal, openCheckoutForm, increaseQty, decreaseQty, useCartStore: __vite_ssr_import_5__.useCartStore }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -3259,21 +3288,21 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_checkout_form = __vite_ssr_import_2__.default
   const _component_success_screen = __vite_ssr_import_3__.default
 
-  _push(`<div${__vite_ssr_import_7__.ssrRenderAttrs(__vite_ssr_import_6__.mergeProps({ class: "relative" }, _attrs))} data-v-f6c0e60a><div class="w-full bg-[#fff] rounded-lg p-6 shadow h-[500px]" data-v-f6c0e60a><h2 class="font-bold text-2xl border-b pb-6" data-v-f6c0e60a>Cart</h2><div class="w-full h-[250px] overflow-y-scroll" data-v-f6c0e60a><table class="text-sm w-full" data-v-f6c0e60a><tr class="border-b" data-v-f6c0e60a><th data-v-f6c0e60a>SN</th><th class="text-left" data-v-f6c0e60a>Item</th><th class="text-left" data-v-f6c0e60a>Qty</th><th class="text-left" data-v-f6c0e60a>Unit price (\$)</th><th class="text-right" data-v-f6c0e60a>Total (\$)</th><th class="text-right" data-v-f6c0e60a>Action</th></tr><!--[-->`)
+  _push(`<div${__vite_ssr_import_7__.ssrRenderAttrs(__vite_ssr_import_6__.mergeProps({ class: "relative" }, _attrs))} data-v-f6c0e60a><div class="w-full bg-[#fff] rounded-lg p-3 shadow h-[440px]" data-v-f6c0e60a><div class="border-b pb-6" data-v-f6c0e60a><span class="font-bold text-[18px]" data-v-f6c0e60a>Cart</span></div><div class="w-full h-[250px] overflow-y-scroll" data-v-f6c0e60a><table class="text-sm w-full" data-v-f6c0e60a><tr class="border-b" data-v-f6c0e60a><th data-v-f6c0e60a>SN</th><th class="text-left" data-v-f6c0e60a>Item</th><th class="text-left" data-v-f6c0e60a>Qty</th><th class="text-left" data-v-f6c0e60a>Unit price (\$)</th><th class="text-right" data-v-f6c0e60a>Total (\$)</th><th class="text-right" data-v-f6c0e60a>Action</th></tr><!--[-->`)
   __vite_ssr_import_7__.ssrRenderList($setup.cartItems, (item, index) => {
     _push(`<tr class="w-full p-4 border-b" data-v-f6c0e60a><td data-v-f6c0e60a>${
       __vite_ssr_import_7__.ssrInterpolate(index + 1)
-    }</td><td data-v-f6c0e60a><div class="flex items-center" data-v-f6c0e60a><img class="mr-3 w-10 h-10"${
+    }</td><td data-v-f6c0e60a><div class="flex items-center" data-v-f6c0e60a><img class="mr-3 w-7 h-7"${
       __vite_ssr_import_7__.ssrRenderAttr("src", item.icon)
-    } alt="" data-v-f6c0e60a><h4 data-v-f6c0e60a>${
+    } alt="" data-v-f6c0e60a><span class="" data-v-f6c0e60a>${
       __vite_ssr_import_7__.ssrInterpolate(item.title)
-    }</h4></div></td><td data-v-f6c0e60a><div class="flex items-center bg-[#f4f4f4] rounded w-14" data-v-f6c0e60a><input class="bg-transparent font-bold text-center w-full" type="number" min="1"${
-      __vite_ssr_import_7__.ssrRenderAttr("value", item.quantity)
-    } data-v-f6c0e60a></div></td><td data-v-f6c0e60a><div class="flex items-center" data-v-f6c0e60a><p data-v-f6c0e60a>${
+    }</span></div></td><td data-v-f6c0e60a><div class="flex items-center" data-v-f6c0e60a><span class="py-[2px] px-[5px] cursor-pointer hover:bg-red-500 hover:text-[#fff] border-[#f4f4f4] border rounded" data-v-f6c0e60a>-</span><span class="mx-[4px] py-[2px] px-[5px] border-[#f4f4f4] border rounded" data-v-f6c0e60a>${
+      __vite_ssr_import_7__.ssrInterpolate(item.quantity)
+    }</span><span class="py-[2px] px-[5px] cursor-pointer hover:bg-blue-500 hover:text-[#fff] border-[#f4f4f4] border rounded" data-v-f6c0e60a>+</span></div></td><td data-v-f6c0e60a><div class="flex items-center" data-v-f6c0e60a><span data-v-f6c0e60a>${
       __vite_ssr_import_7__.ssrInterpolate(item.price)
-    }</p></div></td><td class="text-right" data-v-f6c0e60a>${
+    }</span></div></td><td class="text-right" data-v-f6c0e60a>${
       __vite_ssr_import_7__.ssrInterpolate(item.quantity * item.price)
-    }</td><td data-v-f6c0e60a><img class="w-7 h-7 cursor-pointer delete-icon" src="/images/trash.svg" alt="" data-v-f6c0e60a></td></tr>`)
+    }</td><td class="text-right w-[30px]" data-v-f6c0e60a><img class="w-4 h-4 cursor-pointer delete-icon float-right" src="/images/trash.svg" alt="" data-v-f6c0e60a></td></tr>`)
   })
   _push(`<!--]--></table></div>`)
   if ($setup.cartItems.length === 0) {
@@ -3301,7 +3330,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
   _push(`</div></div></div>`)
   if ($setup.checkoutFormModal) {
-    _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_modal, { "modal-width": '900px' }, {
+    _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_modal, { "modal-width": '700px' }, {
       content: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
         if (_push) {
           _push(__vite_ssr_import_7__.ssrRenderComponent(_component_checkout_form, {
@@ -3323,17 +3352,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     _push(`<!---->`)
   }
   if ($setup.successModal) {
-    _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_modal, { "modal-width": '600px' }, {
+    _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_modal, { "modal-width": '400px' }, {
       content: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
         if (_push) {
-          _push(__vite_ssr_import_7__.ssrRenderComponent(_component_success_screen, {
-            onClose: $event => ($setup.successModal = false)
-          }, null, _parent, _scopeId))
+          _push(__vite_ssr_import_7__.ssrRenderComponent(_component_success_screen, { onClose: $setup.closeSuccessModal }, null, _parent, _scopeId))
         } else {
           return [
-            __vite_ssr_import_6__.createVNode(_component_success_screen, {
-              onClose: $event => ($setup.successModal = false)
-            }, null, 8 /* PROPS */, ["onClose"])
+            __vite_ssr_import_6__.createVNode(_component_success_screen, { onClose: $setup.closeSuccessModal })
           ]
         }
       }),
@@ -3472,6 +3497,8 @@ __vite_ssr_exports__.default = ".modal-wrapper[data-v-494c6480]{align-items:cent
 // - /components/CustomButton.vue ($id_ca906d17)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /store/cart.js ($id_977898a6)
+// - /node_modules/@vuelidate/core/dist/index.esm.js ($id_c6fbd22f)
+// - /node_modules/@vuelidate/validators/dist/index.esm.js ($id_f712f9e2)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /components/CheckoutForm.vue?vue&type=style&index=0&scoped=true&lang.css ($id_9ca5808b)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
@@ -3485,10 +3512,15 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/store/cart.js");
 
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@vuelidate/core/dist/index.esm.js");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@vuelidate/validators/dist/index.esm.js");
+
+
 
 const _sfc_main = {
   __name: 'CheckoutForm',
-  emits: ["close"],
+  emits: ["close", "success"],
   setup(__props, { expose, emit }) {
   expose();
 
@@ -3503,10 +3535,21 @@ const form = __vite_ssr_import_2__.reactive({
   address: "",
   state: "",
   country: "",
-})
+});
 
-const formIsEmpty = __vite_ssr_import_2__.computed(() => {
-  return Object.values(form).every(x => x === null || x === '');
+const rules = {
+  full_name: { required: __vite_ssr_import_5__.required },
+  phone_number: { required: __vite_ssr_import_5__.required },
+  email: { required: __vite_ssr_import_5__.required, email: __vite_ssr_import_5__.email },
+  address: { required: __vite_ssr_import_5__.required },
+  state: { required: __vite_ssr_import_5__.required },
+  country: { required: __vite_ssr_import_5__.required },
+};
+
+const v$ = __vite_ssr_import_4__.useVuelidate(rules, form);
+
+const formIsFilled = __vite_ssr_import_2__.computed(() => {
+  return Object.values(form).every((value) => !!value);
 });
 
 const totalCost = __vite_ssr_import_2__.computed(() => {
@@ -3520,69 +3563,185 @@ const closeModal = () => {
   emit("close");
 };
 
-const __returned__ = { cartStore, cartItems, form, formIsEmpty, totalCost, emit, closeModal, useCartStore: __vite_ssr_import_3__.useCartStore }
+const submitForm = async () => {
+  const isFormCorrect = await v$.value.$validate();
+  if (!isFormCorrect) return;
+
+  emit("success");
+};
+
+const __returned__ = { cartStore, cartItems, form, rules, v$, formIsFilled, totalCost, emit, closeModal, submitForm, useCartStore: __vite_ssr_import_3__.useCartStore, useVuelidate: __vite_ssr_import_4__.useVuelidate, required: __vite_ssr_import_5__.required, email: __vite_ssr_import_5__.email }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
 
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_h_input = __vite_ssr_import_0__.default
   const _component_custom_button = __vite_ssr_import_1__.default
 
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "" }, _attrs))} data-v-0ade75f6><div class="pb-4 border-b flex items-start justify-between" data-v-0ade75f6><span class="font-bold text-2xl" data-v-0ade75f6>Checkout Form</span><img class="w-7 h-7 cursor-pointer" src="/images/x.svg" alt="" data-v-0ade75f6></div><div class="w-full grid grid-cols-2 gap-6 my-6" data-v-0ade75f6><form class="w-full flex flex-col border-r pr-6" data-v-0ade75f6><h4 data-v-0ade75f6>Personal Information</h4>`)
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Full Name' }, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, {
+  _push(`<div${__vite_ssr_import_7__.ssrRenderAttrs(__vite_ssr_import_6__.mergeProps({ class: "" }, _attrs))} data-v-0ade75f6><div class="pb-4 border-b flex items-start justify-between" data-v-0ade75f6><span class="font-bold text-2xl" data-v-0ade75f6>Checkout Form</span><img class="w-7 h-7 cursor-pointer" src="/images/x.svg" alt="" data-v-0ade75f6></div><div class="w-full grid grid-cols-2 gap-6 my-6" data-v-0ade75f6><form class="w-full flex flex-col border-r pr-6" data-v-0ade75f6><h4 data-v-0ade75f6>Personal Information</h4>`)
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_input, {
+    modelValue: $setup.form.full_name,
+    "onUpdate:modelValue": $event => (($setup.form.full_name) = $event),
+    placeholder: 'Full Name'
+  }, {
+    error: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="text-red-500 text-[10px] italic" data-v-0ade75f6${
+          _scopeId
+        }>${
+          __vite_ssr_import_7__.ssrInterpolate($setup.v$.full_name.$errors[0]?.$message?.toString())
+        }</div>`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createVNode("div", { class: "text-red-500 text-[10px] italic" }, __vite_ssr_import_6__.toDisplayString($setup.v$.full_name.$errors[0]?.$message?.toString()), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_input, {
+    modelValue: $setup.form.phone_number,
+    "onUpdate:modelValue": $event => (($setup.form.phone_number) = $event),
     type: 'phone',
     placeholder: 'Phone Number'
-  }, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, {
+  }, {
+    error: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="text-red-500 text-[10px] italic" data-v-0ade75f6${
+          _scopeId
+        }>${
+          __vite_ssr_import_7__.ssrInterpolate($setup.v$.phone_number.$errors[0]?.$message?.toString())
+        }</div>`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createVNode("div", { class: "text-red-500 text-[10px] italic" }, __vite_ssr_import_6__.toDisplayString($setup.v$.phone_number.$errors[0]?.$message?.toString()), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_input, {
+    modelValue: $setup.form.email,
+    "onUpdate:modelValue": $event => (($setup.form.email) = $event),
     type: 'email',
     placeholder: 'Email'
-  }, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Pickup Address' }, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'State' }, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_h_input, { placeholder: 'Country' }, null, _parent))
+  }, {
+    error: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="text-red-500 text-[10px] italic" data-v-0ade75f6${
+          _scopeId
+        }>${
+          __vite_ssr_import_7__.ssrInterpolate($setup.v$.email.$errors[0]?.$message?.toString())
+        }</div>`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createVNode("div", { class: "text-red-500 text-[10px] italic" }, __vite_ssr_import_6__.toDisplayString($setup.v$.email.$errors[0]?.$message?.toString()), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_input, {
+    modelValue: $setup.form.address,
+    "onUpdate:modelValue": $event => (($setup.form.address) = $event),
+    placeholder: 'Pickup Address'
+  }, {
+    error: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="text-red-500 text-[10px] italic" data-v-0ade75f6${
+          _scopeId
+        }>${
+          __vite_ssr_import_7__.ssrInterpolate($setup.v$.address.$errors[0]?.$message?.toString())
+        }</div>`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createVNode("div", { class: "text-red-500 text-[10px] italic" }, __vite_ssr_import_6__.toDisplayString($setup.v$.address.$errors[0]?.$message?.toString()), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_input, {
+    modelValue: $setup.form.state,
+    "onUpdate:modelValue": $event => (($setup.form.state) = $event),
+    placeholder: 'State'
+  }, {
+    error: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="text-red-500 text-[10px] italic" data-v-0ade75f6${
+          _scopeId
+        }>${
+          __vite_ssr_import_7__.ssrInterpolate($setup.v$.state.$errors[0]?.$message?.toString())
+        }</div>`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createVNode("div", { class: "text-red-500 text-[10px] italic" }, __vite_ssr_import_6__.toDisplayString($setup.v$.state.$errors[0]?.$message?.toString()), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_h_input, {
+    modelValue: $setup.form.country,
+    "onUpdate:modelValue": $event => (($setup.form.country) = $event),
+    placeholder: 'Country'
+  }, {
+    error: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="text-red-500 text-[10px] italic" data-v-0ade75f6${
+          _scopeId
+        }>${
+          __vite_ssr_import_7__.ssrInterpolate($setup.v$.country.$errors[0]?.$message?.toString())
+        }</div>`)
+      } else {
+        return [
+          __vite_ssr_import_6__.createVNode("div", { class: "text-red-500 text-[10px] italic" }, __vite_ssr_import_6__.toDisplayString($setup.v$.country.$errors[0]?.$message?.toString()), 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
   _push(`</form><div data-v-0ade75f6><h4 class="mb-[10px]" data-v-0ade75f6>Cart Details</h4><ul class="flex flex-col max-h-[400px] overflow-y-scroll px-[8px]" data-v-0ade75f6><!--[-->`)
-  __vite_ssr_import_5__.ssrRenderList($setup.cartItems, (item, index) => {
+  __vite_ssr_import_7__.ssrRenderList($setup.cartItems, (item, index) => {
     _push(`<li class="my-[8px]" data-v-0ade75f6><div class="flex items-start justify-between" data-v-0ade75f6><div class="w-[70%]" data-v-0ade75f6><div class="flex items-center mr-[8px]" data-v-0ade75f6><img${
-      __vite_ssr_import_5__.ssrRenderAttr("src", item.icon)
+      __vite_ssr_import_7__.ssrRenderAttr("src", item.icon)
     } alt="" class="mr-[4px] w-[20px] h-[20px]" data-v-0ade75f6><p class="font-bold text-[14px]" data-v-0ade75f6>${
-      __vite_ssr_import_5__.ssrInterpolate(`${item.title}`)
+      __vite_ssr_import_7__.ssrInterpolate(`${item.title}`)
     }</p></div><span class="text-[12px]" data-v-0ade75f6>${
-      __vite_ssr_import_5__.ssrInterpolate(`${item.info}`)
+      __vite_ssr_import_7__.ssrInterpolate(`${item.info}`)
     }</span></div><div class="flex items-center justify-between" data-v-0ade75f6><span class="text-[12px] mr-8" style="${
-      __vite_ssr_import_5__.ssrRenderStyle({"white-space":"nowrap"})
+      __vite_ssr_import_7__.ssrRenderStyle({"white-space":"nowrap"})
     }" data-v-0ade75f6>\$ ${
-      __vite_ssr_import_5__.ssrInterpolate(`${item.price}`)
+      __vite_ssr_import_7__.ssrInterpolate(`${item.price}`)
     }</span><span class="text-[12px] mr-8" style="${
-      __vite_ssr_import_5__.ssrRenderStyle({"white-space":"nowrap"})
+      __vite_ssr_import_7__.ssrRenderStyle({"white-space":"nowrap"})
     }" data-v-0ade75f6>${
-      __vite_ssr_import_5__.ssrInterpolate(`${item.quantity}`)
+      __vite_ssr_import_7__.ssrInterpolate(`${item.quantity}`)
     }</span><span class="font-bold" style="${
-      __vite_ssr_import_5__.ssrRenderStyle({"white-space":"nowrap"})
+      __vite_ssr_import_7__.ssrRenderStyle({"white-space":"nowrap"})
     }" data-v-0ade75f6>\$ ${
-      __vite_ssr_import_5__.ssrInterpolate(item.quantity * item.price)
+      __vite_ssr_import_7__.ssrInterpolate(item.quantity * item.price)
     }</span></div></div></li>`)
   })
-  _push(`<!--]--></ul><div class="flex items-center justify-end mt-6 px-8 text-xl" data-v-0ade75f6><h6 class="font-bold" data-v-0ade75f6>Total:</h6><h6 class="ml-4 font-bold" data-v-0ade75f6>\$ ${__vite_ssr_import_5__.ssrInterpolate($setup.totalCost)}</h6></div><div class="flex items-center justify-center" data-v-0ade75f6>`)
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_custom_button, {
-    disabled: $setup.formIsEmpty,
+  _push(`<!--]--></ul><div class="flex items-center justify-end mt-6 px-8 text-xl" data-v-0ade75f6><h6 class="font-bold" data-v-0ade75f6>Total:</h6><h6 class="ml-4 font-bold" data-v-0ade75f6>\$ ${__vite_ssr_import_7__.ssrInterpolate($setup.totalCost)}</h6></div><div class="flex items-center justify-center" data-v-0ade75f6>`)
+  _push(__vite_ssr_import_7__.ssrRenderComponent(_component_custom_button, {
     class: "mt-6 w-full uppercase",
     "btn-bg": '#13183f',
-    onClick: _ctx.openCheckoutForm
+    onClick: $setup.submitForm
   }, {
-    default: __vite_ssr_import_4__.withCtx((_, _push, _parent, _scopeId) => {
+    default: __vite_ssr_import_6__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`Pay`)
       } else {
         return [
-          __vite_ssr_import_4__.createTextVNode("Pay")
+          __vite_ssr_import_6__.createTextVNode("Pay")
         ]
       }
     }),
@@ -3591,20 +3750,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`</div></div></div></div>`)
 }
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/CheckoutForm.vue?vue&type=style&index=0&scoped=true&lang.css");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/CheckoutForm.vue?vue&type=style&index=0&scoped=true&lang.css");
 
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_7__.useSSRContext()
+  const ssrContext = __vite_ssr_import_9__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/CheckoutForm.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0ade75f6"],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/CheckoutForm.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_10__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0ade75f6"],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/CheckoutForm.vue"]]);
 }
 
 
@@ -3625,15 +3784,22 @@ const _sfc_main = {
   type: { type: String, default: "text" },
   placeholder: { type: String, default: "" },
   label: { type: String, default: "" },
+  modelValue:{}
 },
-  setup(__props, { expose }) {
+  emits: ["update:modelValue"],
+  setup(__props, { expose, emit: $emit }) {
   expose();
 
 const props = __props
 
 
 
-const __returned__ = { props }
+
+const onChange = (e) => {
+  $emit("update:modelValue", e.target.value);
+};
+
+const __returned__ = { props, $emit, onChange }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -3651,7 +3817,9 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     __vite_ssr_import_0__.ssrRenderAttr("type", $props.type)
   }${
     __vite_ssr_import_0__.ssrRenderAttr("placeholder", $props.placeholder)
-  } data-v-80795746></div></div>`)
+  } data-v-80795746></div>`)
+  __vite_ssr_import_0__.ssrRenderSlot(_ctx.$slots, "error", {}, null, _push, _parent)
+  _push(`</div>`)
 }
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/HInput.vue?vue&type=style&index=0&scoped=true&lang.css");
@@ -3679,7 +3847,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 // --------------------
 const $id_9c4c826f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".input-wrapper[data-v-80795746]{border:1px solid #e4e4e4;border-radius:4px;padding:10px;position:relative}.h-input[data-v-80795746]{background:#fff;border:none;font-size:14px;width:100%}.h-input[data-v-80795746]:focus{outline:none}.h-input:focus .h-label[data-v-80795746]{transform-origin:0 0;transition:transform .25s,opacity .25s,padding .25s ease-in-out}";
+__vite_ssr_exports__.default = ".input-wrapper[data-v-80795746]{border:1px solid #e4e4e4;border-radius:4px;padding:6px 10px;position:relative}.h-input[data-v-80795746]{background:#fff;border:none;font-size:14px;width:100%}.h-input[data-v-80795746]:focus{outline:none}.h-input:focus .h-label[data-v-80795746]{transform-origin:0 0;transition:transform .25s,opacity .25s,padding .25s ease-in-out}";
 }
 
 
@@ -3704,6 +3872,11 @@ const useCartStore = __vite_ssr_import_0__.defineStore('cart', {
         };
       },
     
+    actions: {
+      emptyCart() {
+        cart = []
+      }
+    }
   })
 Object.defineProperty(__vite_ssr_exports__, "useCartStore", { enumerable: true, configurable: true, get(){ return useCartStore }});;
 }
@@ -3733,6 +3906,2277 @@ import("file:///C:/Users/DELL/Desktop/My%20Vues/e-skills/node_modules/pinia/dist
 
 
 // --------------------
+// Request: /node_modules/@vuelidate/core/dist/index.esm.js
+// Parents: 
+// - /components/CheckoutForm.vue ($id_ab660410)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
+// --------------------
+const $id_c6fbd22f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
+
+
+function unwrapObj(obj) {
+  let ignoreKeys = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+  return Object.keys(obj).reduce((o, k) => {
+    if (ignoreKeys.includes(k)) return o;
+    o[k] = __vite_ssr_import_0__.unref(obj[k]);
+    return o;
+  }, {});
+}
+function isFunction(val) {
+  return typeof val === 'function';
+}
+function isProxy(value) {
+  return __vite_ssr_import_0__.isReactive(value) || __vite_ssr_import_0__.isReadonly(value);
+}
+function get(obj, stringPath, def) {
+  // Cache the current object
+  let current = obj;
+  const path = stringPath.split('.'); // For each item in the path, dig into the object
+
+  for (let i = 0; i < path.length; i++) {
+    // If the item isn't found, return the default (or null)
+    if (!current[path[i]]) return def; // Otherwise, update the current  value
+
+    current = current[path[i]];
+  }
+
+  return current;
+}
+function gatherBooleanGroupProperties(group, nestedResults, property) {
+  return __vite_ssr_import_0__.computed(() => {
+    return group.some(path => {
+      return get(nestedResults, path, {
+        [property]: false
+      })[property];
+    });
+  });
+}
+function gatherArrayGroupProperties(group, nestedResults, property) {
+  return __vite_ssr_import_0__.computed(() => {
+    return group.reduce((all, path) => {
+      const fetchedProperty = get(nestedResults, path, {
+        [property]: false
+      })[property] || [];
+      return all.concat(fetchedProperty);
+    }, []);
+  });
+}
+
+/**
+ * Response form a raw Validator function.
+ * Should return a Boolean or an object with $invalid property.
+ * @typedef {Boolean | { $valid: Boolean }} ValidatorResponse
+ */
+
+/**
+ * Calls a validation rule by unwrapping its value first from a ref.
+ * @param {Validator} rule
+ * @param {Ref} value
+ * @param {VueInstance} instance
+ * @param {Object} siblingState
+ * @return {Promise<ValidatorResponse> | ValidatorResponse}
+ */
+
+function callRule(rule, value, siblingState, instance) {
+  return rule.call(instance, __vite_ssr_import_0__.unref(value), __vite_ssr_import_0__.unref(siblingState), instance);
+}
+/**
+ * Normalizes the validator result
+ * Allows passing a boolean of an object like `{ $valid: Boolean }`
+ * @param {ValidatorResponse} result - Validator result
+ * @return {boolean}
+ */
+
+
+function normalizeValidatorResponse(result) {
+  return result.$valid !== undefined ? !result.$valid : !result;
+}
+/**
+ * Returns the result of an async validator.
+ * @param {Validator} rule
+ * @param {Ref<*>} model
+ * @param {Ref<Boolean>} $pending
+ * @param {Ref<Boolean>} $dirty
+ * @param {GlobalConfig} config
+ * @param {boolean} config.$lazy
+ * @param {Ref<*>} $response
+ * @param {VueInstance} instance
+ * @param {Ref<*>[]} watchTargets
+ * @param {Object} siblingState
+ * @param {Ref<Boolean>} $lastInvalidState
+ * @param {Ref<Number>} $lastCommittedOn
+ * @return {{ $invalid: Ref<Boolean>, $unwatch: WatchStopHandle }}
+ */
+
+
+function createAsyncResult(rule, model, $pending, $dirty, _ref, $response, instance) {
+  let {
+    $lazy,
+    $rewardEarly
+  } = _ref;
+  let watchTargets = arguments.length > 7 && arguments[7] !== undefined ? arguments[7] : [];
+  let siblingState = arguments.length > 8 ? arguments[8] : undefined;
+  let $lastInvalidState = arguments.length > 9 ? arguments[9] : undefined;
+  let $lastCommittedOn = arguments.length > 10 ? arguments[10] : undefined;
+  const $invalid = __vite_ssr_import_0__.ref(!!$dirty.value);
+  const $pendingCounter = __vite_ssr_import_0__.ref(0);
+  $pending.value = false;
+  const $unwatch = __vite_ssr_import_0__.watch([model, $dirty].concat(watchTargets, $lastCommittedOn), () => {
+    if ( // if $lazy and not dirty, return
+    $lazy && !$dirty.value || // if in $rewardEarly mode and no previous errors, nothing pending, return
+    $rewardEarly && !$lastInvalidState.value && !$pending.value) {
+      return;
+    }
+
+    let ruleResult; // make sure we dont break if a validator throws
+
+    try {
+      ruleResult = callRule(rule, model, siblingState, instance);
+    } catch (err) {
+      // convert to a promise, so we can handle it async
+      ruleResult = Promise.reject(err);
+    }
+
+    $pendingCounter.value++;
+    $pending.value = !!$pendingCounter.value; // ensure $invalid is false, while validator is resolving
+
+    $invalid.value = false;
+    Promise.resolve(ruleResult).then(data => {
+      $pendingCounter.value--;
+      $pending.value = !!$pendingCounter.value;
+      $response.value = data;
+      $invalid.value = normalizeValidatorResponse(data);
+    }).catch(error => {
+      $pendingCounter.value--;
+      $pending.value = !!$pendingCounter.value;
+      $response.value = error;
+      $invalid.value = true;
+    });
+  }, {
+    immediate: true,
+    deep: typeof model === 'object'
+  });
+  return {
+    $invalid,
+    $unwatch
+  };
+}
+/**
+ * Returns the result of a sync validator
+ * @param {Validator} rule
+ * @param {Ref<*>} model
+ * @param {Ref<Boolean>} $dirty
+ * @param {GlobalConfig} config
+ * @param {Boolean} config.$lazy
+ * @param {Ref<*>} $response
+ * @param {VueInstance} instance
+ * @param {Object} siblingState
+ * @param {Ref<Boolean>} $lastInvalidState
+ * @return {{$unwatch: (function(): {}), $invalid: ComputedRef<boolean>}}
+ */
+
+
+function createSyncResult(rule, model, $dirty, _ref2, $response, instance, siblingState, $lastInvalidState) {
+  let {
+    $lazy,
+    $rewardEarly
+  } = _ref2;
+
+  const $unwatch = () => ({});
+
+  const $invalid = __vite_ssr_import_0__.computed(() => {
+    if ( // return early if $lazy mode and not touched
+    $lazy && !$dirty.value || // If $rewardEarly mode is ON and last invalid was false (no error), return it.
+    // If we want to invalidate, we just flip the last state to true, causing the computed to run again
+    $rewardEarly && !$lastInvalidState.value) {
+      return false;
+    }
+
+    let returnValue = true;
+
+    try {
+      const result = callRule(rule, model, siblingState, instance);
+      $response.value = result;
+      returnValue = normalizeValidatorResponse(result);
+    } catch (err) {
+      $response.value = err;
+    }
+
+    return returnValue;
+  });
+  return {
+    $unwatch,
+    $invalid
+  };
+}
+/**
+ * Returns the validation result.
+ * Detects async and sync validators.
+ * @param {NormalizedValidator} rule
+ * @param {Ref<*>} model
+ * @param {Ref<boolean>} $dirty
+ * @param {GlobalConfig} config - Vuelidate config
+ * @param {VueInstance} instance - component instance
+ * @param {string} validatorName - name of the current validator
+ * @param {string} propertyKey - the current property we are validating
+ * @param {string} propertyPath - the deep path to the validated property
+ * @param {Object} siblingState
+ * @param {Ref<Boolean>} $lastInvalidState - the last invalid state
+ * @param {Ref<Number>} $lastCommittedOn - the last time $commit was called
+ * @return {{ $params: *, $message: Ref<String>, $pending: Ref<Boolean>, $invalid: Ref<Boolean>, $response: Ref<*>, $unwatch: WatchStopHandle }}
+ */
+
+
+function createValidatorResult(rule, model, $dirty, config, instance, validatorName, propertyKey, propertyPath, siblingState, $lastInvalidState, $lastCommittedOn) {
+  const $pending = __vite_ssr_import_0__.ref(false);
+  const $params = rule.$params || {};
+  const $response = __vite_ssr_import_0__.ref(null);
+  let $invalid;
+  let $unwatch;
+
+  if (rule.$async) {
+    ({
+      $invalid,
+      $unwatch
+    } = createAsyncResult(rule.$validator, model, $pending, $dirty, config, $response, instance, rule.$watchTargets, siblingState, $lastInvalidState, $lastCommittedOn));
+  } else {
+    ({
+      $invalid,
+      $unwatch
+    } = createSyncResult(rule.$validator, model, $dirty, config, $response, instance, siblingState, $lastInvalidState));
+  }
+
+  const message = rule.$message;
+  const $message = isFunction(message) ? __vite_ssr_import_0__.computed(() => message(unwrapObj({
+    $pending,
+    $invalid,
+    $params: unwrapObj($params),
+    // $params can hold refs, so we unwrap them for easy access
+    $model: model,
+    $response,
+    $validator: validatorName,
+    $propertyPath: propertyPath,
+    $property: propertyKey
+  }))) : message || '';
+  return {
+    $message,
+    $params,
+    $pending,
+    $invalid,
+    $response,
+    $unwatch
+  };
+}
+
+/**
+ * Sorts a validation definition into rules, configs and nested validators.
+ * @param {Object<NormalizedValidator|Function>} validationsRaw
+ * @return {{ rules: Object<NormalizedValidator>, nestedValidators: Object, config: GlobalConfig }}
+ */
+
+function sortValidations() {
+  let validationsRaw = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  const validations = __vite_ssr_import_0__.unref(validationsRaw);
+  const validationKeys = Object.keys(validations);
+  const rules = {};
+  const nestedValidators = {};
+  const config = {};
+  let validationGroups = null;
+  validationKeys.forEach(key => {
+    const v = validations[key];
+
+    switch (true) {
+      // If it is already normalized, use it
+      case isFunction(v.$validator):
+        rules[key] = v;
+        break;
+      // If it is just a function, normalize it first
+      // into { $validator: <Fun> }
+
+      case isFunction(v):
+        rules[key] = {
+          $validator: v
+        };
+        break;
+
+      case key === '$validationGroups':
+        validationGroups = v;
+        break;
+      // Catch $-prefixed properties as config
+
+      case key.startsWith('$'):
+        config[key] = v;
+        break;
+      // If it doesn’t match any of the above,
+      // treat as nestedValidators state property
+
+      default:
+        nestedValidators[key] = v;
+    }
+  });
+  return {
+    rules,
+    nestedValidators,
+    config,
+    validationGroups
+  };
+}
+
+function _empty() {}
+
+const ROOT_PATH = '__root';
+/** @typedef {import('vue-demi').ComponentPublicInstance} VueInstance */
+
+/** @typedef {import('vue-demi').ComputedRef} ComputedRef */
+
+/** @typedef {import('vue-demi').UnwrapRef} UnwrapRef */
+
+/** @typedef {import('vue-demi').WatchStopHandle} WatchStopHandle */
+
+/** @typedef {import('vue-demi').WritableComputedRef} WritableComputedRef */
+
+/** @typedef {import('vue-demi').UnwrapNestedRefs} UnwrapNestedRefs */
+
+/**
+ * @typedef NormalizedValidator
+ * @property {Validator} $validator
+ * @property {String | Ref<String> | function(*): string} [$message]
+ * @property {Object | Ref<Object>} [$params]
+ * @property {Object | Ref<Object>} [$async]
+ * @property {Ref<*>[]} [$watchTargets]
+ */
+
+/**
+ * Raw validator function, before being normalized
+ * Can return a Promise or a {@see ValidatorResponse}
+ * @typedef {function(*): ((Promise<ValidatorResponse> | ValidatorResponse))} Validator
+ */
+
+/**
+ * @typedef ErrorObject
+ * @property {Ref<String>} $message - Reactive error message
+ * @property {Ref<Object>} $params - Params passed from withParams
+ * @property {Ref<Boolean>} $pending - If validation is pending
+ * @property {String} $property - State key
+ * @property {String} $propertyPath - Dot notation path to state
+ * @property {String} $validator - Validator name
+ * @property {String} $uid - Unique identifier
+ */
+
+/**
+ * @typedef ValidationResult
+ * @property {Ref<Boolean>} $pending
+ * @property {Ref<Boolean>} $dirty
+ * @property {Ref<Boolean>} $invalid
+ * @property {Ref<Boolean>} $error
+ * @property {Ref<String>} $path
+ * @property {Function} $touch
+ * @property {Function} $reset
+ * @property {ComputedRef<ErrorObject[]>} $errors
+ * @property {ComputedRef<ErrorObject[]>} $silentErrors
+ * @property {Function} $commit
+ */
+
+/**
+ * Creates the main Validation Results object for a state tree
+ * Walks the tree's top level branches
+ * @param {Object<NormalizedValidator>} rules - Rules for the current state tree
+ * @param {Object} model - Current state value
+ * @param {String} key - Key for the current state tree
+ * @param {ResultsStorage} [resultsCache] - A cache map of all the validators
+ * @param {String} [path] - the current property path
+ * @param {GlobalConfig} [config] - the config object
+ * @param {VueInstance} instance
+ * @param {ComputedRef<Object>} externalResults
+ * @param {Object} siblingState
+ * @return {ValidationResult | {}}
+ */
+
+function _call(body, then, direct) {
+  if (direct) {
+    return then ? then(body()) : body();
+  }
+
+  try {
+    var result = Promise.resolve(body());
+    return then ? result.then(then) : result;
+  } catch (e) {
+    return Promise.reject(e);
+  }
+}
+/**
+ * Collects the validation results of all nested state properties
+ * @param {Object<NormalizedValidator|Function>} validations - The validation
+ * @param {Object} nestedState - Current state
+ * @param {String} path - Path to current property
+ * @param {ResultsStorage} resultsCache - Validations cache map
+ * @param {GlobalConfig} config - The config object
+ * @param {VueInstance} instance - The current Vue instance
+ * @param {ComputedRef<object>} nestedExternalResults - The external results for this nested collection
+ * @return {Object<string, VuelidateState>}
+ */
+
+
+function _callIgnored(body, direct) {
+  return _call(body, _empty, direct);
+}
+
+function _invoke(body, then) {
+  var result = body();
+
+  if (result && result.then) {
+    return result.then(then);
+  }
+
+  return then(result);
+}
+
+function _async(f) {
+  return function () {
+    for (var args = [], i = 0; i < arguments.length; i++) {
+      args[i] = arguments[i];
+    }
+
+    try {
+      return Promise.resolve(f.apply(this, args));
+    } catch (e) {
+      return Promise.reject(e);
+    }
+  };
+}
+
+function createValidationResults(rules, model, key, resultsCache, path, config, instance, externalResults, siblingState) {
+  // collect the property keys
+  const ruleKeys = Object.keys(rules);
+  const cachedResult = resultsCache.get(path, rules);
+  const $dirty = __vite_ssr_import_0__.ref(false); // state for the $rewardEarly option
+
+  /** The last invalid state of this property */
+
+  const $lastInvalidState = __vite_ssr_import_0__.ref(false);
+  /** The last time $commit was called. Used to re-trigger async calls */
+
+  const $lastCommittedOn = __vite_ssr_import_0__.ref(0);
+
+  if (cachedResult) {
+    // if the rules are the same as before, use the cached results
+    if (!cachedResult.$partial) return cachedResult; // remove old watchers
+
+    cachedResult.$unwatch(); // use the `$dirty.value`, so we dont save references by accident
+
+    $dirty.value = cachedResult.$dirty.value;
+  }
+
+  const result = {
+    // restore $dirty from cache
+    $dirty,
+    $path: path,
+    $touch: () => {
+      if (!$dirty.value) $dirty.value = true;
+    },
+    $reset: () => {
+      if ($dirty.value) $dirty.value = false;
+    },
+    $commit: () => {}
+  };
+  /**
+   * If there are no validation rules, it is most likely
+   * a top level state, aka root
+   */
+
+  if (!ruleKeys.length) {
+    // if there are cached results, we should overwrite them with the new ones
+    cachedResult && resultsCache.set(path, rules, result);
+    return result;
+  }
+
+  ruleKeys.forEach(ruleKey => {
+    result[ruleKey] = createValidatorResult(rules[ruleKey], model, result.$dirty, config, instance, ruleKey, key, path, siblingState, $lastInvalidState, $lastCommittedOn);
+  });
+  result.$externalResults = __vite_ssr_import_0__.computed(() => {
+    if (!externalResults.value) return [];
+    return [].concat(externalResults.value).map((stringError, index) => ({
+      $propertyPath: path,
+      $property: key,
+      $validator: '$externalResults',
+      $uid: `${path}-externalResult-${index}`,
+      $message: stringError,
+      $params: {},
+      $response: null,
+      $pending: false
+    }));
+  });
+  result.$invalid = __vite_ssr_import_0__.computed(() => {
+    const r = ruleKeys.some(ruleKey => __vite_ssr_import_0__.unref(result[ruleKey].$invalid)); // cache the last invalid state
+
+    $lastInvalidState.value = r;
+    return !!result.$externalResults.value.length || r;
+  });
+  result.$pending = __vite_ssr_import_0__.computed(() => ruleKeys.some(ruleKey => __vite_ssr_import_0__.unref(result[ruleKey].$pending)));
+  result.$error = __vite_ssr_import_0__.computed(() => result.$dirty.value ? result.$pending.value || result.$invalid.value : false);
+  result.$silentErrors = __vite_ssr_import_0__.computed(() => ruleKeys.filter(ruleKey => __vite_ssr_import_0__.unref(result[ruleKey].$invalid)).map(ruleKey => {
+    const res = result[ruleKey];
+    return __vite_ssr_import_0__.reactive({
+      $propertyPath: path,
+      $property: key,
+      $validator: ruleKey,
+      $uid: `${path}-${ruleKey}`,
+      $message: res.$message,
+      $params: res.$params,
+      $response: res.$response,
+      $pending: res.$pending
+    });
+  }).concat(result.$externalResults.value));
+  result.$errors = __vite_ssr_import_0__.computed(() => result.$dirty.value ? result.$silentErrors.value : []);
+
+  result.$unwatch = () => ruleKeys.forEach(ruleKey => {
+    result[ruleKey].$unwatch();
+  });
+
+  result.$commit = () => {
+    $lastInvalidState.value = true;
+    $lastCommittedOn.value = Date.now();
+  };
+
+  resultsCache.set(path, rules, result);
+  return result;
+}
+
+function collectNestedValidationResults(validations, nestedState, path, resultsCache, config, instance, nestedExternalResults) {
+  const nestedValidationKeys = Object.keys(validations); // if we have no state, return empty object
+
+  if (!nestedValidationKeys.length) return {};
+  return nestedValidationKeys.reduce((results, nestedKey) => {
+    // build validation results for nested state
+    results[nestedKey] = setValidations({
+      validations: validations[nestedKey],
+      state: nestedState,
+      key: nestedKey,
+      parentKey: path,
+      resultsCache,
+      globalConfig: config,
+      instance,
+      externalResults: nestedExternalResults
+    });
+    return results;
+  }, {});
+}
+/**
+ * Generates the Meta fields from the results
+ * @param {ValidationResult|{}} results
+ * @param {Object.<string, VuelidateState>} nestedResults
+ * @param {Object.<string, ValidationResult>} childResults
+ * @return {{$anyDirty: Ref<Boolean>, $error: Ref<Boolean>, $invalid: Ref<Boolean>, $errors: Ref<ErrorObject[]>, $dirty: Ref<Boolean>, $touch: Function, $reset: Function }}
+ */
+
+
+function createMetaFields(results, nestedResults, childResults) {
+  const allResults = __vite_ssr_import_0__.computed(() => [nestedResults, childResults].filter(res => res).reduce((allRes, res) => {
+    return allRes.concat(Object.values(__vite_ssr_import_0__.unref(res)));
+  }, [])); // returns `$dirty` as true, if all children are dirty
+
+  const $dirty = __vite_ssr_import_0__.computed({
+    get() {
+      return results.$dirty.value || (allResults.value.length ? allResults.value.every(r => r.$dirty) : false);
+    },
+
+    set(v) {
+      results.$dirty.value = v;
+    }
+
+  });
+  const $silentErrors = __vite_ssr_import_0__.computed(() => {
+    // current state level errors, fallback to empty array if root
+    const modelErrors = __vite_ssr_import_0__.unref(results.$silentErrors) || []; // collect all nested and child $silentErrors
+
+    const nestedErrors = allResults.value.filter(result => (__vite_ssr_import_0__.unref(result).$silentErrors || []).length).reduce((errors, result) => {
+      return errors.concat(...result.$silentErrors);
+    }, []); // merge the $silentErrors
+
+    return modelErrors.concat(nestedErrors);
+  });
+  const $errors = __vite_ssr_import_0__.computed(() => {
+    // current state level errors, fallback to empty array if root
+    const modelErrors = __vite_ssr_import_0__.unref(results.$errors) || []; // collect all nested and child $errors
+
+    const nestedErrors = allResults.value.filter(result => (__vite_ssr_import_0__.unref(result).$errors || []).length).reduce((errors, result) => {
+      return errors.concat(...result.$errors);
+    }, []); // merge the $errors
+
+    return modelErrors.concat(nestedErrors);
+  });
+  const $invalid = __vite_ssr_import_0__.computed(() => // if any of the nested values is invalid
+  allResults.value.some(r => r.$invalid) || // or if the current state is invalid
+  __vite_ssr_import_0__.unref(results.$invalid) || // fallback to false if is root
+  false);
+  const $pending = __vite_ssr_import_0__.computed(() => // if any of the nested values is pending
+  allResults.value.some(r => __vite_ssr_import_0__.unref(r.$pending)) || // if any of the current state validators is pending
+  __vite_ssr_import_0__.unref(results.$pending) || // fallback to false if is root
+  false);
+  const $anyDirty = __vite_ssr_import_0__.computed(() => allResults.value.some(r => r.$dirty) || allResults.value.some(r => r.$anyDirty) || $dirty.value);
+  const $error = __vite_ssr_import_0__.computed(() => $dirty.value ? $pending.value || $invalid.value : false);
+
+  const $touch = () => {
+    // call the root $touch
+    results.$touch(); // call all nested level $touch
+
+    allResults.value.forEach(result => {
+      result.$touch();
+    });
+  };
+
+  const $commit = () => {
+    // call the root $touch
+    results.$commit(); // call all nested level $touch
+
+    allResults.value.forEach(result => {
+      result.$commit();
+    });
+  };
+
+  const $reset = () => {
+    // reset the root $dirty state
+    results.$reset(); // reset all the children $dirty states
+
+    allResults.value.forEach(result => {
+      result.$reset();
+    });
+  }; // Ensure that if all child and nested results are $dirty, this also becomes $dirty
+
+
+  if (allResults.value.length && allResults.value.every(nr => nr.$dirty)) $touch();
+  return {
+    $dirty,
+    $errors,
+    $invalid,
+    $anyDirty,
+    $error,
+    $pending,
+    $touch,
+    $reset,
+    $silentErrors,
+    $commit
+  };
+}
+/**
+ * @typedef VuelidateState
+ * @property {WritableComputedRef<any>} $model
+ * @property {ComputedRef<Boolean>} $dirty
+ * @property {ComputedRef<Boolean>} $error
+ * @property {ComputedRef<ErrorObject[]>} $errors
+ * @property {ComputedRef<Boolean>} $invalid
+ * @property {ComputedRef<Boolean>} $anyDirty
+ * @property {ComputedRef<Boolean>} $pending
+ * @property {Function} $touch
+ * @property {Function} $reset
+ * @property {String} $path
+ * @property {ComputedRef<ErrorObject[]>} $silentErrors
+ * @property {Function} [$validate]
+ * @property {Function} [$getResultsForChild]
+ * @property {Object.<string, VuelidateState>}
+ */
+
+/**
+ * Main Vuelidate bootstrap function.
+ * Used both for Composition API in `setup` and for Global App usage.
+ * Used to collect validation state, when walking recursively down the state tree
+ * @param {Object} params
+ * @param {Object<NormalizedValidator|Function>} params.validations
+ * @param {Object} params.state
+ * @param {String} [params.key] - Current state property key. Used when being called on nested items
+ * @param {String} [params.parentKey] - Parent state property key. Used when being called recursively
+ * @param {Object<string, ValidationResult>} [params.childResults] - Used to collect child results.
+ * @param {ResultsStorage} params.resultsCache - The cached validation results
+ * @param {VueInstance} params.instance - The current Vue instance
+ * @param {GlobalConfig} params.globalConfig - The validation config, passed to this setValidations instance.
+ * @param {UnwrapNestedRefs<object> | Ref<Object>} params.externalResults - External validation results
+ * @return {UnwrapNestedRefs<VuelidateState>}
+ */
+
+
+function setValidations(_ref) {
+  /**
+   * Executes the validators and returns the result.
+   * @return {Promise<boolean>}
+   */
+  const $validate = _async(function () {
+    $touch();
+    return _invoke(function () {
+      if (mergedConfig.$rewardEarly) {
+        $commit(); // await the watchers
+
+        return _callIgnored(__vite_ssr_import_0__.nextTick);
+      }
+    }, function () {
+      // await the watchers
+      return _call(__vite_ssr_import_0__.nextTick, function () {
+        return new Promise(resolve => {
+          // return whether it is valid or not
+          if (!$pending.value) return resolve(!$invalid.value);
+          const unwatch = __vite_ssr_import_0__.watch($pending, () => {
+            resolve(!$invalid.value);
+            unwatch();
+          });
+        });
+      });
+    });
+  });
+  /**
+   * Returns a child component's results, based on registration name
+   * @param {string} key
+   * @return {VuelidateState}
+   */
+
+
+  let {
+    validations,
+    state,
+    key,
+    parentKey,
+    childResults,
+    resultsCache,
+    globalConfig = {},
+    instance,
+    externalResults
+  } = _ref;
+  const path = parentKey ? `${parentKey}.${key}` : key; // Sort out the validation object into:
+  // – rules = validators for current state tree fragment
+  // — nestedValidators = nested state fragments keys that might contain more validators
+  // – config = configuration properties that affect this state fragment
+
+  const {
+    rules,
+    nestedValidators,
+    config,
+    validationGroups
+  } = sortValidations(validations);
+  const mergedConfig = Object.assign({}, globalConfig, config); // create protected state for cases when the state branch does not exist yet.
+  // This protects when using the OptionsAPI as the data is bound after the setup method
+
+  const nestedState = key ? __vite_ssr_import_0__.computed(() => {
+    const s = __vite_ssr_import_0__.unref(state);
+    return s ? __vite_ssr_import_0__.unref(s[key]) : undefined;
+  }) : state; // cache the external results, so we can revert back to them
+
+  const cachedExternalResults = Object.assign({}, __vite_ssr_import_0__.unref(externalResults) || {});
+  const nestedExternalResults = __vite_ssr_import_0__.computed(() => {
+    const results = __vite_ssr_import_0__.unref(externalResults);
+    if (!key) return results;
+    return results ? __vite_ssr_import_0__.unref(results[key]) : undefined;
+  }); // Use rules for the current state fragment and validate it
+
+  const results = createValidationResults(rules, nestedState, key, resultsCache, path, mergedConfig, instance, nestedExternalResults, state); // Use nested keys to repeat the process
+  // *WARN*: This is recursive
+
+  const nestedResults = collectNestedValidationResults(nestedValidators, nestedState, path, resultsCache, mergedConfig, instance, nestedExternalResults);
+  const $validationGroups = {};
+
+  if (validationGroups) {
+    Object.entries(validationGroups).forEach(_ref2 => {
+      let [key, group] = _ref2;
+      $validationGroups[key] = {
+        $invalid: gatherBooleanGroupProperties(group, nestedResults, '$invalid'),
+        $error: gatherBooleanGroupProperties(group, nestedResults, '$error'),
+        $pending: gatherBooleanGroupProperties(group, nestedResults, '$pending'),
+        $errors: gatherArrayGroupProperties(group, nestedResults, '$errors'),
+        $silentErrors: gatherArrayGroupProperties(group, nestedResults, '$silentErrors')
+      };
+    });
+  } // Collect and merge this level validation results
+  // with all nested validation results
+
+
+  const {
+    $dirty,
+    $errors,
+    $invalid,
+    $anyDirty,
+    $error,
+    $pending,
+    $touch,
+    $reset,
+    $silentErrors,
+    $commit
+  } = createMetaFields(results, nestedResults, childResults);
+  /**
+   * If we have no `key`, this is the top level state
+   * We dont need `$model` there.
+   */
+
+  const $model = key ? __vite_ssr_import_0__.computed({
+    get: () => __vite_ssr_import_0__.unref(nestedState),
+    set: val => {
+      $dirty.value = true;
+      const s = __vite_ssr_import_0__.unref(state);
+      const external = __vite_ssr_import_0__.unref(externalResults);
+
+      if (external) {
+        external[key] = cachedExternalResults[key];
+      }
+
+      if (__vite_ssr_import_0__.isRef(s[key])) {
+        s[key].value = val;
+      } else {
+        s[key] = val;
+      }
+    }
+  }) : null;
+
+  if (key && mergedConfig.$autoDirty) {
+    __vite_ssr_import_0__.watch(nestedState, () => {
+      if (!$dirty.value) $touch();
+      const external = __vite_ssr_import_0__.unref(externalResults);
+
+      if (external) {
+        external[key] = cachedExternalResults[key];
+      }
+    }, {
+      flush: 'sync'
+    });
+  }
+
+  function $getResultsForChild(key) {
+    return (childResults.value || {})[key];
+  }
+
+  function $clearExternalResults() {
+    if (__vite_ssr_import_0__.isRef(externalResults)) {
+      externalResults.value = cachedExternalResults;
+    } else {
+      // if the external results state was empty, we need to delete every property, one by one
+      if (Object.keys(cachedExternalResults).length === 0) {
+        Object.keys(externalResults).forEach(k => {
+          delete externalResults[k];
+        });
+      } else {
+        // state was not empty, so we just assign it back into the current state
+        Object.assign(externalResults, cachedExternalResults);
+      }
+    }
+  }
+
+  return __vite_ssr_import_0__.reactive(Object.assign({}, results, {
+    // NOTE: The order here is very important, since we want to override
+    // some of the *results* meta fields with the collective version of it
+    // that includes the results of nested state validation results
+    $model,
+    $dirty,
+    $error,
+    $errors,
+    $invalid,
+    $anyDirty,
+    $pending,
+    $touch,
+    $reset,
+    $path: path || ROOT_PATH,
+    $silentErrors,
+    $validate,
+    $commit
+  }, childResults && {
+    $getResultsForChild,
+    $clearExternalResults,
+    $validationGroups
+  }, nestedResults));
+}
+
+class ResultsStorage {
+  constructor() {
+    this.storage = new Map();
+  }
+  /**
+   * Stores a validation result, and its rules by its path
+   * @param {String} path
+   * @param {Object<NormalizedValidator>} rules
+   * @param {ValidationResult} result
+   */
+
+
+  set(path, rules, result) {
+    this.storage.set(path, {
+      rules,
+      result
+    });
+  }
+  /**
+   * Check if the stored `results` for the provided `path` have the same `rules` compared to 'storedRules'
+   * @param {String} path
+   * @param {Object<NormalizedValidator>} rules
+   * @param {Object<NormalizedValidator>} storedRules
+   * @return {Boolean}
+   */
+
+
+  checkRulesValidity(path, rules, storedRules) {
+    const storedRulesKeys = Object.keys(storedRules);
+    const newRulesKeys = Object.keys(rules);
+    if (newRulesKeys.length !== storedRulesKeys.length) return false;
+    const hasAllValidators = newRulesKeys.every(ruleKey => storedRulesKeys.includes(ruleKey));
+    if (!hasAllValidators) return false;
+    return newRulesKeys.every(ruleKey => {
+      if (!rules[ruleKey].$params) return true;
+      return Object.keys(rules[ruleKey].$params).every(paramKey => {
+        // make sure to unwrap before comparing
+        return __vite_ssr_import_0__.unref(storedRules[ruleKey].$params[paramKey]) === __vite_ssr_import_0__.unref(rules[ruleKey].$params[paramKey]);
+      });
+    });
+  }
+  /**
+   * Returns the matched result if catche is valid
+   * @param {String} path
+   * @param {Object<NormalizedValidator>} rules
+   * @return {{$partial: boolean, $dirty: Ref<Boolean>, $unwatch: function}|undefined|ValidationResult}
+   */
+
+
+  get(path, rules) {
+    const storedRuleResultPair = this.storage.get(path);
+    if (!storedRuleResultPair) return undefined;
+    const {
+      rules: storedRules,
+      result
+    } = storedRuleResultPair;
+    const isValidCache = this.checkRulesValidity(path, rules, storedRules);
+    const $unwatch = result.$unwatch ? result.$unwatch : () => ({});
+    if (!isValidCache) return {
+      $dirty: result.$dirty,
+      $partial: true,
+      $unwatch
+    };
+    return result;
+  }
+
+}
+
+const CollectFlag = {
+  COLLECT_ALL: true,
+  COLLECT_NONE: false
+};
+const VuelidateInjectChildResults = Symbol('vuelidate#injectChildResults');
+const VuelidateRemoveChildResults = Symbol('vuelidate#removeChildResults');
+/**
+ * Create helpers to collect validation state from child components
+ * @param {Object} params
+ * @param {String | Number | Boolean} params.$scope - Parent component scope
+ * @return {{sendValidationResultsToParent: function[], childResults: ComputedRef<Object>, removeValidationResultsFromParent: function[]}}
+ */
+
+function nestedValidations(_ref) {
+  let {
+    $scope,
+    instance
+  } = _ref;
+  const childResultsRaw = {};
+  const childResultsKeys = __vite_ssr_import_0__.ref([]);
+  const childResults = __vite_ssr_import_0__.computed(() => childResultsKeys.value.reduce((results, key) => {
+    results[key] = __vite_ssr_import_0__.unref(childResultsRaw[key]);
+    return results;
+  }, {}));
+  /**
+   * Allows children to send validation data up to their parent.
+   * @param {Object} results - the results
+   * @param {Object} args
+   * @param {String} args.$registerAs - the $registeredAs key
+   * @param {String | Number | Boolean} args.$scope - the $scope key
+   */
+
+  function injectChildResultsIntoParent(results, _ref2) {
+    let {
+      $registerAs: key,
+      $scope: childScope,
+      $stopPropagation
+    } = _ref2;
+    if ($stopPropagation || $scope === CollectFlag.COLLECT_NONE || childScope === CollectFlag.COLLECT_NONE || $scope !== CollectFlag.COLLECT_ALL && $scope !== childScope) return;
+    childResultsRaw[key] = results;
+    childResultsKeys.value.push(key);
+  } // combine with other `injectChildResultsIntoParent` from vuelidate instances in this Vue component instance
+
+
+  instance.__vuelidateInjectInstances = [].concat(instance.__vuelidateInjectInstances || [], injectChildResultsIntoParent);
+  /**
+   * Allows children to remove the validation data from their parent, before getting destroyed.
+   * @param {String} key - the registeredAs key
+   */
+
+  function removeChildResultsFromParent(key) {
+    // remove the key
+    childResultsKeys.value = childResultsKeys.value.filter(childKey => childKey !== key); // remove the stored data for the key
+
+    delete childResultsRaw[key];
+  } // combine with other `removeChildResultsFromParent` from vuelidate instances in this Vue component instance
+
+
+  instance.__vuelidateRemoveInstances = [].concat(instance.__vuelidateRemoveInstances || [], removeChildResultsFromParent); // inject the `injectChildResultsIntoParent` method, into the current scope
+
+  const sendValidationResultsToParent = __vite_ssr_import_0__.inject(VuelidateInjectChildResults, []); // provide to all of its children the send results to parent function
+
+  __vite_ssr_import_0__.provide(VuelidateInjectChildResults, instance.__vuelidateInjectInstances);
+  const removeValidationResultsFromParent = __vite_ssr_import_0__.inject(VuelidateRemoveChildResults, []); // provide to all of its children the remove results  function
+
+  __vite_ssr_import_0__.provide(VuelidateRemoveChildResults, instance.__vuelidateRemoveInstances);
+  return {
+    childResults,
+    sendValidationResultsToParent,
+    removeValidationResultsFromParent
+  };
+}
+
+/**
+ * Helper proxy for instance property access. It makes every reference
+ * reactive for the validation function
+ * @param target
+ * @return {*|ComputedRef<*>}
+ */
+
+function ComputedProxyFactory(target) {
+  return new Proxy(target, {
+    get(target, prop) {
+      return typeof target[prop] === 'object' ? ComputedProxyFactory(target[prop]) : __vite_ssr_import_0__.computed(() => target[prop]);
+    }
+
+  });
+}
+
+/**
+ * @typedef GlobalConfig
+ * @property {String} [$registerAs] - Config Object
+ * @property {String | Number | Symbol} [$scope] - A scope to limit child component registration
+ * @property {Boolean} [$stopPropagation] - Tells a Vue component to stop sending its results up to the parent
+ * @property {Ref<Object>} [$externalResults] - External error messages, like from server validation.
+ * @property {Boolean} [$autoDirty] - Should the form watch for state changed, and automatically set `$dirty` to true.
+ * @property {Boolean} [$lazy] - Should the validations be lazy, and run only after they are dirty
+ * @property {Boolean} [$rewardEarly] - Once valid, re-runs property validators only on manual calls of $commit
+ */
+
+/**
+ * Composition API compatible Vuelidate
+ * Use inside the `setup` lifecycle hook
+ * @param {Object | GlobalConfig} [validations] - Validations Object or the globalConfig.
+ * @param {Object} [state] - State object - required if `validations` is a validation object.
+ * @param {GlobalConfig} [globalConfig] - Config Object
+ * @return {ComputedRef<*>}
+ */
+
+let uid = 0;
+function useVuelidate(validations, state) {
+  var _getCurrentInstance;
+
+  let globalConfig = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+  // if we pass only one argument, its most probably the globalConfig.
+  // This use case is so parents can just collect results of child forms.
+  if (arguments.length === 1) {
+    globalConfig = validations;
+    validations = undefined;
+    state = undefined;
+  }
+
+  let {
+    $registerAs,
+    $scope = CollectFlag.COLLECT_ALL,
+    $stopPropagation,
+    $externalResults,
+    currentVueInstance
+  } = globalConfig;
+  const instance = currentVueInstance || ((_getCurrentInstance = __vite_ssr_import_0__.getCurrentInstance()) === null || _getCurrentInstance === void 0 ? void 0 : _getCurrentInstance.proxy);
+  const componentOptions = instance ? instance.$options : {}; // if there is no registration name, add one.
+
+  if (!$registerAs) {
+    uid += 1;
+    $registerAs = `_vuelidate_${uid}`;
+  }
+
+  const validationResults = __vite_ssr_import_0__.ref({});
+  const resultsCache = new ResultsStorage();
+  const {
+    childResults,
+    sendValidationResultsToParent,
+    removeValidationResultsFromParent
+  } = instance ? nestedValidations({
+    $scope,
+    instance
+  }) : {
+    childResults: __vite_ssr_import_0__.ref({})
+  }; // Options API
+
+  if (!validations && componentOptions.validations) {
+    const rules = componentOptions.validations;
+    state = __vite_ssr_import_0__.ref({});
+    __vite_ssr_import_0__.onBeforeMount(() => {
+      // Delay binding state to validations defined with the Options API until mounting, when the data
+      // has been attached to the component instance. From that point on it will be reactive.
+      state.value = instance;
+      __vite_ssr_import_0__.watch(() => isFunction(rules) ? rules.call(state.value, new ComputedProxyFactory(state.value)) : rules, validations => {
+        validationResults.value = setValidations({
+          validations,
+          state,
+          childResults,
+          resultsCache,
+          globalConfig,
+          instance,
+          externalResults: $externalResults || instance.vuelidateExternalResults
+        });
+      }, {
+        immediate: true
+      });
+    });
+    globalConfig = componentOptions.validationsConfig || globalConfig;
+  } else {
+    const validationsWatchTarget = __vite_ssr_import_0__.isRef(validations) || isProxy(validations) ? validations // wrap plain objects in a reactive, so we can track changes if they have computed in them.
+    : __vite_ssr_import_0__.reactive(validations || {});
+    __vite_ssr_import_0__.watch(validationsWatchTarget, newValidationRules => {
+      validationResults.value = setValidations({
+        validations: newValidationRules,
+        state,
+        childResults,
+        resultsCache,
+        globalConfig,
+        instance: instance !== null && instance !== void 0 ? instance : {},
+        externalResults: $externalResults
+      });
+    }, {
+      immediate: true
+    });
+  }
+
+  if (instance) {
+    // send all the data to the parent when the function is invoked inside setup.
+    sendValidationResultsToParent.forEach(f => f(validationResults, {
+      $registerAs,
+      $scope,
+      $stopPropagation
+    })); // before this component is destroyed, remove all the data from the parent.
+
+    __vite_ssr_import_0__.onBeforeUnmount(() => removeValidationResultsFromParent.forEach(f => f($registerAs)));
+  }
+
+  return __vite_ssr_import_0__.computed(() => {
+    return Object.assign({}, __vite_ssr_import_0__.unref(validationResults.value), childResults.value);
+  });
+}
+
+
+Object.defineProperty(__vite_ssr_exports__, "CollectFlag", { enumerable: true, configurable: true, get(){ return CollectFlag }});
+Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return useVuelidate }});
+Object.defineProperty(__vite_ssr_exports__, "useVuelidate", { enumerable: true, configurable: true, get(){ return useVuelidate }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
+// Parents: 
+// - /node_modules/@vuelidate/core/dist/index.esm.js ($id_c6fbd22f)
+// - /node_modules/@vuelidate/validators/dist/index.esm.js ($id_f712f9e2)
+// - /node_modules/@vueuse/shared/index.mjs ($id_d77aacc8)
+// - /node_modules/@vueuse/core/index.mjs ($id_e8934cdc)
+// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
+// --------------------
+const $id_a8110be7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/capi.mjs");
+__vite_ssr_exportAll__(__vite_ssr_import_0__);
+const Vue2 = void 0;
+Object.defineProperty(__vite_ssr_exports__, "Vue2", { enumerable: true, configurable: true, get(){ return Vue2 }});
+const isVue2 = false;
+Object.defineProperty(__vite_ssr_exports__, "isVue2", { enumerable: true, configurable: true, get(){ return isVue2 }});
+const isVue3 = true;
+Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, configurable: true, get(){ return isVue3 }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/compat/capi.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// --------------------
+const $id_0c5717a4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+__vite_ssr_exportAll__(__vite_ssr_import_0__);
+const install = () => {
+};
+Object.defineProperty(__vite_ssr_exports__, "install", { enumerable: true, configurable: true, get(){ return install }});
+function set(target, key, val) {
+  if (Array.isArray(target)) {
+    target.length = Math.max(target.length, key);
+    target.splice(key, 1, val);
+    return val;
+  }
+  target[key] = val;
+  return val;
+}
+Object.defineProperty(__vite_ssr_exports__, "set", { enumerable: true, configurable: true, get(){ return set }});
+function del(target, key) {
+  if (Array.isArray(target)) {
+    target.splice(key, 1);
+    return;
+  }
+  delete target[key];
+}
+Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configurable: true, get(){ return del }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/@vuelidate/validators/dist/index.esm.js
+// Parents: 
+// - /components/CheckoutForm.vue ($id_ab660410)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
+// --------------------
+const $id_f712f9e2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
+
+
+function isFunction(val) {
+  return typeof val === 'function';
+}
+function isObject(o) {
+  return o !== null && typeof o === 'object' && !Array.isArray(o);
+}
+/**
+ * Returns a standard ValidatorObject
+ * Wraps a plain function into a ValidatorObject
+ * @param {NormalizedValidator|Function} validator
+ * @return {NormalizedValidator}
+ */
+
+function normalizeValidatorObject(validator) {
+  return isFunction(validator.$validator) ? Object.assign({}, validator) : {
+    $validator: validator
+  };
+}
+function isPromise(object) {
+  return isObject(object) && isFunction(object.then);
+}
+/**
+ * Unwraps a ValidatorResponse object, into a boolean.
+ * @param {ValidatorResponse} result
+ * @return {boolean}
+ */
+
+function unwrapValidatorResponse(result) {
+  if (typeof result === 'object') return result.$valid;
+  return result;
+}
+/**
+ * Unwraps a `NormalizedValidator` object, returning its validator function.
+ * @param {NormalizedValidator | Function} validator
+ * @return {function}
+ */
+
+function unwrapNormalizedValidator(validator) {
+  return validator.$validator || validator;
+}
+
+/**
+ * Allows attaching parameters to a validator
+ * @param {Object} $params
+ * @param {NormalizedValidator|Function} $validator
+ * @return {NormalizedValidator}
+ */
+
+function withParams($params, $validator) {
+  if (!isObject($params)) throw new Error(`[@vuelidate/validators]: First parameter to "withParams" should be an object, provided ${typeof $params}`);
+  if (!isObject($validator) && !isFunction($validator)) throw new Error(`[@vuelidate/validators]: Validator must be a function or object with $validator parameter`);
+  const validatorObj = normalizeValidatorObject($validator);
+  validatorObj.$params = Object.assign({}, validatorObj.$params || {}, $params);
+  return validatorObj;
+}
+
+/**
+ * @callback MessageCallback
+ * @param {Object} params
+ * @return String
+ */
+
+/**
+ * Attaches a message to a validator
+ * @param {MessageCallback | String} $message
+ * @param {NormalizedValidator|Function} $validator
+ * @return {NormalizedValidator}
+ */
+
+function withMessage($message, $validator) {
+  if (!isFunction($message) && typeof __vite_ssr_import_0__.unref($message) !== 'string') throw new Error(`[@vuelidate/validators]: First parameter to "withMessage" should be string or a function returning a string, provided ${typeof $message}`);
+  if (!isObject($validator) && !isFunction($validator)) throw new Error(`[@vuelidate/validators]: Validator must be a function or object with $validator parameter`);
+  const validatorObj = normalizeValidatorObject($validator);
+  validatorObj.$message = $message;
+  return validatorObj;
+}
+
+/**
+ * @typedef {function(*): Promise<boolean|ValidatorResponse>} asyncValidator
+ */
+
+/**
+ * @typedef {Ref<*>[]|function(*): *} watchTargets
+ */
+
+/**
+ * Wraps validators that returns a Promise.
+ * @param {asyncValidator} $validator
+ * @param {watchTargets} $watchTargets
+ * @return {{$async: boolean, $validator: asyncValidator, $watchTargets: watchTargets}}
+ */
+
+function withAsync($validator) {
+  let $watchTargets = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+  const validatorObj = normalizeValidatorObject($validator);
+  return Object.assign({}, validatorObj, {
+    $async: true,
+    $watchTargets
+  });
+}
+
+function forEach(validators) {
+  return {
+    $validator(collection) {
+      for (var _len = arguments.length, others = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+        others[_key - 1] = arguments[_key];
+      }
+
+      // go over the collection. It can be a ref as well.
+      return __vite_ssr_import_0__.unref(collection).reduce((previous, collectionItem, index) => {
+        // go over each property
+        const collectionEntryResult = Object.entries(collectionItem).reduce((all, _ref) => {
+          let [property, $model] = _ref;
+          // get the validators for this property
+          const innerValidators = validators[property] || {}; // go over each validator and run it
+
+          const propertyResult = Object.entries(innerValidators).reduce((all, _ref2) => {
+            let [validatorName, currentValidator] = _ref2;
+            // extract the validator. Supports simple and extended validators.
+            const validatorFunction = unwrapNormalizedValidator(currentValidator); // Call the validator, passing the VM as this, the value, current iterated object and the rest.
+
+            const $response = validatorFunction.call(this, $model, collectionItem, index, ...others); // extract the valid from the result
+
+            const $valid = unwrapValidatorResponse($response); // store the entire response for later
+
+            all.$data[validatorName] = $response;
+            all.$data.$invalid = !$valid || !!all.$data.$invalid;
+            all.$data.$error = all.$data.$invalid; // if not valid, get the $message
+
+            if (!$valid) {
+              let $message = currentValidator.$message || '';
+              const $params = currentValidator.$params || {}; // If $message is a function, we call it with the appropriate parameters
+
+              if (typeof $message === 'function') {
+                $message = $message({
+                  $pending: false,
+                  $invalid: !$valid,
+                  $params,
+                  $model,
+                  $response
+                });
+              } // save the error object
+
+
+              all.$errors.push({
+                $property: property,
+                $message,
+                $params,
+                $response,
+                $model,
+                $pending: false,
+                $validator: validatorName
+              });
+            }
+
+            return {
+              $valid: all.$valid && $valid,
+              $data: all.$data,
+              $errors: all.$errors
+            };
+          }, {
+            $valid: true,
+            $data: {},
+            $errors: []
+          });
+          all.$data[property] = propertyResult.$data;
+          all.$errors[property] = propertyResult.$errors;
+          return {
+            $valid: all.$valid && propertyResult.$valid,
+            $data: all.$data,
+            $errors: all.$errors
+          };
+        }, {
+          $valid: true,
+          $data: {},
+          $errors: {}
+        });
+        return {
+          $valid: previous.$valid && collectionEntryResult.$valid,
+          $data: previous.$data.concat(collectionEntryResult.$data),
+          $errors: previous.$errors.concat(collectionEntryResult.$errors)
+        };
+      }, {
+        $valid: true,
+        $data: [],
+        $errors: []
+      });
+    },
+
+    // collect all the validation errors into a 2 dimensional array, for each entry in the collection, you have an array of error messages.
+    $message: _ref3 => {
+      let {
+        $response
+      } = _ref3;
+      return $response ? $response.$errors.map(context => {
+        return Object.values(context).map(errors => errors.map(error => error.$message)).reduce((a, b) => a.concat(b), []);
+      }) : [];
+    }
+  };
+}
+
+// "required" core, used in almost every validator to allow empty values
+const req = value => {
+  value = __vite_ssr_import_0__.unref(value);
+  if (Array.isArray(value)) return !!value.length;
+
+  if (value === undefined || value === null) {
+    return false;
+  }
+
+  if (value === false) {
+    return true;
+  }
+
+  if (value instanceof Date) {
+    // invalid date won't pass
+    return !isNaN(value.getTime());
+  }
+
+  if (typeof value === 'object') {
+    for (let _ in value) return true;
+
+    return false;
+  }
+
+  return !!String(value).length;
+};
+/**
+ * Returns the length of an arbitrary value
+ * @param {Array|Object|String} value
+ * @return {number}
+ */
+
+const len = value => {
+  value = __vite_ssr_import_0__.unref(value);
+  if (Array.isArray(value)) return value.length;
+
+  if (typeof value === 'object') {
+    return Object.keys(value).length;
+  }
+
+  return String(value).length;
+};
+/**
+ * Regex based validator template
+ * @param {RegExp} expr
+ * @return {function(*=): boolean}
+ */
+
+function regex() {
+  for (var _len = arguments.length, expr = new Array(_len), _key = 0; _key < _len; _key++) {
+    expr[_key] = arguments[_key];
+  }
+
+  return value => {
+    value = __vite_ssr_import_0__.unref(value);
+    return !req(value) || expr.every(reg => reg.test(value));
+  };
+}
+
+var common = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  withParams: withParams,
+  withMessage: withMessage,
+  withAsync: withAsync,
+  forEach: forEach,
+  req: req,
+  len: len,
+  regex: regex,
+  unwrap: __vite_ssr_import_0__.unref,
+  unwrapNormalizedValidator: unwrapNormalizedValidator,
+  unwrapValidatorResponse: unwrapValidatorResponse,
+  normalizeValidatorObject: normalizeValidatorObject
+});
+
+var alpha$1 = regex(/^[a-zA-Z]*$/);
+
+/**
+ * Validate if value is alphabetical string.
+ * @type {NormalizedValidator}
+ */
+
+var alpha = {
+  $validator: alpha$1,
+  $message: 'The value is not alphabetical',
+  $params: {
+    type: 'alpha'
+  }
+};
+
+var alphaNum$1 = regex(/^[a-zA-Z0-9]*$/);
+
+/**
+ * Validate if value is alpha-numeric string.
+ * @type {NormalizedValidator}
+ */
+
+var alphaNum = {
+  $validator: alphaNum$1,
+  $message: 'The value must be alpha-numeric',
+  $params: {
+    type: 'alphaNum'
+  }
+};
+
+var numeric$1 = regex(/^\d*(\.\d+)?$/);
+
+/**
+ * Check whether a value is numeric.
+ * @type NormalizedValidator
+ */
+
+var numeric = {
+  $validator: numeric$1,
+  $message: 'Value must be numeric',
+  $params: {
+    type: 'numeric'
+  }
+};
+
+/**
+ * Check if a numeric value is between two values.
+ * @param {Ref<Number> | Number} min
+ * @param {Ref<Number> | Number} max
+ * @return {function(*=): boolean}
+ */
+
+function between$1 (min, max) {
+  return value => !req(value) || (!/\s/.test(value) || value instanceof Date) && +__vite_ssr_import_0__.unref(min) <= +value && +__vite_ssr_import_0__.unref(max) >= +value;
+}
+
+/**
+ * Checks if a value is between two values.
+ * @param {Ref<Number> | Number} min
+ * @param {Ref<Number> | Number} max
+ * @return {NormalizedValidator}
+ */
+
+function between (min, max) {
+  return {
+    $validator: between$1(min, max),
+    $message: _ref => {
+      let {
+        $params
+      } = _ref;
+      return `The value must be between ${$params.min} and ${$params.max}`;
+    },
+    $params: {
+      min,
+      max,
+      type: 'between'
+    }
+  };
+}
+
+const emailRegex = /^(?:[A-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]{2,}(?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])$/i;
+var email$1 = regex(emailRegex);
+
+/**
+ * Validate if value is an email.
+ * @type {NormalizedValidator}
+ */
+
+var email = {
+  $validator: email$1,
+  $message: 'Value is not a valid email address',
+  $params: {
+    type: 'email'
+  }
+};
+
+/**
+ * Check if a string is an IP Address
+ * @param {String} value
+ * @returns {boolean}
+ */
+
+function ipAddress$1 (value) {
+  if (!req(value)) {
+    return true;
+  }
+
+  if (typeof value !== 'string') {
+    return false;
+  }
+
+  const nibbles = value.split('.');
+  return nibbles.length === 4 && nibbles.every(nibbleValid);
+}
+
+const nibbleValid = nibble => {
+  if (nibble.length > 3 || nibble.length === 0) {
+    return false;
+  }
+
+  if (nibble[0] === '0' && nibble !== '0') {
+    return false;
+  }
+
+  if (!nibble.match(/^\d+$/)) {
+    return false;
+  }
+
+  const numeric = +nibble | 0;
+  return numeric >= 0 && numeric <= 255;
+};
+
+/**
+ * Validate if value is an ipAddress string.
+ * @type {NormalizedValidator}
+ */
+
+var ipAddress = {
+  $validator: ipAddress$1,
+  $message: 'The value is not a valid IP address',
+  $params: {
+    type: 'ipAddress'
+  }
+};
+
+/**
+ * Check if value is a properly formatted Mac Address.
+ * @param {String | Ref<String>} [separator]
+ * @returns {function(*): boolean}
+ */
+
+function macAddress$1 () {
+  let separator = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : ':';
+  return value => {
+    separator = __vite_ssr_import_0__.unref(separator);
+
+    if (!req(value)) {
+      return true;
+    }
+
+    if (typeof value !== 'string') {
+      return false;
+    }
+
+    const parts = typeof separator === 'string' && separator !== '' ? value.split(separator) : value.length === 12 || value.length === 16 ? value.match(/.{2}/g) : null;
+    return parts !== null && (parts.length === 6 || parts.length === 8) && parts.every(hexValid);
+  };
+}
+
+const hexValid = hex => hex.toLowerCase().match(/^[0-9a-f]{2}$/);
+
+/**
+ * Validate if value is a valid Mac Address string.
+ * @returns {NormalizedValidator}
+ */
+
+function macAddress (separator) {
+  return {
+    $validator: macAddress$1(separator),
+    $message: 'The value is not a valid MAC Address',
+    $params: {
+      type: 'macAddress'
+    }
+  };
+}
+
+/**
+ * Check if provided value has a maximum length
+ * @param {Number | Ref<Number>} length
+ * @returns {function(Array|Object|String): boolean}
+ */
+
+function maxLength$1 (length) {
+  return value => !req(value) || len(value) <= __vite_ssr_import_0__.unref(length);
+}
+
+/**
+ * Validate the max length of a string.
+ * @param {Number} max
+ * @return {NormalizedValidator}
+ */
+
+function maxLength (max) {
+  return {
+    $validator: maxLength$1(max),
+    $message: _ref => {
+      let {
+        $params
+      } = _ref;
+      return `The maximum length allowed is ${$params.max}`;
+    },
+    $params: {
+      max,
+      type: 'maxLength'
+    }
+  };
+}
+
+/**
+ * Check if value is above a threshold.
+ * @param {Number | Ref<Number>} length
+ * @returns {function(Array|Object|String): boolean}
+ */
+
+function minLength$1 (length) {
+  return value => !req(value) || len(value) >= __vite_ssr_import_0__.unref(length);
+}
+
+/**
+ * Check if value is above a threshold.
+ * @param {Number | Ref<Number>} min
+ * @returns {NormalizedValidator}
+ */
+
+function minLength (min) {
+  return {
+    $validator: minLength$1(min),
+    $message: _ref => {
+      let {
+        $params
+      } = _ref;
+      return `This field should be at least ${$params.min} characters long`;
+    },
+    $params: {
+      min,
+      type: 'minLength'
+    }
+  };
+}
+
+/**
+ * Validates if a value is empty.
+ * @param {String | Array | Date | Object} value
+ * @returns {boolean}
+ */
+
+function required$1 (value) {
+  if (typeof value === 'string') {
+    value = value.trim();
+  }
+
+  return req(value);
+}
+
+/**
+ * Check if a value is empty or not.
+ * @type {NormalizedValidator}
+ */
+
+var required = {
+  $validator: required$1,
+  $message: 'Value is required',
+  $params: {
+    type: 'required'
+  }
+};
+
+const validate$1 = (prop, val) => prop ? req(typeof val === 'string' ? val.trim() : val) : true;
+/**
+ * Returns required if the passed property is truthy
+ * @param {Boolean | String | function(any): Boolean | Ref<string | boolean>} propOrFunction
+ * @return {function(value: *, parentVM: object): Boolean}
+ */
+
+
+function requiredIf$1(propOrFunction) {
+  return function (value, parentVM) {
+    if (typeof propOrFunction !== 'function') {
+      return validate$1(__vite_ssr_import_0__.unref(propOrFunction), value);
+    }
+
+    const result = propOrFunction.call(this, value, parentVM);
+    return validate$1(result, value);
+  };
+}
+
+/**
+ * Returns required if the passed property is truthy
+ * @param {Boolean | String | function(): (Boolean | Promise<boolean>)} prop
+ * @return {NormalizedValidator}
+ */
+
+function requiredIf (prop) {
+  return {
+    $validator: requiredIf$1(prop),
+    $message: 'The value is required',
+    $params: {
+      type: 'requiredIf',
+      prop
+    }
+  };
+}
+
+const validate = (prop, val) => !prop ? req(typeof val === 'string' ? val.trim() : val) : true;
+/**
+ * Returns required if the passed property is falsy.
+ * @param {Boolean | String | function(any): Boolean | Ref<string | boolean>} propOrFunction
+ * @return {function(value: *, parentVM: object): Boolean}
+ */
+
+
+function requiredUnless$1(propOrFunction) {
+  return function (value, parentVM) {
+    if (typeof propOrFunction !== 'function') {
+      return validate(__vite_ssr_import_0__.unref(propOrFunction), value);
+    }
+
+    const result = propOrFunction.call(this, value, parentVM);
+    return validate(result, value);
+  };
+}
+
+/**
+ * Returns required unless the passed property is truthy
+ * @param {Boolean | String | function(): (Boolean | Promise<boolean>)} prop
+ * @return {NormalizedValidator}
+ */
+
+function requiredUnless (prop) {
+  return {
+    $validator: requiredUnless$1(prop),
+    $message: 'The value is required',
+    $params: {
+      type: 'requiredUnless',
+      prop
+    }
+  };
+}
+
+/**
+ * Check if two values are identical.
+ * @param {*} equalTo
+ * @return {function(*=): boolean}
+ */
+
+function sameAs$1 (equalTo) {
+  return value => __vite_ssr_import_0__.unref(value) === __vite_ssr_import_0__.unref(equalTo);
+}
+
+/**
+ * Check if two values are identical
+ * @param {*} equalTo
+ * @param {String} [otherName]
+ * @return {NormalizedValidator}
+ */
+
+function sameAs (equalTo) {
+  let otherName = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'other';
+  return {
+    $validator: sameAs$1(equalTo),
+    $message: _ref => {
+      return `The value must be equal to the ${otherName} value`;
+    },
+    $params: {
+      equalTo,
+      otherName,
+      type: 'sameAs'
+    }
+  };
+}
+
+/**
+ * Regex taken from {@link https://gist.github.com/dperini/729294}
+ */
+
+const urlRegex = /^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z0-9\u00a1-\uffff][a-z0-9\u00a1-\uffff_-]{0,62})?[a-z0-9\u00a1-\uffff]\.)+(?:[a-z\u00a1-\uffff]{2,}\.?))(?::\d{2,5})?(?:[/?#]\S*)?$/i;
+var url$1 = regex(urlRegex);
+
+/**
+ * Check if a value is a url
+ * @type {NormalizedValidator}
+ */
+
+var url = {
+  $validator: url$1,
+  $message: 'The value is not a valid URL address',
+  $params: {
+    type: 'url'
+  }
+};
+
+function _await$1(value, then, direct) {
+  if (direct) {
+    return then ? then(value) : value;
+  }
+
+  if (!value || !value.then) {
+    value = Promise.resolve(value);
+  }
+
+  return then ? value.then(then) : value;
+}
+
+function syncOr(validators) {
+  return function () {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return validators.reduce((valid, fn) => {
+      if (unwrapValidatorResponse(valid)) return valid;
+      return unwrapNormalizedValidator(fn).apply(this, args);
+    }, false);
+  };
+}
+
+function asyncOr(validators) {
+  return function () {
+    const _this = this;
+
+    for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+      args[_key2] = arguments[_key2];
+    }
+
+    return validators.reduce(function (valid, fn) {
+      return _await$1(valid, function (r) {
+        return unwrapValidatorResponse(r) ? r : unwrapNormalizedValidator(fn).apply(_this, args);
+      });
+    }, Promise.resolve(false));
+  };
+}
+/**
+ * Returns true when one of the provided functions returns true.
+ * @param {...(NormalizedValidator|Function)} validators
+ * @return {{$validator: function(...[*]=): (boolean | Promise<boolean>), $async: boolean, $watchTargets: any[]}}
+ */
+
+
+function or$1() {
+  for (var _len3 = arguments.length, validators = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+    validators[_key3] = arguments[_key3];
+  }
+
+  const $async = validators.some(v => v.$async);
+  const $watchTargets = validators.reduce((all, v) => {
+    if (!v.$watchTargets) return all;
+    return all.concat(v.$watchTargets);
+  }, []);
+
+  let $validator = () => false;
+
+  if (validators.length) $validator = $async ? asyncOr(validators) : syncOr(validators);
+  return {
+    $async,
+    $validator,
+    $watchTargets
+  };
+}
+
+/**
+ * Returns true when one of the provided functions returns true.
+ * @param {...(NormalizedValidator|Function)} validators
+ * @return {NormalizedValidator}
+ */
+
+function or () {
+  return withParams({
+    type: 'or'
+  }, withMessage('The value does not match any of the provided validators', or$1(...arguments)));
+}
+
+function _await(value, then, direct) {
+  if (direct) {
+    return then ? then(value) : value;
+  }
+
+  if (!value || !value.then) {
+    value = Promise.resolve(value);
+  }
+
+  return then ? value.then(then) : value;
+}
+/**
+ *
+ * @param validators
+ * @return {function(...[*]=): Promise<boolean>}
+ */
+
+
+function syncAnd(validators) {
+  return function () {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return validators.reduce((valid, fn) => {
+      if (!unwrapValidatorResponse(valid)) return valid;
+      return unwrapNormalizedValidator(fn).apply(this, args);
+    }, true);
+  };
+}
+
+function asyncAnd(validators) {
+  return function () {
+    const _this = this;
+
+    for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+      args[_key2] = arguments[_key2];
+    }
+
+    return validators.reduce(function (valid, fn) {
+      return _await(valid, function (r) {
+        return unwrapValidatorResponse(r) ? unwrapNormalizedValidator(fn).apply(_this, args) : r;
+      });
+    }, Promise.resolve(true));
+  };
+}
+/**
+ * Returns true when all validators are truthy
+ * @param {...(NormalizedValidator | Function)} validators
+ * @return {{$validator: function(...[*]=): (boolean | Promise<boolean>), $async: boolean, $watchTargets: any[]}}
+ */
+
+
+function and$1() {
+  for (var _len3 = arguments.length, validators = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+    validators[_key3] = arguments[_key3];
+  }
+
+  const $async = validators.some(v => v.$async);
+  const $watchTargets = validators.reduce((all, v) => {
+    if (!v.$watchTargets) return all;
+    return all.concat(v.$watchTargets);
+  }, []);
+
+  let $validator = () => false;
+
+  if (validators.length) $validator = $async ? asyncAnd(validators) : syncAnd(validators);
+  return {
+    $async,
+    $validator,
+    $watchTargets
+  };
+}
+
+/**
+ * Validate if all validators match.
+ * @param {...*} validators
+ * @returns {NormalizedValidator}
+ */
+
+function and () {
+  return withParams({
+    type: 'and'
+  }, withMessage('The value does not match all of the provided validators', and$1(...arguments)));
+}
+
+/**
+ * Swaps the result of a value
+ * @param {NormalizedValidator|Function} validator
+ * @returns {function(*=, *=): boolean}
+ */
+
+function not$1 (validator) {
+  return function (value, vm) {
+    if (!req(value)) return true;
+    const response = unwrapNormalizedValidator(validator).call(this, value, vm);
+    if (!isPromise(response)) return !unwrapValidatorResponse(response);
+    return response.then(r => !unwrapValidatorResponse(r));
+  };
+}
+
+/**
+ * Swaps the result of a value
+ * @param {NormalizedValidator|Function} validator
+ * @returns {NormalizedValidator}
+ */
+
+function not (validator) {
+  return {
+    $validator: not$1(validator),
+    $message: `The value does not match the provided validator`,
+    $params: {
+      type: 'not'
+    }
+  };
+}
+
+/**
+ * Check if a value is above a threshold.
+ * @param {String | Number | Ref<Number> | Ref<String>} min
+ * @returns {function(*=): boolean}
+ */
+
+function minValue$1 (min) {
+  return value => !req(value) || (!/\s/.test(value) || value instanceof Date) && +value >= +__vite_ssr_import_0__.unref(min);
+}
+
+/**
+ * Check if a value is above a threshold.
+ * @param {String | Number | Ref<Number> | Ref<String>} min
+ * @returns {NormalizedValidator}
+ */
+
+function minValue (min) {
+  return {
+    $validator: minValue$1(min),
+    $message: _ref => {
+      let {
+        $params
+      } = _ref;
+      return `The minimum value allowed is ${$params.min}`;
+    },
+    $params: {
+      min,
+      type: 'minValue'
+    }
+  };
+}
+
+/**
+ * Check if value is below a threshold.
+ * @param {Number | Ref<Number> | Ref<String>} max
+ * @returns {function(*=): boolean}
+ */
+
+function maxValue$1 (max) {
+  return value => !req(value) || (!/\s/.test(value) || value instanceof Date) && +value <= +__vite_ssr_import_0__.unref(max);
+}
+
+/**
+ * Check if value is below a threshold.
+ * @param {Number | Ref<Number> | Ref<String>} max
+ * @return {NormalizedValidator}
+ */
+
+var maxValue = (max => ({
+  $validator: maxValue$1(max),
+  $message: _ref => {
+    let {
+      $params
+    } = _ref;
+    return `The maximum value allowed is ${$params.max}`;
+  },
+  $params: {
+    max,
+    type: 'maxValue'
+  }
+}));
+
+// ^-[0-9]+$ - only for negative integer (minus sign without at least 1 digit is not a number)
+
+var integer$1 = regex(/(^[0-9]*$)|(^-[0-9]+$)/);
+
+/**
+ * Validate if value is integer.
+ * @type {NormalizedValidator}
+ */
+
+var integer = {
+  $validator: integer$1,
+  $message: 'Value is not an integer',
+  $params: {
+    type: 'integer'
+  }
+};
+
+var decimal$1 = regex(/^[-]?\d*(\.\d+)?$/);
+
+/**
+ * Validate if value is decimal number.
+ * @type {NormalizedValidator}
+ */
+
+var decimal = {
+  $validator: decimal$1,
+  $message: 'Value must be decimal',
+  $params: {
+    type: 'decimal'
+  }
+};
+
+/**
+ * Creates a translatable version of `withMessage` helper.
+ * @param {function} t - the translation function of your choice
+ * @param {function} [messagePath] - a function to generate the message path, passed to `t` for each message. By default it is `validations.${$validator}`
+ * @param {function} [messageParams] - a function to augment the params, passed to `t` for each message.
+ */
+
+function createI18nMessage(_ref) {
+  let {
+    t,
+    messagePath = _ref2 => {
+      let {
+        $validator
+      } = _ref2;
+      return `validations.${$validator}`;
+    },
+    messageParams = params => params
+  } = _ref;
+  return function withI18nMessage(validator) {
+    let {
+      withArguments = false,
+      messagePath: localMessagePath = messagePath,
+      messageParams: localMessageParams = messageParams
+    } = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+    function message(props) {
+      return t(localMessagePath(props), localMessageParams(Object.assign({
+        model: props.$model,
+        property: props.$property,
+        pending: props.$pending,
+        invalid: props.$invalid,
+        response: props.$response,
+        validator: props.$validator,
+        propertyPath: props.$propertyPath
+      }, props.$params)));
+    }
+
+    if (withArguments && typeof validator === 'function') {
+      return function () {
+        return withMessage(message, validator(...arguments));
+      };
+    }
+
+    return withMessage(message, validator);
+  };
+}
+
+
+Object.defineProperty(__vite_ssr_exports__, "alpha", { enumerable: true, configurable: true, get(){ return alpha }});
+Object.defineProperty(__vite_ssr_exports__, "alphaNum", { enumerable: true, configurable: true, get(){ return alphaNum }});
+Object.defineProperty(__vite_ssr_exports__, "and", { enumerable: true, configurable: true, get(){ return and }});
+Object.defineProperty(__vite_ssr_exports__, "between", { enumerable: true, configurable: true, get(){ return between }});
+Object.defineProperty(__vite_ssr_exports__, "createI18nMessage", { enumerable: true, configurable: true, get(){ return createI18nMessage }});
+Object.defineProperty(__vite_ssr_exports__, "decimal", { enumerable: true, configurable: true, get(){ return decimal }});
+Object.defineProperty(__vite_ssr_exports__, "email", { enumerable: true, configurable: true, get(){ return email }});
+Object.defineProperty(__vite_ssr_exports__, "helpers", { enumerable: true, configurable: true, get(){ return common }});
+Object.defineProperty(__vite_ssr_exports__, "integer", { enumerable: true, configurable: true, get(){ return integer }});
+Object.defineProperty(__vite_ssr_exports__, "ipAddress", { enumerable: true, configurable: true, get(){ return ipAddress }});
+Object.defineProperty(__vite_ssr_exports__, "macAddress", { enumerable: true, configurable: true, get(){ return macAddress }});
+Object.defineProperty(__vite_ssr_exports__, "maxLength", { enumerable: true, configurable: true, get(){ return maxLength }});
+Object.defineProperty(__vite_ssr_exports__, "maxValue", { enumerable: true, configurable: true, get(){ return maxValue }});
+Object.defineProperty(__vite_ssr_exports__, "minLength", { enumerable: true, configurable: true, get(){ return minLength }});
+Object.defineProperty(__vite_ssr_exports__, "minValue", { enumerable: true, configurable: true, get(){ return minValue }});
+Object.defineProperty(__vite_ssr_exports__, "not", { enumerable: true, configurable: true, get(){ return not }});
+Object.defineProperty(__vite_ssr_exports__, "numeric", { enumerable: true, configurable: true, get(){ return numeric }});
+Object.defineProperty(__vite_ssr_exports__, "or", { enumerable: true, configurable: true, get(){ return or }});
+Object.defineProperty(__vite_ssr_exports__, "required", { enumerable: true, configurable: true, get(){ return required }});
+Object.defineProperty(__vite_ssr_exports__, "requiredIf", { enumerable: true, configurable: true, get(){ return requiredIf }});
+Object.defineProperty(__vite_ssr_exports__, "requiredUnless", { enumerable: true, configurable: true, get(){ return requiredUnless }});
+Object.defineProperty(__vite_ssr_exports__, "sameAs", { enumerable: true, configurable: true, get(){ return sameAs }});
+Object.defineProperty(__vite_ssr_exports__, "url", { enumerable: true, configurable: true, get(){ return url }});
+;
+}
+
+
+// --------------------
 // Request: /components/CheckoutForm.vue?vue&type=style&index=0&scoped=true&lang.css
 // Parents: 
 // - /components/CheckoutForm.vue ($id_ab660410)
@@ -3749,37 +6193,72 @@ __vite_ssr_exports__.default = "[data-v-0ade75f6]::-webkit-scrollbar{width:3px}[
 // Parents: 
 // - /components/Cart.vue ($id_369b7c42)
 // Dependencies: 
+// - /components/CustomButton.vue ($id_ca906d17)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_6a58e2ee = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/CustomButton.vue");
 
 const _sfc_main = {
+  __name: 'SuccessScreen',
+  emits: ["close"],
+  setup(__props, { expose, emit }) {
+  expose();
 
+
+
+const closeModal = () => {
+  emit("close");
+};
+
+const __returned__ = { emit, closeModal }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
 }
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "h-[300px] rounded bg-white" }, _attrs))}><div class="flex items-center justify-center"><p class="text-center">Success!!!<br>Your item will arrive in 7 working days</p></div></div>`)
+  const _component_custom_button = __vite_ssr_import_0__.default
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "h-[200px] rounded bg-white" }, _attrs))}><div class="flex flex-col items-center justify-center h-full"><div class="text-center text-[32px] font-serif font-bold text-[#000]">Success!!!</div><div class="font-text-[24px] mt-[16px] text-[#000]"> Your item will arrive in 7 working days </div>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_custom_button, {
+    class: "mt-[24px]",
+    "btn-bg": '#13183f',
+    onClick: $setup.closeModal
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`Done`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("Done")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</div></div>`)
 }
 
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SuccessScreen.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/SuccessScreen.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/DELL/Desktop/My Vues/e-skills/components/SuccessScreen.vue"]]);
 }
 
 
@@ -3791,7 +6270,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 // --------------------
 const $id_5989da3b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "td[data-v-f6c0e60a],th[data-v-f6c0e60a]{padding:16px 20px}[data-v-f6c0e60a]::-webkit-scrollbar{width:3px}[data-v-f6c0e60a]::-webkit-scrollbar-track{background:#f1f1f1}[data-v-f6c0e60a]::-webkit-scrollbar-thumb{background:#c89999}[data-v-f6c0e60a]::-webkit-scrollbar-thumb:hover{background:#ad7b7b}";
+__vite_ssr_exports__.default = "td[data-v-f6c0e60a],th[data-v-f6c0e60a]{font-size:14px!important;padding:16px 20px;white-space:nowrap}[data-v-f6c0e60a]::-webkit-scrollbar{width:3px}[data-v-f6c0e60a]::-webkit-scrollbar-track{background:#f1f1f1}[data-v-f6c0e60a]::-webkit-scrollbar-thumb{background:#c89999}[data-v-f6c0e60a]::-webkit-scrollbar-thumb:hover{background:#ad7b7b}";
 }
 
 
@@ -11716,63 +14195,6 @@ Object.defineProperty(__vite_ssr_exports__, "whenever", { enumerable: true, conf
 
 
 // --------------------
-// Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
-// Parents: 
-// - /node_modules/@vueuse/shared/index.mjs ($id_d77aacc8)
-// - /node_modules/@vueuse/core/index.mjs ($id_e8934cdc)
-// - /@id/virtual:nuxt:C:/Users/DELL/Desktop/My Vues/e-skills/.nuxt/imports.mjs ($id_cdbdc54e)
-// Dependencies: 
-// - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
-// --------------------
-const $id_a8110be7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/capi.mjs");
-__vite_ssr_exportAll__(__vite_ssr_import_0__);
-const Vue2 = void 0;
-Object.defineProperty(__vite_ssr_exports__, "Vue2", { enumerable: true, configurable: true, get(){ return Vue2 }});
-const isVue2 = false;
-Object.defineProperty(__vite_ssr_exports__, "isVue2", { enumerable: true, configurable: true, get(){ return isVue2 }});
-const isVue3 = true;
-Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, configurable: true, get(){ return isVue3 }});
-;
-}
-
-
-// --------------------
-// Request: /node_modules/nuxt/dist/app/compat/capi.mjs
-// Parents: 
-// - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// --------------------
-const $id_0c5717a4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-__vite_ssr_exportAll__(__vite_ssr_import_0__);
-const install = () => {
-};
-Object.defineProperty(__vite_ssr_exports__, "install", { enumerable: true, configurable: true, get(){ return install }});
-function set(target, key, val) {
-  if (Array.isArray(target)) {
-    target.length = Math.max(target.length, key);
-    target.splice(key, 1, val);
-    return val;
-  }
-  target[key] = val;
-  return val;
-}
-Object.defineProperty(__vite_ssr_exports__, "set", { enumerable: true, configurable: true, get(){ return set }});
-function del(target, key) {
-  if (Array.isArray(target)) {
-    target.splice(key, 1);
-    return;
-  }
-  delete target[key];
-}
-Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configurable: true, get(){ return del }});
-;
-}
-
-
-// --------------------
 // Request: /components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css
 // Parents: 
 // - /components/DNav.vue ($id_e01dbb6d)
@@ -11780,7 +14202,7 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 
 // --------------------
 const $id_30f60d00 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".on-scroll-bg[data-v-3af7bf0c]{background:#fff;box-shadow:5px 5px #504f4f23}";
+__vite_ssr_exports__.default = ".on-scroll-bg[data-v-3af7bf0c]{background:#fff;box-shadow:1px 1px #504f4f23}";
 }
 
 
@@ -11874,7 +14296,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${
-    __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "grid grid-cols-3 gap-[50px]" }, _attrs))
+    __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "grid lg:grid-cols-3 grid-cols-2 gap-[50px]" }, _attrs))
   }><div class="relative h-[300px] rounded-[16px]" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"background":"var(--main-gradient)"})
   }"><div class="p-8 c-centered"><h2 class="text-[#fff]">Check out our most popular courses!</h2></div></div><!--[-->`)
@@ -11978,7 +14400,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "main-card" }, _attrs))
   } data-v-f883d62a><div class="card" data-v-f883d62a><img${
     __vite_ssr_import_3__.ssrRenderAttr("src", $props.item.icon)
-  } alt="" class="card-icon" data-v-f883d62a><h3 class="mb-[16px] mt-[40px] font-bold" data-v-f883d62a>${
+  } alt="" class="card-icon" data-v-f883d62a><div class="modal-card-icon h-[56px] w-[56px]" data-v-f883d62a></div><h3 class="mb-[16px] mt-[40px] font-bold" data-v-f883d62a>${
     __vite_ssr_import_3__.ssrInterpolate($props.item.title)
   }</h3>`)
   __vite_ssr_import_3__.ssrRenderSlot(_ctx.$slots, "content", { class: "cursor-pointer" }, null, _push, _parent)
@@ -11991,10 +14413,10 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, {
     default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`${__vite_ssr_import_3__.ssrInterpolate($setup.alreadyInCart($props.item) ? 'Already In Cart' : 'Add to cart')}`)
+        _push(`${__vite_ssr_import_3__.ssrInterpolate($setup.alreadyInCart($props.item) ? 'In Cart' : 'Add to cart')}`)
       } else {
         return [
-          __vite_ssr_import_2__.createTextVNode(__vite_ssr_import_2__.toDisplayString($setup.alreadyInCart($props.item) ? 'Already In Cart' : 'Add to cart'), 1 /* TEXT */)
+          __vite_ssr_import_2__.createTextVNode(__vite_ssr_import_2__.toDisplayString($setup.alreadyInCart($props.item) ? 'In Cart' : 'Add to cart'), 1 /* TEXT */)
         ]
       }
     }),
@@ -12028,7 +14450,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 
 // --------------------
 const $id_8db4879d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".card-icon[data-v-f883d62a]{position:absolute;top:-16px}.main-card[data-v-f883d62a]{background:#fff;border-radius:16px;height:300px;max-width:400px;padding:24px;position:relative;text-align:center}.modal-wrapper[data-v-f883d62a]{align-items:center;background:rgba(0,0,0,.551);border-radius:16px;display:none!important;display:flex;height:100%;justify-content:center;left:0;position:absolute;top:0;width:100%}.modal-content[data-v-f883d62a]{background:#fff}.main-card:hover .modal-wrapper[data-v-f883d62a]{display:block!important}";
+__vite_ssr_exports__.default = ".card-icon[data-v-f883d62a],.modal-card-icon[data-v-f883d62a]{position:absolute;top:-16px}.modal-card-icon[data-v-f883d62a]{background:rgba(0,0,0,.551);border-radius:100%;display:none!important}.main-card[data-v-f883d62a]{background:#fff;border-radius:16px;height:300px;max-width:400px;padding:24px;position:relative;text-align:center}.modal-wrapper[data-v-f883d62a]{align-items:center;background:rgba(0,0,0,.551);border-radius:16px;display:none!important;display:flex;height:100%;justify-content:center;left:0;position:absolute;top:0;width:100%}.modal-content[data-v-f883d62a]{background:#fff}.main-card:hover .modal-card-icon[data-v-f883d62a],.main-card:hover .modal-wrapper[data-v-f883d62a]{display:block!important}";
 }
 
 
@@ -12094,7 +14516,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)} data-v-2a183b29><div data-v-2a183b29><div data-v-2a183b29>`)
   _push(__vite_ssr_import_3__.ssrRenderComponent($setup["DHeader"], null, null, _parent))
-  _push(`</div><div class="px-[120px] py-[20px] mt-[20px]" data-v-2a183b29>`)
+  _push(`</div><div class="xl:px-[120px] lg:px-[80px] md:px-[36px] px-[16px] py-[20px]" data-v-2a183b29>`)
   _push(__vite_ssr_import_3__.ssrRenderComponent($setup["courses"], null, null, _parent))
   _push(`</div></div></div>`)
 }
@@ -12972,7 +15394,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 
 // --------------------
 const $id_e284da46 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.bottom-\\[24px\\]{bottom:24px}.right-\\[24px\\]{right:24px}.top-\\[-15px\\]{top:-15px}.left-\\[-15px\\]{left:-15px}.top-24{top:6rem}.right-\\[100px\\]{right:100px}.z-50{z-index:50}.z-\\[99999\\]{z-index:99999}.mx-auto{margin-left:auto;margin-right:auto}.my-6{margin-bottom:1.5rem;margin-top:1.5rem}.my-\\[8px\\]{margin-bottom:8px;margin-top:8px}.mb-\\[16px\\]{margin-bottom:16px}.mt-\\[40px\\]{margin-top:40px}.mt-\\[24px\\]{margin-top:24px}.mb-6{margin-bottom:1.5rem}.mr-3{margin-right:.75rem}.mt-\\[30px\\]{margin-top:30px}.mt-6{margin-top:1.5rem}.ml-4{margin-left:1rem}.mb-\\[10px\\]{margin-bottom:10px}.mr-\\[8px\\]{margin-right:8px}.mr-\\[4px\\]{margin-right:4px}.mr-8{margin-right:2rem}.mb-\\[30px\\]{margin-bottom:30px}.mb-\\[40px\\]{margin-bottom:40px}.mt-\\[-0px\\]{margin-top:0}.mr-\\[-300px\\]{margin-right:-300px}.mt-\\[-120px\\]{margin-top:-120px}.mr-6{margin-right:1.5rem}.block{display:block}.flex{display:flex}.table{display:table}.grid{display:grid}.h-\\[500px\\]{height:500px}.h-\\[250px\\]{height:250px}.h-10{height:2.5rem}.h-7{height:1.75rem}.h-\\[150px\\]{height:150px}.h-\\[20px\\]{height:20px}.h-\\[300px\\]{height:300px}.h-screen{height:100vh}.h-\\[750px\\]{height:750px}.max-h-\\[400px\\]{max-height:400px}.w-full{width:100%}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-7{width:1.75rem}.w-\\[70\\%\\]{width:70%}.w-\\[20px\\]{width:20px}.w-\\[40\\%\\]{width:40%}.w-\\[50\\%\\]{width:50%}.max-w-\\[1920px\\]{max-width:1920px}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-6{gap:1.5rem}.gap-\\[50px\\]{gap:50px}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-scroll{overflow-y:scroll}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-\\[16px\\]{border-radius:16px}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-r{border-right-width:1px}.bg-\\[\\#fff\\]{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-\\[\\#f4f4f4\\]{--tw-bg-opacity:1;background-color:rgb(244 244 244/var(--tw-bg-opacity))}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.p-6{padding:1.5rem}.p-4{padding:1rem}.p-8{padding:2rem}.px-8{padding-left:2rem;padding-right:2rem}.px-\\[8px\\]{padding-left:8px;padding-right:8px}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-\\[150px\\]{padding-left:150px;padding-right:150px}.px-\\[120px\\]{padding-left:120px;padding-right:120px}.py-\\[20px\\]{padding-bottom:20px;padding-top:20px}.pb-6{padding-bottom:1.5rem}.pb-4{padding-bottom:1rem}.pr-6{padding-right:1.5rem}.pl-\\[150px\\]{padding-left:150px}.pt-24{padding-top:6rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-\\[14px\\]{font-size:14px}.text-\\[12px\\]{font-size:12px}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.italic{font-style:italic}.text-\\[\\#f74780\\]{--tw-text-opacity:1;color:rgb(247 71 128/var(--tw-text-opacity))}.text-\\[\\#fff\\]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.bottom-\\[24px\\]{bottom:24px}.right-\\[24px\\]{right:24px}.top-\\[-15px\\]{top:-15px}.left-\\[-15px\\]{left:-15px}.top-24{top:6rem}.right-\\[100px\\]{right:100px}.z-50{z-index:50}.z-\\[99999\\]{z-index:99999}.float-right{float:right}.mx-auto{margin-left:auto;margin-right:auto}.mx-\\[4px\\]{margin-left:4px;margin-right:4px}.my-6{margin-bottom:1.5rem;margin-top:1.5rem}.my-\\[8px\\]{margin-bottom:8px;margin-top:8px}.mb-\\[16px\\]{margin-bottom:16px}.mt-\\[40px\\]{margin-top:40px}.mt-\\[24px\\]{margin-top:24px}.mb-6{margin-bottom:1.5rem}.mr-3{margin-right:.75rem}.mt-\\[30px\\]{margin-top:30px}.mt-6{margin-top:1.5rem}.ml-4{margin-left:1rem}.mb-\\[10px\\]{margin-bottom:10px}.mr-\\[8px\\]{margin-right:8px}.mr-\\[4px\\]{margin-right:4px}.mr-8{margin-right:2rem}.mb-\\[40px\\]{margin-bottom:40px}.mb-\\[30px\\]{margin-bottom:30px}.mt-\\[-0px\\]{margin-top:0}.mr-\\[-300px\\]{margin-right:-300px}.mt-\\[-120px\\]{margin-top:-120px}.mr-6{margin-right:1.5rem}.mt-\\[16px\\]{margin-top:16px}.block{display:block}.flex{display:flex}.table{display:table}.grid{display:grid}.h-\\[56px\\]{height:56px}.h-\\[440px\\]{height:440px}.h-\\[250px\\]{height:250px}.h-7{height:1.75rem}.h-4{height:1rem}.h-\\[150px\\]{height:150px}.h-\\[20px\\]{height:20px}.h-\\[300px\\]{height:300px}.h-auto{height:auto}.h-\\[750px\\]{height:750px}.h-\\[200px\\]{height:200px}.h-full{height:100%}.max-h-\\[400px\\]{max-height:400px}.w-\\[56px\\]{width:56px}.w-full{width:100%}.w-7{width:1.75rem}.w-\\[30px\\]{width:30px}.w-4{width:1rem}.w-\\[70\\%\\]{width:70%}.w-\\[20px\\]{width:20px}.w-\\[40\\%\\]{width:40%}.w-\\[50\\%\\]{width:50%}.w-\\[45\\%\\]{width:45%}.max-w-\\[1920px\\]{max-width:1920px}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-6{gap:1.5rem}.gap-\\[50px\\]{gap:50px}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-scroll{overflow-y:scroll}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-\\[16px\\]{border-radius:16px}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-r{border-right-width:1px}.border-\\[\\#f4f4f4\\]{--tw-border-opacity:1;border-color:rgb(244 244 244/var(--tw-border-opacity))}.bg-\\[\\#fff\\],.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.p-3{padding:.75rem}.p-4{padding:1rem}.p-8{padding:2rem}.py-\\[2px\\]{padding-bottom:2px;padding-top:2px}.px-\\[5px\\]{padding-left:5px;padding-right:5px}.px-8{padding-left:2rem;padding-right:2rem}.px-\\[8px\\]{padding-left:8px;padding-right:8px}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-\\[150px\\]{padding-left:150px;padding-right:150px}.py-\\[20px\\]{padding-bottom:20px;padding-top:20px}.pb-6{padding-bottom:1.5rem}.pb-4{padding-bottom:1rem}.pr-6{padding-right:1.5rem}.pl-\\[150px\\]{padding-left:150px}.pt-16{padding-top:4rem}.pl-\\[16px\\]{padding-left:16px}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-serif{font-family:ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-\\[18px\\]{font-size:18px}.text-sm{font-size:.875rem;line-height:1.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\\[10px\\]{font-size:10px}.text-\\[14px\\]{font-size:14px}.text-\\[12px\\]{font-size:12px}.text-\\[32px\\]{font-size:32px}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.italic{font-style:italic}.text-\\[\\#f74780\\]{--tw-text-opacity:1;color:rgb(247 71 128/var(--tw-text-opacity))}.text-\\[\\#fff\\]{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-\\[\\#000\\]{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.hover\\:bg-red-500:hover{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.hover\\:text-\\[\\#fff\\]:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}@media (min-width:768px){.md\\:pl-\\[36px\\]{padding-left:36px}}@media (min-width:1024px){.lg\\:px-\\[80px\\]{padding-left:80px;padding-right:80px}}@media (min-width:1280px){.xl\\:px-\\[120px\\]{padding-left:120px;padding-right:120px}}";
 }
 
 
@@ -12984,7 +15406,7 @@ __vite_ssr_exports__.default = "/*! tailwindcss v3.1.5 | MIT License | https://t
 
 // --------------------
 const $id_2262f03b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Marcellus&display=swap\");@font-face{font-family:\"Plus Jakarta Sans Light\";src:url(/_nuxt/assets/font/plus-jakarta-sans/PlusJakartaDisplay-Light.otf)}@font-face{font-family:\"Plus Jakarta Sans Medium\";src:url(/_nuxt/assets/font/plus-jakarta-sans/PlusJakartaDisplay-Medium.otf)}@font-face{font-family:\"Plus Jakarta Sans Bold\";src:url(/_nuxt/assets/font/plus-jakarta-sans/PlusJakartaDisplay-Bold.otf)}body{background-color:#fafaff;color:#83869a;font-family:\"Plus Jakarta Sans Light\"}.c-centered{left:50%;margin-right:-50%;position:absolute;top:50%;transform:translate(-50%,-50%)}:root{--main-gradient:linear-gradient(#ff6f48,#f02aa6);--main-gradient-hover:linear-gradient(rgba(255,112,72,.5),rgba(240,42,167,.5));--second-gradient:linear-gradient(#4851ff,#f02aa6);--second-gradient-hover:linear-gradient(rgba(72,81,255,.5),rgba(240,42,167,.5));--blue:#666ca3;--dark-blue:#13183f;--silver:#83869a;--violet:#f74780;--pink:#ffa7c3;--white:#fff;--bg-white:#f0f1ff;--padding-inline:1.6rem;--max-w:50rem}h1,h2,h3,h4,h5,h6{color:#000;font-family:\"Plus Jakarta Sans Bold\";font-weight:700}h1{font-size:56px!important}h2{font-size:32px!important}h3{font-size:24px!important}h4{font-size:20px!important}p{font-size:18px!important}button:disabled{background-color:#b7b8d73a;cursor:not-allowed}";
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Marcellus&display=swap\");@font-face{font-family:\"Plus Jakarta Sans Light\";src:url(/_nuxt/assets/font/plus-jakarta-sans/PlusJakartaDisplay-Light.otf)}@font-face{font-family:\"Plus Jakarta Sans Medium\";src:url(/_nuxt/assets/font/plus-jakarta-sans/PlusJakartaDisplay-Medium.otf)}@font-face{font-family:\"Plus Jakarta Sans Bold\";src:url(/_nuxt/assets/font/plus-jakarta-sans/PlusJakartaDisplay-Bold.otf)}body{background-color:#fafaff;color:#83869a;font-family:\"Plus Jakarta Sans Light\"}.c-centered{left:50%;margin-right:-50%;position:absolute;top:50%;transform:translate(-50%,-50%)}:root{--main-gradient:linear-gradient(#ff6f48,#f02aa6);--main-gradient-hover:linear-gradient(rgba(255,112,72,.5),rgba(240,42,167,.5));--second-gradient:linear-gradient(#4851ff,#f02aa6);--second-gradient-hover:linear-gradient(rgba(72,81,255,.5),rgba(240,42,167,.5));--blue:#666ca3;--dark-blue:#13183f;--silver:#83869a;--violet:#f74780;--pink:#ffa7c3;--white:#fff;--bg-white:#f0f1ff;--padding-inline:1.6rem;--max-w:50rem}h1,h2,h3,h4,h5,h6{color:#000;font-family:\"Plus Jakarta Sans Bold\";font-weight:700}h1{font-size:56px!important}h2{font-size:32px!important}h3{font-size:24px!important}h4{font-size:20px!important}p{font-size:18px!important}button:disabled{background-color:#b7b8d73a;cursor:not-allowed}@media screen and (max-width:1024px){h1{font-size:45px!important}h2{font-size:28px!important}h3{font-size:20px!important}h4{font-size:18px!important}p{font-size:16px!important}}@media screen and (max-width:768px){h1{font-size:35px!important}h2{font-size:24px!important}h3{font-size:18px!important}h4,p{font-size:16px!important}}@media screen and (max-width:540px){h1{font-size:25px!important}h2{font-size:20px!important}}";
 }
 
 
@@ -13064,13 +15486,15 @@ const __modules__ = {
   "/components/HInput.vue?vue&type=style&index=0&scoped=true&lang.css": $id_9c4c826f,
   "/store/cart.js": $id_977898a6,
   "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
+  "/node_modules/@vuelidate/core/dist/index.esm.js": $id_c6fbd22f,
+  "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
+  "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
+  "/node_modules/@vuelidate/validators/dist/index.esm.js": $id_f712f9e2,
   "/components/CheckoutForm.vue?vue&type=style&index=0&scoped=true&lang.css": $id_9ca5808b,
   "/components/SuccessScreen.vue": $id_6a58e2ee,
   "/components/Cart.vue?vue&type=style&index=0&scoped=true&lang.css": $id_5989da3b,
   "/node_modules/@vueuse/core/index.mjs": $id_e8934cdc,
   "/node_modules/@vueuse/shared/index.mjs": $id_d77aacc8,
-  "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
-  "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
   "/components/DNav.vue?vue&type=style&index=0&scoped=true&lang.css": $id_30f60d00,
   "/components/DHeader.vue?vue&type=style&index=0&scoped=true&lang.css": $id_b4533245,
   "/components/courses.vue": $id_d8b304b9,

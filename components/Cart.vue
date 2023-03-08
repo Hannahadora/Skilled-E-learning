@@ -1,9 +1,9 @@
 <template>
   <div class="relative">
-    <div
-      class="w-full bg-[#fff] rounded-lg p-6 shadow h-[500px]"
-    >
-      <h2 class="font-bold text-2xl border-b pb-6">Cart</h2>
+    <div class="w-full bg-[#fff] rounded-lg p-3 shadow h-[440px]">
+      <div class="border-b pb-6">
+        <span class="font-bold text-[18px]">Cart</span>
+      </div>
       <div class="w-full h-[250px] overflow-y-scroll">
         <table class="text-sm w-full">
           <tr class="border-b">
@@ -22,31 +22,39 @@
             <td>{{ index + 1 }}</td>
             <td>
               <div class="flex items-center">
-                <img class="mr-3 w-10 h-10" :src="item.icon" alt="" />
-                <h4>{{ item.title }}</h4>
-              </div>
-            </td>
-            <td>
-              <div class="flex items-center bg-[#f4f4f4] rounded w-14">
-                <input
-                  class="bg-transparent font-bold text-center w-full"
-                  type="number"
-                  min="1"
-                  v-model="item.quantity"
-                />
+                <img class="mr-3 w-7 h-7" :src="item.icon" alt="" />
+                <span class="">{{ item.title }}</span>
               </div>
             </td>
             <td>
               <div class="flex items-center">
-                <p>{{ item.price }}</p>
+                <span
+                  class="py-[2px] px-[5px] cursor-pointer hover:bg-red-500 hover:text-[#fff] border-[#f4f4f4] border rounded"
+                  @click="decreaseQty(item)"
+                  >-</span
+                >
+                <span
+                  class="mx-[4px] py-[2px] px-[5px] border-[#f4f4f4] border rounded"
+                  >{{ item.quantity }}</span
+                >
+                <span
+                  class="py-[2px] px-[5px] cursor-pointer hover:bg-blue-500 hover:text-[#fff] border-[#f4f4f4] border rounded"
+                  @click="increaseQty(item)"
+                  >+</span
+                >
+              </div>
+            </td>
+            <td>
+              <div class="flex items-center">
+                <span>{{ item.price }}</span>
               </div>
             </td>
             <td class="text-right">
               {{ item.quantity * item.price }}
             </td>
-            <td>
+            <td class="text-right w-[30px]">
               <img
-                class="w-7 h-7 cursor-pointer delete-icon"
+                class="w-4 h-4 cursor-pointer delete-icon float-right"
                 src="/images/trash.svg"
                 alt=""
                 @click="removeItem(index)"
@@ -80,7 +88,7 @@
       </div>
     </div>
 
-    <h-modal v-if="checkoutFormModal" :modal-width="'900px'">
+    <h-modal v-if="checkoutFormModal" :modal-width="'700px'">
       <template #content>
         <checkout-form
           @close="closeCheckoutForm"
@@ -88,9 +96,9 @@
         />
       </template>
     </h-modal>
-    <h-modal v-if="successModal" :modal-width="'600px'">
+    <h-modal v-if="successModal" :modal-width="'400px'">
       <template #content>
-        <success-screen @close="successModal = false" />
+        <success-screen @close="closeSuccessModal" />
       </template>
     </h-modal>
   </div>
@@ -117,9 +125,25 @@ const closeCheckoutForm = () => {
   checkoutFormModal.value = false;
 };
 
+const closeSuccessModal = () => {
+  cartStore.emptyCart()
+  checkoutFormModal.value = false;
+  successModal.value = false;
+};
+
 const openCheckoutForm = () => {
   checkoutFormModal.value = true;
-  console.log(checkoutFormModal.value, "form");
+};
+
+const increaseQty = (item) => {
+  const itemxx = cartItems?.find((el) => el.id === item.id);
+  itemxx.quantity++;
+};
+const decreaseQty = (item) => {
+  const itemxx = cartItems?.find((el) => el.id === item.id);
+  if (itemxx.quantity > 1) {
+    itemxx.quantity--;
+  }
 };
 </script>
 
@@ -127,6 +151,8 @@ const openCheckoutForm = () => {
 th,
 td {
   padding: 16px 20px;
+  font-size: 14px !important;
+  white-space: nowrap;
 }
 
 /* width */
@@ -148,5 +174,4 @@ td {
 ::-webkit-scrollbar-thumb:hover {
   background: #ad7b7b;
 }
-
 </style>

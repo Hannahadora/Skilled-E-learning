@@ -12,12 +12,57 @@
     <div class="w-full grid grid-cols-2 gap-6 my-6">
       <form class="w-full flex flex-col border-r pr-6">
         <h4>Personal Information</h4>
-        <h-input :placeholder="'Full Name'" />
-        <h-input :type="'phone'" :placeholder="'Phone Number'" />
-        <h-input :type="'email'" :placeholder="'Email'" />
-        <h-input :placeholder="'Pickup Address'" />
-        <h-input :placeholder="'State'" />
-        <h-input :placeholder="'Country'" />
+        <h-input v-model="form.full_name" :placeholder="'Full Name'">
+          <template #error>
+            <div class="text-red-500 text-[10px] italic">
+              {{ v$.full_name.$errors[0]?.$message?.toString() }}
+            </div>
+          </template>
+        </h-input>
+
+        <h-input
+          v-model="form.phone_number"
+          :type="'phone'"
+          :placeholder="'Phone Number'"
+        >
+          <template #error>
+            <div class="text-red-500 text-[10px] italic">
+              {{ v$.phone_number.$errors[0]?.$message?.toString() }}
+            </div>
+          </template>
+        </h-input>
+
+        <h-input v-model="form.email" :type="'email'" :placeholder="'Email'">
+          <template #error>
+            <div class="text-red-500 text-[10px] italic">
+              {{ v$.email.$errors[0]?.$message?.toString() }}
+            </div>
+          </template>
+        </h-input>
+
+        <h-input v-model="form.address" :placeholder="'Pickup Address'">
+          <template #error>
+            <div class="text-red-500 text-[10px] italic">
+              {{ v$.address.$errors[0]?.$message?.toString() }}
+            </div>
+          </template>
+        </h-input>
+
+        <h-input v-model="form.state" :placeholder="'State'">
+          <template #error>
+            <div class="text-red-500 text-[10px] italic">
+              {{ v$.state.$errors[0]?.$message?.toString() }}
+            </div>
+          </template>
+        </h-input>
+
+        <h-input v-model="form.country" :placeholder="'Country'">
+          <template #error>
+            <div class="text-red-500 text-[10px] italic">
+              {{ v$.country.$errors[0]?.$message?.toString() }}
+            </div>
+          </template>
+        </h-input>
       </form>
 
       <div>
@@ -38,9 +83,15 @@
                 <span class="text-[12px]">{{ `${item.info}` }}</span>
               </div>
               <div class="flex items-center justify-between">
-                <span class="text-[12px] mr-8" style="white-space: nowrap;">$ {{ `${item.price}` }}</span>
-                <span class="text-[12px] mr-8" style="white-space: nowrap;">{{ `${item.quantity}` }}</span>
-                <span class="font-bold" style="white-space: nowrap;">$ {{ item.quantity * item.price }}</span>
+                <span class="text-[12px] mr-8" style="white-space: nowrap"
+                  >$ {{ `${item.price}` }}</span
+                >
+                <span class="text-[12px] mr-8" style="white-space: nowrap">{{
+                  `${item.quantity}`
+                }}</span>
+                <span class="font-bold" style="white-space: nowrap"
+                  >$ {{ item.quantity * item.price }}</span
+                >
               </div>
             </div>
           </li>
@@ -53,10 +104,9 @@
 
         <div class="flex items-center justify-center">
           <custom-button
-            :disabled="formIsEmpty"
             class="mt-6 w-full uppercase"
             :btn-bg="'#13183f'"
-            @click="openCheckoutForm"
+            @click="submitForm"
             >Pay</custom-button
           >
         </div>
@@ -68,6 +118,9 @@
 <script setup>
 // import { ref } from "vue";
 import { useCartStore } from "~~/store/cart";
+import { useVuelidate } from "@vuelidate/core";
+import { required, email } from "@vuelidate/validators";
+
 const cartStore = useCartStore();
 const cartItems = cartStore.cart || [];
 
@@ -78,10 +131,21 @@ const form = reactive({
   address: "",
   state: "",
   country: "",
-})
+});
 
-const formIsEmpty = computed(() => {
-  return Object.values(form).every(x => x === null || x === '');
+const rules = {
+  full_name: { required },
+  phone_number: { required },
+  email: { required, email },
+  address: { required },
+  state: { required },
+  country: { required },
+};
+
+const v$ = useVuelidate(rules, form);
+
+const formIsFilled = computed(() => {
+  return Object.values(form).every((value) => !!value);
 });
 
 const totalCost = computed(() => {
@@ -89,15 +153,21 @@ const totalCost = computed(() => {
   return totals.reduce((a, b) => a + b, 0);
 });
 
-const emit = defineEmits(["close"]);
+const emit = defineEmits(["close", "success"]);
 
 const closeModal = () => {
   emit("close");
 };
+
+const submitForm = async () => {
+  const isFormCorrect = await v$.value.$validate();
+  if (!isFormCorrect) return;
+
+  emit("success");
+};
 </script>
 
 <style scoped>
-
 /* width */
 ::-webkit-scrollbar {
   width: 3px;

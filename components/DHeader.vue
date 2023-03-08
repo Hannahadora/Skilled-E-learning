@@ -1,11 +1,11 @@
 <template>
-  <div class="">
-    <d-nav class="fixed z-50 w-full py-5 px-[150px]" />
+  <div class="lg:mb-[40px] mb-[20px]">
+    <d-nav class="fixed z-50 w-full py-5 xl:px-[150px] lg:px-[80px] md:px-[36px] px-[16px]" />
 
-    <div class="h-screen pl-[150px] pt-24">
-      <div class="flex items-center justify-between">
-        <div class="w-[40%] flex flex-col items-left justify-between">
-          <h1 class="mb-[30px]">Maximize Skill, <br />Minimize Budget</h1>
+    <div class="md:h-auto h-screen xl:pl-[150px] lg:pl-[80px] md:pl-[36px] pl-[16px] lg:pt-16 md:pt-[4px] pt-[46px]">
+      <div class="flex md:flex-row flex-col-reverse items-center justify-between">
+        <div class="md:w-[40%] w-full flex flex-col items-left justify-between">
+          <h1 class="lg:mb-[30px] mb-[16px]">Maximize Skill, <br />Minimize Budget</h1>
           <p class="mb-[40px]">
             Our modern courses across a range of in-demand skills will give you
             the knowledge you need to live the life you want.
@@ -15,8 +15,8 @@
           >
         </div>
 
-        <div class="h-[750px] w-[50%] mt-[-0px] overflow-hidden">
-          <div class="hero mr-[-300px] mt-[-120px]"></div>
+        <div class="md:h-[750px] h-[400px] md:w-[50%] w-full mt-[-0px] md:overflow-hidden">
+          <div class="hero mr-[-300px] md:mt-[-120px] mt-[-70px]"></div>
         </div>
       </div>
     </div>

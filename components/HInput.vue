@@ -3,8 +3,9 @@
     <label class="h-label">{{ label }}</label>
     <br />
     <div class="input-wrapper">
-      <input class="h-input" :type="type" :placeholder="placeholder" />
+      <input class="h-input" :type="type" :placeholder="placeholder" @input="onChange" />
     </div>
+    <slot name="error"></slot>
   </div>
 </template>
 
@@ -13,12 +14,18 @@ const props = defineProps({
   type: { type: String, default: "text" },
   placeholder: { type: String, default: "" },
   label: { type: String, default: "" },
+  modelValue:{}
 });
+const $emit = defineEmits(["update:modelValue"]);
+
+const onChange = (e) => {
+  $emit("update:modelValue", e.target.value);
+};
 </script>
 
 <style scoped>
 .input-wrapper {
-  padding: 10px;
+  padding: 6px 10px;
   border: 1px solid #e4e4e4;
   border-radius: 4px;
   position: relative;

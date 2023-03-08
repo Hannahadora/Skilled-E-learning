@@ -92,3 +92,55 @@ button:disabled {
   cursor: not-allowed;
   background-color: #b7b8d73a;
 }
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 45px !important;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+  }
+  
+  h3 {
+    font-size: 20px !important;
+  }
+  
+  h4 {
+    font-size: 18px !important;
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px !important;
+  }
+  
+  h2 {
+    font-size: 24px !important;
+  }
+  
+  h3 {
+    font-size: 18px !important;
+  }
+  
+  h4 {
+    font-size: 16px !important;
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 25px !important;
+  }
+  
+  h2 {
+    font-size: 20px !important;
+  }
+}

@@ -14,7 +14,7 @@ const props = defineProps({
 });
 
 const classes = {
-  ["btn-bg"]: props.lg,
+  ["btn-lg"]: props.lg,
   ["btn-sm"]: props.sm,
 };
 
@@ -27,18 +27,18 @@ const styles = {
 <style scoped>
 .btn {
   border-radius: 45px;
-  padding: 14px 24px;
+  font-size: 14px;
+    padding: 7px 16px;
   border: none;
-  font-size: 18px;
   cursor: pointer;
 }
 
-.btn-bg {
-  padding: 16px 36px;
+.btn-lg {
+  padding: 16px 36px !important;
 }
 
 .btn-sm {
-  padding: 7px 16px;
+  padding: 7px 16px !important;
   font-size: 13px;
   border-radius: 45px;
 }
