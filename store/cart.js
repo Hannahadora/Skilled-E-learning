@@ -9,7 +9,7 @@ export const useCartStore = defineStore('cart', {
     
     actions: {
       emptyCart() {
-        cart = []
+        this.cart = []
       }
     }
   })

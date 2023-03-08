@@ -1,10 +1,10 @@
 <template>
   <div class="relative">
-    <div class="w-full bg-[#fff] rounded-lg p-3 shadow h-[440px]">
+    <div class="w-full bg-[#fff] rounded-lg p-3 shadow lg:h-[440px] h-[500px]">
       <div class="border-b pb-6">
         <span class="font-bold text-[18px]">Cart</span>
       </div>
-      <div class="w-full h-[250px] overflow-y-scroll">
+      <div class="w-full lg:h-[250px] h-[300px] overflow-scroll">
         <table class="text-sm w-full">
           <tr class="border-b">
             <th>SN</th>

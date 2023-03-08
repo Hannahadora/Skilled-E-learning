@@ -30,7 +30,7 @@
     <div
       ref="target"
       v-if="cartModal"
-      class="w-[45%] absolute top-24 right-[100px] z-50"
+      class="lg:w-[45%] w-[100%] absolute top-24 lg:right-[100px] right-[0] z-50"
     >
       <cart />
     </div>

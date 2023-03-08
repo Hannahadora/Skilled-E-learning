@@ -11,10 +11,13 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
 const emit = defineEmits(["close"]);
+const router = useRouter()
 
 const closeModal = () => {
   emit("close");
+  router.push('/')
 };
 </script>
 

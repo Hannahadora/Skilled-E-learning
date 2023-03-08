@@ -9,7 +9,7 @@
         @click="closeModal"
       />
     </div>
-    <div class="w-full grid grid-cols-2 gap-6 my-6">
+    <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-6 my-6">
       <form class="w-full flex flex-col border-r pr-6">
         <h4>Personal Information</h4>
         <h-input v-model="form.full_name" :placeholder="'Full Name'">
@@ -68,7 +68,7 @@
       <div>
         <h4 class="mb-[10px]">Cart Details</h4>
 
-        <ul class="flex flex-col max-h-[400px] overflow-y-scroll px-[8px]">
+        <ul class="flex flex-col md:max-h-[400px] max-h-[200px] overflow-y-scroll px-[8px]">
           <li v-for="(item, index) in cartItems" :key="index" class="my-[8px]">
             <div class="flex items-start justify-between">
               <div class="w-[70%]">
