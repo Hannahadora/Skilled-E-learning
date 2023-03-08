@@ -18,7 +18,7 @@
           class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center"
           style="background: var(--main-gradient)"
         >
-          <span class="text-[#fff] text-center font-bold text-sm">{{
+          <span class="text-[#fff] flex items-center justify-center text-center font-bold text-sm">{{
             cartLength
           }}</span>
         </div>

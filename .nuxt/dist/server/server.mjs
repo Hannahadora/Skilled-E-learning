@@ -2985,7 +2985,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     }, _attrs))
   } data-v-3af7bf0c><div data-v-3af7bf0c><img src="/images/logo-dark.svg" alt="logo" data-v-3af7bf0c></div><div class="flex items-center space-x-6" data-v-3af7bf0c><div class="relative cursor-pointer" data-v-3af7bf0c><img src="/images/shopping-cart.svg" alt="" class="mr-6 w-7 h-7 cursor-pointer" data-v-3af7bf0c><div class="absolute top-[-15px] left-[-15px] w-7 h-7 rounded-full flex justify-center" style="${
     __vite_ssr_import_6__.ssrRenderStyle({"background":"var(--main-gradient)"})
-  }" data-v-3af7bf0c><span class="text-[#fff] text-center font-bold text-sm" data-v-3af7bf0c>${
+  }" data-v-3af7bf0c><span class="text-[#fff] flex items-center justify-center text-center font-bold text-sm" data-v-3af7bf0c>${
     __vite_ssr_import_6__.ssrInterpolate($setup.cartLength)
   }</span></div></div>`)
   _push(__vite_ssr_import_6__.ssrRenderComponent($setup["CustomButton"], {
