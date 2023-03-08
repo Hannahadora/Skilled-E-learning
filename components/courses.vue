@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:grid-cols-3 grid-cols-2 gap-[50px]">
+  <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[50px]">
     <div
       class="relative h-[300px] rounded-[16px]"
       style="background: var(--main-gradient)"
@@ -8,7 +8,7 @@
         <h2 class="text-[#fff]">Check out our most popular courses!</h2>
       </div>
     </div>
-    <div v-for="(course, index) in courses" :key="index">
+    <div class="w-full" v-for="(course, index) in courses" :key="index">
       <card :item="course">
         <template #content>{{ course.info }}</template>
       </card>

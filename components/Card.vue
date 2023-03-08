@@ -76,6 +76,12 @@ const alreadyInCart = (item) => {
   padding: 24px;
   border-radius: 16px;
 }
+
+@media screen  and (max-width: 768px) {
+  .main-card {
+    max-width: none;
+  }
+}
 .modal-wrapper {
   display: none !important;
   width: 100%;
